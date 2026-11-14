@@ -49,9 +49,9 @@ h2{margin:0;font-size:clamp(24px,3vw,38px);letter-spacing:-1.2px;text-transform:
 </section>
 <div class="notice"><strong>Research prototype.</strong> Feed items are unverified news discoveries, not confirmed facts or AI-generated strategic assessments. Open the original source and verify all claims and dates before using them in an iGuzzini report. This is separate from the Marketing Hub V85.</div>
 <section class="stats" aria-label="Research statistics">
-<div class="stat"><span>Discovered records</span><strong id="count">0</strong></div>
+<div class="stat"><span>Brand-named records</span><strong id="count">0</strong></div>
 <div class="stat"><span>Competitors</span><strong>6</strong></div>
-<div class="stat"><span>New in latest run</span><strong id="added">0</strong></div>
+<div class="stat"><span>New raw discoveries</span><strong id="added">0</strong></div>
 <div class="stat"><span>Source errors</span><strong id="errors">0</strong></div>
 </section>
 <div class="section-head"><h2>Activity tracker.</h2><span class="small" id="generated">Waiting for first live scan</span></div>
@@ -59,6 +59,7 @@ h2{margin:0;font-size:clamp(24px,3vw,38px);letter-spacing:-1.2px;text-transform:
 <input id="search" type="search" placeholder="SEARCH HEADLINES OR SOURCES" aria-label="Search news">
 <select id="competitor" aria-label="Filter by competitor"><option value="">ALL COMPETITORS</option><option>ERCO</option><option>Fagerhult</option><option>Zumtobel</option><option>XAL</option><option>TRILUX</option><option>Delta Light</option></select>
 <select id="category" aria-label="Filter by category"><option value="">ALL CATEGORIES</option><option>Events</option><option>Projects</option><option>Products</option><option>Sustainability</option><option>Partnerships</option><option>Business</option><option>Other</option></select>
+<button type="button" id="show-all" aria-pressed="false">SHOW ALL DISCOVERIES</button>
 <button type="button" id="refresh">REFRESH INTELLIGENCE</button>
 <button type="button" id="assess">BASIC ASSESSMENT</button>
 </div>
@@ -72,19 +73,20 @@ h2{margin:0;font-size:clamp(24px,3vw,38px);letter-spacing:-1.2px;text-transform:
 <script>
 (function(){
 "use strict";
-var data=null,records=[],brands=["ERCO","Fagerhult","Zumtobel","XAL","TRILUX","Delta Light"];
+var data=null,records=[],showAll=false,brands=["ERCO","Fagerhult","Zumtobel","XAL","TRILUX","Delta Light"];
 function el(id){return document.getElementById(id)}
 function node(tag,text,cls){var x=document.createElement(tag);if(text!=null)x.textContent=String(text);if(cls)x.className=cls;return x}
 function validUrl(value){try{var u=new URL(value);return u.protocol==="https:"}catch(e){return false}}
 function render(){
  var search=el("search").value.trim().toLowerCase(),brand=el("competitor").value,category=el("category").value;
- var filtered=records.filter(function(r){return (!brand||r.competitor===brand)&&(!category||r.category===category)&&(!search||[r.headline,r.summary,r.competitor,r.source_name].join(" ").toLowerCase().includes(search))});
+ var filtered=records.filter(function(r){return (showAll||r.brand_match!==false)&&(!brand||r.competitor===brand)&&(!category||r.category===category)&&(!search||[r.headline,r.summary,r.competitor,r.source_name].join(" ").toLowerCase().includes(search))});
  var root=el("cards");root.replaceChildren();
- if(!filtered.length){root.appendChild(node("div",records.length?"No records match your filters.":"No records collected yet. Run the GitHub Actions research workflow and refresh this page.","empty"));return}
+ if(!filtered.length){root.appendChild(node("div",records.length?"No stronger matches meet these filters. Select SHOW ALL DISCOVERIES to inspect lower-confidence candidates.":"No records collected yet. Run the GitHub Actions research workflow and refresh this page.","empty"));return}
  filtered.slice(0,200).forEach(function(r){
   var c=node("article",null,"item"),head=node("div",null,"item-head");
   head.appendChild(node("span",r.competitor,"tag brand-tag"));head.appendChild(node("span",r.category||"Other","tag"));
   if(r.geography==="UK")head.appendChild(node("span","UK KEYWORD","tag"));
+  if(r.brand_match===false)head.appendChild(node("span","LOW CONFIDENCE · CHECK","tag"));
   c.appendChild(head);c.appendChild(node("h3",r.headline));
   if(r.summary)c.appendChild(node("p",r.summary));
   var footer=node("footer"),left=node("span",(r.published_at||"Date unconfirmed")+" · NEEDS REVIEW","small");
@@ -106,9 +108,10 @@ function health(){
 }
 function assess(){
  var result=el("report");result.hidden=false;
- if(!records.length){result.textContent="No records available to assess. Run the collector first.";return}
- var perBrand=brands.map(function(b){return b+": "+records.filter(function(r){return r.competitor===b}).length}).join(" · ");
- var perCat={};records.forEach(function(r){var k=r.category||"Other";perCat[k]=(perCat[k]||0)+1});
+ var candidates=records.filter(function(r){return showAll||r.brand_match!==false});
+ if(!candidates.length){result.textContent="No matching records to summarise. Review lower-confidence discoveries if needed.";return}
+ var perBrand=brands.map(function(b){return b+": "+candidates.filter(function(r){return r.competitor===b}).length}).join(" · ");
+ var perCat={};candidates.forEach(function(r){var k=r.category||"Other";perCat[k]=(perCat[k]||0)+1});
  result.textContent="BASIC RECORD COUNTS ONLY (NOT AI ANALYSIS)\n"+perBrand+"\nCategories: "+Object.keys(perCat).map(function(k){return k+": "+perCat[k]}).join(" · ")+". All discoveries require human verification.";
  result.style.whiteSpace="pre-line";
 }
@@ -121,17 +124,18 @@ async function refresh(){
   var next=await response.json();
   if(!next||!Array.isArray(next.records))throw new Error("Invalid data format");
   data=next;records=next.records;
-  el("count").textContent=String(records.length);
+  el("count").textContent=String(records.filter(function(r){return r.brand_match!==false}).length);
   el("added").textContent=String(next.counts&&next.counts.added||0);
   el("errors").textContent=String(next.counts&&next.counts.failures||0);
   el("generated").textContent=next.generated_at?"Feed generated "+next.generated_at.replace("T"," ").slice(0,16)+" UTC":"No live collection yet";
-  el("status").textContent="Loaded "+records.length+" public research discoveries. "+(next.generated_at?"Published feed timestamp: "+next.generated_at:"Awaiting first collector run.");
+  el("status").textContent="Loaded "+records.length+" raw discoveries. "+records.filter(function(r){return r.brand_match!==false}).length+" explicitly mention the assigned competitor; these still require verification.";
   el("report").hidden=true;health();render();
  }catch(error){
   el("status").textContent="Refresh unsuccessful ("+error.message+"). "+(data?"Previously loaded records remain available.":"The feed may not be deployed yet.");
  }finally{el("refresh").disabled=false}
 }
 ["search","competitor","category"].forEach(function(id){el(id).addEventListener(id==="search"?"input":"change",render)});
+el("show-all").addEventListener("click",function(){showAll=!showAll;this.textContent=showAll?"SHOW STRONGER MATCHES":"SHOW ALL DISCOVERIES";this.setAttribute("aria-pressed",String(showAll));render()});
 el("refresh").addEventListener("click",refresh);
 el("assess").addEventListener("click",assess);
 refresh();
