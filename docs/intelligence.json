@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "generated_at": null,
+  "feed_type": "public_research_discovery",
+  "note": "Not yet live. Initial empty dataset; run the GitHub Actions collector to discover public headlines.",
+  "source_status": [
+    {
+      "competitor": "ERCO",
+      "status": "not_run"
+    },
+    {
+      "competitor": "Fagerhult",
+      "status": "not_run"
+    },
+    {
+      "competitor": "Zumtobel",
+      "status": "not_run"
+    },
+    {
+      "competitor": "XAL",
+      "status": "not_run"
+    },
+    {
+      "competitor": "TRILUX",
+      "status": "not_run"
+    },
+    {
+      "competitor": "Delta Light",
+      "status": "not_run"
+    }
+  ],
+  "counts": {
+    "found": 0,
+    "added": 0,
+    "retained": 0,
+    "failures": 0
+  },
+  "records": []
+}
