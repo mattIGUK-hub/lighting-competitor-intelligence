@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>iGuzzini UK | Competitor Intelligence Pilot</title>
+<style>
+:root{--bg:#102f22;--panel:#193b2d;--cream:#f5f1e4;--grey:#b0bfc7;--red:#ff282d;--border:#476153}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--cream);font-family:Arial,Helvetica,sans-serif}a{color:var(--cream)}
+main{max-width:1300px;margin:auto;padding:38px 42px 90px}
+.eyebrow{font-size:10px;letter-spacing:3px;font-weight:800;color:var(--grey);text-transform:uppercase}
+header{display:flex;justify-content:space-between;align-items:center;gap:20px;border-bottom:1px solid var(--border);padding-bottom:25px}
+.brand{font-size:25px;font-weight:900;letter-spacing:-1px}.brand b{color:var(--red)}
+.pill{border:1px solid var(--border);padding:9px 12px;font-size:10px;letter-spacing:1.3px;text-transform:uppercase}
+.hero{padding:65px 0 42px}.hero h1{font-weight:900;letter-spacing:-.065em;line-height:.91;font-size:clamp(48px,7vw,104px);margin:14px 0 23px;text-transform:uppercase}
+.hero h1 span{color:var(--grey)}.hero p{color:#c4d1c9;line-height:1.65;font-size:14px;max-width:700px}
+.notice{background:rgba(255,40,45,.07);border-left:3px solid var(--red);padding:15px 18px;margin:20px 0 36px;color:#d5dfd8;font-size:12px;line-height:1.6}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:18px 0 30px}
+.stat{border:1px solid var(--border);padding:22px;background:var(--panel)}.stat span{color:var(--grey);font-size:9px;letter-spacing:1.2px;font-weight:800;text-transform:uppercase;display:block}
+.stat strong{display:block;font-size:37px;margin-top:10px;font-weight:900}
+.toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:28px 0}
+button,select,input{font:inherit;border-radius:0}input,select{color:var(--cream);background:var(--panel);border:1px solid var(--border);padding:13px;font-size:12px;min-height:44px}
+input{flex:1;min-width:150px}select{min-width:140px}button{border:1px solid var(--border);background:var(--cream);color:var(--bg);font-size:11px;font-weight:800;letter-spacing:.8px;padding:14px 18px;cursor:pointer;min-height:44px}
+button:hover{background:var(--grey)}button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid var(--grey);outline-offset:3px}
+.section-head{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-top:48px;border-top:1px solid var(--border);padding-top:22px}
+h2{margin:0;font-size:clamp(24px,3vw,38px);letter-spacing:-1.2px;text-transform:uppercase}
+.small{color:var(--grey);font-size:12px;line-height:1.6}#status{min-height:22px}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin-top:20px}
+.item{border:1px solid var(--border);background:var(--panel);padding:24px;min-width:0}
+.item-head{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:17px}
+.tag{font-size:9px;letter-spacing:1px;font-weight:800;text-transform:uppercase;border:1px solid var(--border);padding:7px 9px;color:var(--grey)}.tag.brand-tag{color:var(--cream);border-color:#789183}
+.item h3{font-size:22px;line-height:1.18;letter-spacing:-.65px;margin:0 0 13px}
+.item p{font-size:12px;line-height:1.65;color:#c2d0c7;margin:0 0 22px}.item footer{display:flex;justify-content:space-between;gap:14px;align-items:center;flex-wrap:wrap;border-top:1px solid var(--border);padding-top:15px}
+.item footer a{font-size:11px;font-weight:800;letter-spacing:.4px}
+.empty{border:1px dashed var(--border);grid-column:1/-1;padding:45px 25px;color:var(--grey);font-size:13px;line-height:1.6}
+.sources{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:20px}
+.source{border:1px solid var(--border);padding:15px}.source b{display:block;font-size:13px;margin-bottom:8px}.source span{font-size:11px;color:var(--grey);overflow-wrap:anywhere}.source.error span{color:#ffafb0}
+#report{margin-top:20px;border:1px solid var(--border);padding:20px;color:var(--grey);font-size:12px;line-height:1.8}
+@media(max-width:850px){main{padding:25px 24px 70px}.stats{grid-template-columns:repeat(2,1fr)}.sources{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:570px){main{padding:18px 16px 55px}.brand{font-size:20px}.pill{font-size:8px}.hero{padding-top:44px}.cards,.sources{grid-template-columns:1fr}.toolbar>*{width:100%}button{width:100%}.item{padding:19px}.section-head{align-items:flex-start;flex-direction:column}}
+</style>
+</head>
+<body>
+<main>
+<header><div class="brand">iGuzzini<b>.</b> <span style="font-size:13px;font-weight:400;color:var(--grey)">UK RESEARCH PILOT</span></div><div class="pill">TECHNICAL PROOF</div></header>
+<section class="hero">
+<div class="eyebrow">IGUZZINI UK / COMPETITIVE INTELLIGENCE</div>
+<h1>THE MARKET<br><span>IN MOTION.</span></h1>
+<p>Public-source competitor news discovery for ERCO, Fagerhult, Zumtobel, XAL, TRILUX and Delta Light. Source-linked records can refresh independently of this webpage.</p>
+</section>
+<div class="notice"><strong>Research prototype.</strong> Feed items are unverified news discoveries, not confirmed facts or AI-generated strategic assessments. Open the original source and verify all claims and dates before using them in an iGuzzini report. This is separate from the Marketing Hub V85.</div>
+<section class="stats" aria-label="Research statistics">
+<div class="stat"><span>Discovered records</span><strong id="count">0</strong></div>
+<div class="stat"><span>Competitors</span><strong>6</strong></div>
+<div class="stat"><span>New in latest run</span><strong id="added">0</strong></div>
+<div class="stat"><span>Source errors</span><strong id="errors">0</strong></div>
+</section>
+<div class="section-head"><h2>Activity tracker.</h2><span class="small" id="generated">Waiting for first live scan</span></div>
+<div class="toolbar">
+<input id="search" type="search" placeholder="SEARCH HEADLINES OR SOURCES" aria-label="Search news">
+<select id="competitor" aria-label="Filter by competitor"><option value="">ALL COMPETITORS</option><option>ERCO</option><option>Fagerhult</option><option>Zumtobel</option><option>XAL</option><option>TRILUX</option><option>Delta Light</option></select>
+<select id="category" aria-label="Filter by category"><option value="">ALL CATEGORIES</option><option>Events</option><option>Projects</option><option>Products</option><option>Sustainability</option><option>Partnerships</option><option>Business</option><option>Other</option></select>
+<button type="button" id="refresh">REFRESH INTELLIGENCE</button>
+<button type="button" id="assess">BASIC ASSESSMENT</button>
+</div>
+<p class="small" id="status" role="status" aria-live="polite"></p>
+<div class="cards" id="cards"><div class="empty">No research loaded yet. Use Refresh Intelligence to retrieve the latest published feed.</div></div>
+<div id="report" hidden></div>
+<div class="section-head"><h2>Source health.</h2><span class="small">Read-only collection status</span></div>
+<div class="sources" id="sources"></div>
+<p class="small" style="margin-top:34px">The daily GitHub Actions collector discovers possible news stories. This button reloads already published data; it does not launch a new external research scan.</p>
+</main>
+<script>
+(function(){
+"use strict";
+var data=null,records=[],brands=["ERCO","Fagerhult","Zumtobel","XAL","TRILUX","Delta Light"];
+function el(id){return document.getElementById(id)}
+function node(tag,text,cls){var x=document.createElement(tag);if(text!=null)x.textContent=String(text);if(cls)x.className=cls;return x}
+function validUrl(value){try{var u=new URL(value);return u.protocol==="https:"}catch(e){return false}}
+function render(){
+ var search=el("search").value.trim().toLowerCase(),brand=el("competitor").value,category=el("category").value;
+ var filtered=records.filter(function(r){return (!brand||r.competitor===brand)&&(!category||r.category===category)&&(!search||[r.headline,r.summary,r.competitor,r.source_name].join(" ").toLowerCase().includes(search))});
+ var root=el("cards");root.replaceChildren();
+ if(!filtered.length){root.appendChild(node("div",records.length?"No records match your filters.":"No records collected yet. Run the GitHub Actions research workflow and refresh this page.","empty"));return}
+ filtered.slice(0,200).forEach(function(r){
+  var c=node("article",null,"item"),head=node("div",null,"item-head");
+  head.appendChild(node("span",r.competitor,"tag brand-tag"));head.appendChild(node("span",r.category||"Other","tag"));
+  if(r.geography==="UK")head.appendChild(node("span","UK KEYWORD","tag"));
+  c.appendChild(head);c.appendChild(node("h3",r.headline));
+  if(r.summary)c.appendChild(node("p",r.summary));
+  var footer=node("footer"),left=node("span",(r.published_at||"Date unconfirmed")+" · NEEDS REVIEW","small");
+  footer.appendChild(left);
+  if(validUrl(r.source_url)){var link=node("a","VIEW SOURCE ↗");link.href=r.source_url;link.target="_blank";link.rel="noopener noreferrer";footer.appendChild(link)}
+  c.appendChild(footer);root.appendChild(c);
+ });
+}
+function health(){
+ var root=el("sources");root.replaceChildren();
+ var statuses=data&&Array.isArray(data.source_status)?data.source_status:[];
+ brands.forEach(function(b){
+  var item=statuses.find(function(x){return x.competitor===b})||{status:"not_run"};
+  var c=node("div",null,"source"+(item.status==="error"?" error":""));
+  c.appendChild(node("b",b));
+  c.appendChild(node("span",item.status==="ok"?"Source reached · "+(item.items_discovered||0)+" records":item.status==="error"?"COLLECTION ERROR · "+(item.detail||"unknown"):"NOT TESTED"));
+  root.appendChild(c);
+ });
+}
+function assess(){
+ var result=el("report");result.hidden=false;
+ if(!records.length){result.textContent="No records available to assess. Run the collector first.";return}
+ var perBrand=brands.map(function(b){return b+": "+records.filter(function(r){return r.competitor===b}).length}).join(" · ");
+ var perCat={};records.forEach(function(r){var k=r.category||"Other";perCat[k]=(perCat[k]||0)+1});
+ result.textContent="BASIC RECORD COUNTS ONLY (NOT AI ANALYSIS)\n"+perBrand+"\nCategories: "+Object.keys(perCat).map(function(k){return k+": "+perCat[k]}).join(" · ")+". All discoveries require human verification.";
+ result.style.whiteSpace="pre-line";
+}
+async function refresh(){
+ el("status").textContent="Checking the published public research feed...";
+ el("refresh").disabled=true;
+ try{
+  var response=await fetch("./intelligence.json?ts="+Date.now(),{cache:"no-store"});
+  if(!response.ok)throw new Error("HTTP "+response.status);
+  var next=await response.json();
+  if(!next||!Array.isArray(next.records))throw new Error("Invalid data format");
+  data=next;records=next.records;
+  el("count").textContent=String(records.length);
+  el("added").textContent=String(next.counts&&next.counts.added||0);
+  el("errors").textContent=String(next.counts&&next.counts.failures||0);
+  el("generated").textContent=next.generated_at?"Feed generated "+next.generated_at.replace("T"," ").slice(0,16)+" UTC":"No live collection yet";
+  el("status").textContent="Loaded "+records.length+" public research discoveries. "+(next.generated_at?"Published feed timestamp: "+next.generated_at:"Awaiting first collector run.");
+  el("report").hidden=true;health();render();
+ }catch(error){
+  el("status").textContent="Refresh unsuccessful ("+error.message+"). "+(data?"Previously loaded records remain available.":"The feed may not be deployed yet.");
+ }finally{el("refresh").disabled=false}
+}
+["search","competitor","category"].forEach(function(id){el(id).addEventListener(id==="search"?"input":"change",render)});
+el("refresh").addEventListener("click",refresh);
+el("assess").addEventListener("click",assess);
+refresh();
+})();
+</script>
+</body></html>
