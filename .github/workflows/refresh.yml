@@ -1,0 +1,63 @@
+name: Refresh and publish public competitor intelligence
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 7 * * *'  # Daily 07:15 UTC (08:15 in British Summer Time)
+
+concurrency:
+  group: competitor-intelligence-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pages: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Discover public competitor news
+        run: python collector.py
+
+      - name: Save refreshed public data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/intelligence.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh public competitor intelligence feed"
+            git push
+          fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload latest public research pilot
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+
+  publish:
+    needs: refresh
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
