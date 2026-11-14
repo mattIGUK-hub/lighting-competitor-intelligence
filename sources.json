@@ -1,0 +1,41 @@
+{
+  "description": "Public Google News RSS discovery only; every finding requires editorial verification.",
+  "sources": [
+    {
+      "competitor": "ERCO",
+      "name": "Google News RSS: ERCO",
+      "url": "https://news.google.com/rss/search?q=%22ERCO%22%20architectural%20lighting%20when%3A90d&hl=en-GB&gl=GB&ceid=GB%3Aen",
+      "expected_domain": "news.google.com"
+    },
+    {
+      "competitor": "Fagerhult",
+      "name": "Google News RSS: Fagerhult",
+      "url": "https://news.google.com/rss/search?q=%22Fagerhult%22%20lighting%20when%3A90d&hl=en-GB&gl=GB&ceid=GB%3Aen",
+      "expected_domain": "news.google.com"
+    },
+    {
+      "competitor": "Zumtobel",
+      "name": "Google News RSS: Zumtobel",
+      "url": "https://news.google.com/rss/search?q=%22Zumtobel%22%20lighting%20when%3A90d&hl=en-GB&gl=GB&ceid=GB%3Aen",
+      "expected_domain": "news.google.com"
+    },
+    {
+      "competitor": "XAL",
+      "name": "Google News RSS: XAL",
+      "url": "https://news.google.com/rss/search?q=%22XAL%22%20architectural%20lighting%20when%3A90d&hl=en-GB&gl=GB&ceid=GB%3Aen",
+      "expected_domain": "news.google.com"
+    },
+    {
+      "competitor": "TRILUX",
+      "name": "Google News RSS: TRILUX",
+      "url": "https://news.google.com/rss/search?q=%22TRILUX%22%20lighting%20when%3A90d&hl=en-GB&gl=GB&ceid=GB%3Aen",
+      "expected_domain": "news.google.com"
+    },
+    {
+      "competitor": "Delta Light",
+      "name": "Google News RSS: Delta Light",
+      "url": "https://news.google.com/rss/search?q=%22Delta%20Light%22%20architectural%20lighting%20when%3A90d&hl=en-GB&gl=GB&ceid=GB%3Aen",
+      "expected_domain": "news.google.com"
+    }
+  ]
+}
