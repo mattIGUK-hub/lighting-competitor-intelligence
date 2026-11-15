@@ -33,14 +33,14 @@ ADMIN = re.compile(
     r"how to find us|our locations|legal notice|imprint)\b", re.I
 )
 ACTIVITY_CONTEXT = re.compile(
-    r"\b(?:event|exhib|show|design week|launch|opening|opened|"
-    r"project|architecture|architect|installation|illuminat|lighting|"
-    r"museum|building|gallery|university|library|office|"
-    r"retail|hotel|venue|workshop|CPD|presentation|network|"
-    r"collaborat|partner|sponsor|campaign|conference|"
-    r"programme|initiative|product|luminaire|collection|"
-    r"case study|guide|brochure|film|video|"
-    r"showroom|studio|host|took place|will take place)\b", re.I
+    r"\b(?:event|exhibition|exhibit|showcase|design week|launch(?:ed|ing)?|"
+    r"opening|opened|project|installation|illuminat(?:ed|ion|ing)|"
+    r"museum|gallery|university|library|hospital|school|pavilion|"
+    r"workshop|CPD|conference|showroom|studio|venue|"
+    r"partner(?:ship|ed)?|sponsor(?:ed|ship)?|campaign|"
+    r"host(?:ed|ing)?|took place|will take place|"
+    r"client|customer|our UK team|the UK team|"
+    r"lighting scheme|lighting design for|architectural project)\b", re.I
 )
 FOREIGN_LOCATION = re.compile(
     r"\b(?:Milan|Milano|Rome|Roma|Barcelona|Dubai|Riyadh|Abu Dhabi|"
@@ -62,6 +62,7 @@ class ArticleBlocks(HTMLParser):
         self.blocks = []
         self.article_seen = False
         self.main_seen = False
+        self.after_h1 = False
 
     def handle_starttag(self, tag, attrs):
         props = dict(attrs)
@@ -83,8 +84,10 @@ class ArticleBlocks(HTMLParser):
         if self.active and tag == self.active[-1][0]:
             _, _, pieces, in_article, in_main = self.active.pop()
             value = " ".join(" ".join(pieces).split())
-            if value and (in_article or in_main):
-                self.blocks.append((value,in_article))
+            if value:
+                self.blocks.append((value,in_article,in_main,self.after_h1))
+            if tag == "h1":
+                self.after_h1 = True
         if self.stack:
             idx = next((i for i in range(len(self.stack)-1,-1,-1) if self.stack[i][0]==tag),None)
             if idx is not None:
@@ -97,10 +100,17 @@ def extract_blocks(html):
     parser=ArticleBlocks()
     parser.feed(html)
     candidates=parser.blocks
-    article=[text for text,flag in candidates if flag]
-    main=[text for text,_ in candidates]
-    # Prefer article container; main may contain recommendations, login, addresses.
-    return article if len(" ".join(article))>=MIN_CHARS else main
+    article=[text for text,flag,_,_ in candidates if flag]
+    main=[text for text,_,flag,_ in candidates if flag]
+    if len(" ".join(article))>=MIN_CHARS:
+        return article[:24]
+    if len(" ".join(main))>=MIN_CHARS:
+        return main[:24]
+    # Some official marketing websites render their story in generic divs,
+    # without semantic main/article elements. Take nearby prose after <h1>,
+    # excluding navigation, forms, footer and related-page furniture.
+    after_heading=[text for text,_,_,after in candidates if after]
+    return after_heading[:16]
 
 
 def uk_activity_evidence(html, title, source_url, checked_at):
@@ -114,12 +124,19 @@ def uk_activity_evidence(html, title, source_url, checked_at):
             continue
         if len(block)<30 or len(block)>2400:
             continue
-        if not ACTIVITY_CONTEXT.search(block + " " + title):
-            continue
         matches=list(UK_PLACE.finditer(block))
         if not matches:
             continue
         for m in matches:
+            local_context=block[max(0,m.start()-135):min(len(block),m.end()+175)]
+            # The UK location needs to be connected to something that the
+            # company is doing there, not to a historic example, an office
+            # address, a market statistic or a generic UK mention.
+            if not ACTIVITY_CONTEXT.search(local_context):
+                continue
+            if re.search(r"\b(?:Victorian|in the nineteenth century|statistics? (?:show|suggest)|"
+                         r"percentage of workers|of workers in|survey respondents)\b", local_context, re.I):
+                continue
             # If headline unambiguously identifies an overseas event, a
             # UK office mention elsewhere must not reassign its geography.
             if foreign_title and not re.search(
