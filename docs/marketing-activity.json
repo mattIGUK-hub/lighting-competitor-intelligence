@@ -1,0 +1,299 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-15T12:30:00Z",
+  "description": "Public official-source editorial starter records, with source links. This initial snapshot is not a live source scan. Publication dates shown only where identifiable. First seen is system entry date.",
+  "counts": {
+    "checked_sources": 0,
+    "unavailable_sources": 0,
+    "newly_seen": 0,
+    "total_retained": 15
+  },
+  "source_status": [],
+  "records": [
+    {
+      "id": "editorial-001",
+      "brand": "iGuzzini",
+      "title": "iGuzzini at LiGHT26",
+      "summary": "",
+      "category": "Events",
+      "categories": [
+        "Events"
+      ],
+      "source_url": "https://www.iguzzini.com/en/news--events/iguzzini-at-light-26/",
+      "source_name": "Official iGuzzini website",
+      "source_type": "official_website",
+      "scope": "UK",
+      "first_seen": "2026-11-15",
+      "published_at": null,
+      "date_type": "first_seen",
+      "review_status": "editorially_checked",
+      "origin": "editorial_seed"
+    },
+    {
+      "id": "editorial-002",
+      "brand": "iGuzzini",
+      "title": "iGuzzini at ARCHITECT@WORK 2026",
+      "summary": "",
+      "category": "Events",
+      "categories": [
+        "Events"
+      ],
+      "source_url": "https://www.iguzzini.com/en/news--events/iguzzini-at-architecht-at-work-20262/",
+      "source_name": "Official iGuzzini website",
+      "source_type": "official_website",
+      "scope": "Global",
+      "first_seen": "2026-11-15",
+      "published_at": null,
+      "date_type": "first_seen",
+      "review_status": "editorially_checked",
+      "origin": "editorial_seed"
+    },
+    {
+      "id": "editorial-003",
+      "brand": "ERCO",
+      "title": "ERCO announces Art Basel lighting partnership",
+      "summary": "",
+      "category": "Events",
+      "categories": [
+        "Events"
+      ],
+      "source_url": "https://press.erco.com/en/press-release/events-9/erco-becomes-official-lighting-partner-of-art-basel-customized-lighting-solution-for-the-global-art-market",
+      "source_name": "Official ERCO website",
+      "source_type": "official_website",
+      "scope": "Global",
+      "first_seen": "2026-11-15",
+      "published_at": "2026-06-16",
+      "date_type": "published",
+      "review_status": "editorially_checked",
+      "origin": "editorial_seed"
+    },
+    {
+      "id": "editorial-004",
+      "brand": "ERCO",
+      "title": "Perception-oriented lighting for modern offices",
+      "summary": "",
+      "category": "Messaging",
+      "categories": [
+        "Messaging"
+      ],
+      "source_url": "https://press.erco.com/en",
+      "source_name": "Official ERCO website",
+      "source_type": "official_website",
+      "scope": "Global",
+      "first_seen": "2026-11-15",
+      "published_at": "2026-10-23",
+      "date_type": "published",
+      "review_status": "editorially_checked",
+      "origin": "editorial_seed"
+    },
+    {
+      "id": "editorial-005",
+      "brand": "Fagerhult",
+      "title": "Meet the team: UK client solutions and university lighting",
+      "summary": "",
+      "category": "Content",
+      "categories": [
+        "Content"
+      ],
+      "source_url": "https://www.fagerhult.com/en-GB/news/2026/new-page/",
+      "source_name": "Official Fagerhult website",
+      "source_type": "official_website",
+      "scope": "UK",
+      "first_seen": "2026-11-15",
+      "published_at": null,
+      "date_type": "first_seen",
+      "review_status": "editorially_checked",
+      "origin": "editorial_seed"
+    },
+    {
+      "id": "editorial-006",
+      "brand": "Fagerhult",
+      "title": "Fagerhult news: reused printing plates in cardboard luminaires",
+      "summary": "",
+      "category": "Content",
+      "categories": [
+        "Content"
+      ],
+      "source_url": "https://www.fagerhult.com/ee/news/",
+      "source_name": "Official Fagerhult website",
+      "source_type": "official_website",
+      "scope": "Global",
+      "first_seen": "2026-11-15",
+      "published_at": null,
+      "date_type": "first_seen",
+      "review_status": "editorially_checked",
+      "origin": "editorial_seed"
+    },
+    {
+      "id": "editorial-007",
+      "brand": "Zumtobel",
+      "title": "ORGATEC 2026: One Workspace, Many Possibilities",
+      "summary": "",
+      "category": "Events",
+      "categories": [
+        "Events"
+      ],
+      "source_url": "https://www.zumtobel.co.uk/en-gb/news-events",
+      "source_name": "Official Zumtobel website",
+      "source_type": "official_website",
+      "scope": "Global",
+      "first_seen": "2026-11-15",
+      "published_at": null,
+      "date_type": "first_seen",
+      "review_status": "editorially_checked",
+      "origin": "editorial_seed"
+    },
+    {
+      "id": "editorial-008",
+      "brand": "Zumtobel",
+      "title": "Zumtobel and Impact Acoustic announce partnership",
+      "summary": "",
+      "category": "Messaging",
+      "categories": [
+        "Messaging"
+      ],
+      "source_url": "https://www.zumtobel.co.uk/en-gb/news-events",
+      "source_name": "Official Zumtobel website",
+      "source_type": "official_website",
+      "scope": "Global",
+      "first_seen": "2026-11-15",
+      "published_at": null,
+      "date_type": "first_seen",
+      "review_status": "editorially_checked",
+      "origin": "editorial_seed"
+    },
+    {
+      "id": "editorial-009",
+      "brand": "XAL",
+      "title": "KLANGLICHT 2026: XAL-sponsored immersive installation",
+      "summary": "",
+      "category": "Events",
+      "categories": [
+        "Events"
+      ],
+      "source_url": "https://www.xal.com/en/company/news",
+      "source_name": "Official XAL website",
+      "source_type": "official_website",
+      "scope": "Global",
+      "first_seen": "2026-11-15",
+      "published_at": null,
+      "date_type": "first_seen",
+      "review_status": "editorially_checked",
+      "origin": "editorial_seed"
+    },
+    {
+      "id": "editorial-010",
+      "brand": "XAL",
+      "title": "ENVIVA receives Cradle to Cradle certification",
+      "summary": "",
+      "category": "Messaging",
+      "categories": [
+        "Messaging"
+      ],
+      "source_url": "https://www.xal.com/en/company/news",
+      "source_name": "Official XAL website",
+      "source_type": "official_website",
+      "scope": "Global",
+      "first_seen": "2026-11-15",
+      "published_at": null,
+      "date_type": "first_seen",
+      "review_status": "editorially_checked",
+      "origin": "editorial_seed"
+    },
+    {
+      "id": "editorial-011",
+      "brand": "TRILUX",
+      "title": "TRILUX wins Build Back Better Awards in London",
+      "summary": "",
+      "category": "Content",
+      "categories": [
+        "Content"
+      ],
+      "source_url": "https://www.trilux.com/en/company/trilux/press/build-back-better-awards-2026/",
+      "source_name": "Official TRILUX website",
+      "source_type": "official_website",
+      "scope": "UK",
+      "first_seen": "2026-11-15",
+      "published_at": "2026-10-12",
+      "date_type": "published",
+      "review_status": "editorially_checked",
+      "origin": "editorial_seed"
+    },
+    {
+      "id": "editorial-012",
+      "brand": "TRILUX",
+      "title": "TRILUX publishes its Sustainability Statement",
+      "summary": "",
+      "category": "Content",
+      "categories": [
+        "Content"
+      ],
+      "source_url": "https://www.trilux.com/gb/company/trilux/press/sustainability-statement",
+      "source_name": "Official TRILUX website",
+      "source_type": "official_website",
+      "scope": "Global",
+      "first_seen": "2026-11-15",
+      "published_at": "2026-10-22",
+      "date_type": "published",
+      "review_status": "editorially_checked",
+      "origin": "editorial_seed"
+    },
+    {
+      "id": "editorial-013",
+      "brand": "TRILUX",
+      "title": "TRILUX extends lighting partnership with Borussia Dortmund",
+      "summary": "",
+      "category": "Messaging",
+      "categories": [
+        "Messaging"
+      ],
+      "source_url": "https://www.trilux.com/gb/company/trilux/press/",
+      "source_name": "Official TRILUX website",
+      "source_type": "official_website",
+      "scope": "Global",
+      "first_seen": "2026-11-15",
+      "published_at": "2026-11-02",
+      "date_type": "published",
+      "review_status": "editorially_checked",
+      "origin": "editorial_seed"
+    },
+    {
+      "id": "editorial-014",
+      "brand": "Delta Light",
+      "title": "Deltalight awarded Gold EcoVadis Medal",
+      "summary": "",
+      "category": "Content",
+      "categories": [
+        "Content"
+      ],
+      "source_url": "https://deltalight.com/en/more-inspiration/news",
+      "source_name": "Official Delta Light website",
+      "source_type": "official_website",
+      "scope": "Global",
+      "first_seen": "2026-11-15",
+      "published_at": "2026-03-09",
+      "date_type": "published",
+      "review_status": "editorially_checked",
+      "origin": "editorial_seed"
+    },
+    {
+      "id": "editorial-015",
+      "brand": "Delta Light",
+      "title": "Delta Light 2026 design experiences and new products",
+      "summary": "",
+      "category": "Messaging",
+      "categories": [
+        "Messaging"
+      ],
+      "source_url": "https://deltalight.com/en-gb",
+      "source_name": "Official Delta Light website",
+      "source_type": "official_website",
+      "scope": "UK website",
+      "first_seen": "2026-11-15",
+      "published_at": null,
+      "date_type": "first_seen",
+      "review_status": "editorially_checked",
+      "origin": "editorial_seed"
+    }
+  ]
+}
