@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T09:18:11.489274+00:00",
+  "generated_at": "2026-11-15T12:29:37.636526+00:00",
   "method": "Selected public server-HTML text only, checked daily; changes are unreviewed signals. Social networks excluded. Some sites block automated reading or rely on JavaScript.",
   "counts": {
     "checked": 14,
     "unavailable": 9,
-    "changed": 0,
+    "changed": 2,
     "new_baselines": 0
   },
   "sources": [
@@ -159,11 +159,11 @@
         "Branding"
       ],
       "status": "ok",
-      "changed_in_latest_scan": false,
+      "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "6c64df5b8344a621e5ef8e4937f64e5a928189f51a084f175e6ff026220c1854",
+      "digest": "455f85031a61c392a0e3a6dd5a36941fd3f70d1c5d09163f0eb72ebfe32f1c0b",
       "characters": 2353,
-      "last_changed_at": null
+      "last_changed_at": "2026-11-15T12:29:31.281399+00:00"
     },
     {
       "id": "source-12",
@@ -322,11 +322,11 @@
         "Events"
       ],
       "status": "ok",
-      "changed_in_latest_scan": false,
+      "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "bb3c743b0247c9f9729c0ed72d4aa47171f4b010c68d007559ab8cdbddc3bf7b",
-      "characters": 784,
-      "last_changed_at": null
+      "digest": "fae12a0fded104d5fa8fc3c679e0af5b0a270052c845a8926302cb47009ceef9",
+      "characters": 1006,
+      "last_changed_at": "2026-11-15T12:29:37.243513+00:00"
     },
     {
       "id": "source-23",
