@@ -105,6 +105,7 @@ EXCLUDED_WORDS = {
 def clean_title(title):
     title = re.sub(r"^(?:Press Release|Insights|Inspirations|General|Events)\s+", "", title, flags=re.I)
     title = re.sub(r"^Find out more\s*about\s*", "", title, flags=re.I)
+    title = re.sub(r"^Top stories\s+", "", title, flags=re.I)
     title = re.sub(r"\s+Read More(?:\s.*)?$", "", title, flags=re.I)
     title = re.sub(r"\s+\d{1,2}[. ]\s*(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{4}.*$", "", title, flags=re.I)
     title = re.sub(r"\s+\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sept?|Oct|Nov|Dec)\s+\d{4}\s*\|\s*NEWS ARTICLE.*$", "", title, flags=re.I)
@@ -141,6 +142,8 @@ def extract(page, source, day):
             continue
         title = clean_title(title)
         if not 15 <= len(title) <= 160 or not matching_title_and_url(title, target):
+            continue
+        if re.search(r"\b(patent proceedings|leading employer 2025|light25|light 25)\b", title, re.I):
             continue
         if re.search(r"\b(privacy|cookies|careers?|login|imprint|"
                      r"terms and conditions|all news|product overview)\b", title, re.I):
@@ -221,7 +224,7 @@ def main():
                 previous["scope"] = item["scope"]
     # Preserve history for 180 days, even when a source temporarily fails.
     cutoff = (datetime.now(timezone.utc).date() - timedelta(days=180)).isoformat()
-    kept = [r for r in old.values() if r.get("first_seen", "") >= cutoff and (r.get("origin") == "editorial_seed" or matching_title_and_url(r.get("title",""), r.get("source_url","")))]
+    kept = [r for r in old.values() if r.get("first_seen", "") >= cutoff and not re.search(r"\b(patent proceedings|light25|light 25)\b", r.get("title", ""), re.I) and (r.get("origin") == "editorial_seed" or matching_title_and_url(r.get("title",""), r.get("source_url","")))]
     # Collapse duplicates when an editorially checked record and a scraped link share a URL.
     preferred = {}
     for row in kept:
