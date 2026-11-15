@@ -35,11 +35,14 @@ jobs:
       - name: Discover public competitor news
         run: python collector.py
 
+      - name: Monitor selected public marketing pages
+        run: python website_monitor.py
+
       - name: Save refreshed public data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/intelligence.json
+          git add docs/intelligence.json docs/site-change-monitor.json
           if ! git diff --cached --quiet; then
             git commit -m "Refresh public competitor intelligence feed"
             git push
@@ -66,18 +69,15 @@ jobs:
           PY
 
       - name: Configure GitHub Pages
-        if: github.event_name != 'push'
         uses: actions/configure-pages@v5
 
-      - name: Upload latest public research pilot
-        if: github.event_name != 'push'
+      - name: Upload latest public research and monitoring
         uses: actions/upload-pages-artifact@v4
         with:
           path: docs
 
   publish:
     needs: refresh
-    if: github.event_name != 'push'
     runs-on: ubuntu-latest
     permissions:
       pages: write
