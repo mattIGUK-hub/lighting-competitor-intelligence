@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T12:30:34.369136+00:00",
+  "generated_at": "2026-11-15T12:31:28.155938+00:00",
   "method": "Selected public server-HTML text only, checked daily; changes are unreviewed signals. Social networks excluded. Some sites block automated reading or rely on JavaScript.",
   "counts": {
-    "checked": 14,
-    "unavailable": 9,
+    "checked": 12,
+    "unavailable": 11,
     "changed": 0,
     "new_baselines": 0
   },
@@ -234,11 +234,11 @@
         "Website",
         "Content"
       ],
-      "status": "ok",
+      "status": "error",
       "changed_in_latest_scan": false,
       "baseline": false,
+      "detail": "HTTP Error 403: Forbidden",
       "digest": "f6a66459965a896b3f4103d7ff5a1a44fbba9e5f79306459d0292bdee5f82287",
-      "characters": 12216,
       "last_changed_at": null
     },
     {
@@ -248,11 +248,11 @@
       "categories": [
         "Events"
       ],
-      "status": "ok",
+      "status": "error",
       "changed_in_latest_scan": false,
       "baseline": false,
+      "detail": "HTTP Error 403: Forbidden",
       "digest": "43316f35aaeae27bfd9ae74e95dba6c953e99ac4175a55e38c5fcec274dfb6ad",
-      "characters": 8322,
       "last_changed_at": null
     },
     {
