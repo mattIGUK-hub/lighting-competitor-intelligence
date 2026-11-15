@@ -23,7 +23,7 @@ UK_PLACE = re.compile(
     r"Glasgow|Edinburgh|Cardiff|Belfast|"
     r"Surrey|Kent|Essex|Hampshire|Berkshire|Devon|Cornwall|"
     r"Hertfordshire|Buckinghamshire|Oxfordshire|Greater Manchester|"
-    r"West Midlands|West Yorkshire|North Yorkshire)\b", re.I
+    r"West Midlands|West Yorkshire|North Yorkshire|Warwick|Southampton|Portsmouth|Islington|Heathrow|Gatwick|Stratford|Plymouth|Norwich|Wolverhampton|Reading|Cheltenham)\b", re.I
 )
 # Do not treat a generic UK address or a sidebar sign-up prompt as an activity.
 ADMIN = re.compile(
@@ -113,12 +113,53 @@ def extract_blocks(html):
     return after_heading[:16]
 
 
+class VisiblePage(HTMLParser):
+    """Visible text fallback for official sites that omit semantic article tags."""
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.stack = []
+        self.parts = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag not in {"meta", "link", "img", "br", "hr", "input", "source", "wbr"}:
+            self.stack.append(tag)
+
+    def handle_endtag(self, tag):
+        if tag in self.stack:
+            idx = len(self.stack) - 1 - self.stack[::-1].index(tag)
+            del self.stack[idx:]
+
+    def handle_data(self, value):
+        if any(t in SKIP_TAGS or t in {"head"} for t in self.stack):
+            return
+        text = " ".join(value.split())
+        if len(text) > 3:
+            self.parts.append(text)
+
+
+def fallback_article_text(html, title):
+    parser = VisiblePage()
+    parser.feed(html)
+    text = " ".join(parser.parts)
+    # Do not search arbitrary site content. Anchor the scan to the actual
+    # document headline and limit it to the nearby readable article body.
+    anchor = " ".join(unescape(title).split()).casefold()
+    i = text.casefold().find(anchor)
+    if i < 0:
+        return []
+    body = text[i:i+4200]
+    return [body[start:start+400] for start in range(0,len(body),300)][:14]
+
+
 def uk_activity_evidence(html, title, source_url, checked_at):
     """Return a short *verbatim* source excerpt when a specific UK link is found."""
     if not source_url.startswith("https://"):
         return None
     foreign_title=bool(FOREIGN_LOCATION.search(title))
     blocks=extract_blocks(html)
+    # Supplement structured paragraphs with headline-anchored visible copy;
+    # many manufacturer sites use generic div containers for page content.
+    blocks=blocks+fallback_article_text(html,title)
     for block in blocks:
         if ADMIN.search(block):
             continue
