@@ -58,6 +58,17 @@ class UKContextTests(unittest.TestCase):
                 "<p>Register for the upcoming design week workshop in London now.</p></main>")
         self.assertIsNone(uk_activity_evidence(page,"New lighting product",SRC,NOW))
 
+    def test_nonsemantic_article_text_can_show_uk_event(self):
+        page = ('<html><body><nav>Global website</nav>'
+                '<div class="story"><h2>iGuzzini at LiGHT26</h2>'
+                '<div>On 18-19 November, we will be at LiGHT26 at the '
+                'Business Design Centre in London, where we will showcase '
+                'the latest architectural lighting solutions.</div>'
+                '</div><footer>Our worldwide locations</footer></body></html>')
+        result=uk_activity_evidence(page,"iGuzzini at LiGHT26",SRC,NOW)
+        self.assertIsNotNone(result)
+        self.assertIn("London", result["quote"])
+
     def test_markup_outside_main_is_ignored(self):
         page = "<body><p>UK showroom in London for lighting designers.</p></body>"
         self.assertIsNone(uk_activity_evidence(page,"New collection",SRC,NOW))
