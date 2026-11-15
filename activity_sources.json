@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "description": "Public first-party marketing activity listing pages, UK-first where available. Link discoveries are not publication dates or confirmed new launches.",
+  "sources": [
+    {
+      "brand": "iGuzzini",
+      "name": "iGuzzini news and events",
+      "url": "https://www.iguzzini.com/en/",
+      "domain": "iguzzini.com",
+      "paths": [
+        "/news--events/"
+      ],
+      "scope": "Global / UK when identified"
+    },
+    {
+      "brand": "ERCO",
+      "name": "ERCO official press office",
+      "url": "https://press.erco.com/en",
+      "domain": "press.erco.com",
+      "paths": [
+        "/press-release/"
+      ],
+      "scope": "Global / UK when identified"
+    },
+    {
+      "brand": "Fagerhult",
+      "name": "Fagerhult UK news",
+      "url": "https://www.fagerhult.com/en-GB/news/",
+      "domain": "fagerhult.com",
+      "paths": [
+        "/news/"
+      ],
+      "scope": "UK website"
+    },
+    {
+      "brand": "Zumtobel",
+      "name": "Zumtobel UK news and events",
+      "url": "https://www.zumtobel.co.uk/en-gb/news-events",
+      "domain": "zumtobel.co.uk",
+      "paths": [
+        "/news-events/",
+        "/news/",
+        "/press/",
+        "/events/"
+      ],
+      "scope": "UK website"
+    },
+    {
+      "brand": "XAL",
+      "name": "XAL company news",
+      "url": "https://www.xal.com/en/company/news",
+      "domain": "xal.com",
+      "paths": [
+        "/company/news/"
+      ],
+      "scope": "Global"
+    },
+    {
+      "brand": "TRILUX",
+      "name": "TRILUX UK press",
+      "url": "https://www.trilux.com/gb/company/trilux/press/",
+      "domain": "trilux.com",
+      "paths": [
+        "/press/",
+        "/blog/"
+      ],
+      "scope": "UK website"
+    },
+    {
+      "brand": "Delta Light",
+      "name": "Delta Light news",
+      "url": "https://deltalight.com/en/more-inspiration/news",
+      "domain": "deltalight.com",
+      "paths": [
+        "/more-inspiration/news/"
+      ],
+      "scope": "Global"
+    },
+    {
+      "brand": "Delta Light",
+      "name": "Delta Light events",
+      "url": "https://deltalight.com/en/more-inspiration/events",
+      "domain": "deltalight.com",
+      "paths": [
+        "/more-inspiration/events/"
+      ],
+      "scope": "Global"
+    },
+    {
+      "brand": "Delta Light",
+      "name": "Delta Light UK homepage",
+      "url": "https://deltalight.com/en-gb",
+      "domain": "deltalight.com",
+      "paths": [
+        "/more-inspiration/events/",
+        "/more-inspiration/news/",
+        "/inspiration/"
+      ],
+      "scope": "UK website"
+    }
+  ]
+}
