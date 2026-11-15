@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T14:41:56.400322+00:00",
+  "generated_at": "2026-11-15T14:45:05.481999+00:00",
   "method": "Selected public server-HTML text only, checked daily; changes are unreviewed signals. Social networks excluded. Some sites block automated reading or rely on JavaScript.",
   "counts": {
     "checked": 14,
@@ -162,7 +162,7 @@
       "status": "ok",
       "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "a07261906338363c0f2c112e2618909ac3938a946587dc84744e599ddc50a64b",
+      "digest": "577daaf4ec48b7bc5052e69546df919f6229d6bce7c751b986a7289087f85dc5",
       "characters": 1824,
       "block_hashes": [
         "d7e764dab9b79ba2",
@@ -171,7 +171,7 @@
         "09068ee382366045"
       ],
       "change_snippets": [],
-      "last_changed_at": "2026-11-15T14:41:52.475399+00:00"
+      "last_changed_at": "2026-11-15T14:45:00.212339+00:00"
     },
     {
       "id": "source-10",
