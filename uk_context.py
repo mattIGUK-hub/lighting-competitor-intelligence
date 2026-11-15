@@ -159,7 +159,7 @@ def uk_activity_evidence(html, title, source_url, checked_at):
     blocks=extract_blocks(html)
     # When a real article body exists, don't let nearby recommendation cards
     # or unrelated main-page messages contaminate the activity's geography.
-    has_article_tag = bool(re.search(r"<article\\b", html, re.I))
+    has_article_tag = bool(re.search(r"<article\b", html, re.I))
     if not has_article_tag or len(" ".join(blocks)) < MIN_CHARS:
         blocks=blocks+fallback_article_text(html,title)
     for block in blocks:
