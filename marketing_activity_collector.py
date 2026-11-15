@@ -17,6 +17,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urljoin, urlsplit, unquote
 from urllib.request import Request, urlopen
+from uk_context import fetch_article_evidence
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "docs" / "marketing-activity.json"
@@ -249,6 +250,46 @@ def main():
         if not previous or (row.get("origin") == "editorial_seed" and previous.get("origin") != "editorial_seed"):
             preferred[identity] = row
     kept = list(preferred.values())
+    # Read the *individual official article page* for UK place/context evidence.
+    # Checking source locale, the page URL and boilerplate is insufficient.
+    # Use a bounded, fair sample per brand so no competitor monopolises the scan.
+    allowed_domains = {}
+    for source in sources:
+        allowed_domains.setdefault(source["brand"], set()).add(source["domain"])
+    allowed_domains.setdefault("ERCO", set()).add("erco.com")
+    selected = []
+    for brand in sorted(allowed_domains):
+        brand_rows = [row for row in kept if row["brand"] == brand]
+        # Prefer more recent published articles; first-seen dates don't imply recency.
+        brand_rows.sort(key=lambda row: (
+            row.get("published_at") or row.get("first_seen") or "",
+            row.get("first_seen") or ""
+        ), reverse=True)
+        selected.extend(brand_rows[:9])
+    reviewed = {"articles_checked": 0, "uk_context_found": 0,
+                "no_uk_context": 0, "articles_unavailable": 0}
+    checked_at = datetime.now(timezone.utc).isoformat()
+    def inspect(row):
+        proof, state = fetch_article_evidence(row, allowed_domains, checked_at, timeout=11)
+        return row, proof, state
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
+        scans = list(pool.map(inspect, selected))
+    for row, proof, state in scans:
+        reviewed["articles_checked"] += 1
+        row["uk_context_status"] = state
+        row["uk_context_checked_at"] = checked_at
+        if proof:
+            row["uk_evidence"] = proof
+            row["scope"] = "UK activity evidenced"
+            reviewed["uk_context_found"] += 1
+        elif state == "no_uk_context":
+            # A successful fetch without a supported UK connection invalidates
+            # an old extracted evidence snippet; inaccessible pages do not.
+            row.pop("uk_evidence", None)
+            reviewed["no_uk_context"] += 1
+        else:
+            reviewed["articles_unavailable"] += 1
+    print("Official article UK context:", reviewed)
     kept.sort(key=lambda r: (r["first_seen"], r["brand"], r["title"]), reverse=True)
     payload = {
         "schema_version": 1,
@@ -256,9 +297,9 @@ def main():
         "description": (
             "Direct links discovered on official public news, event and press pages. "
             "First-seen date is when this system noticed a link, NOT a publication or event date. "
-            "New links may be older publications. Nothing here is an AI-generated finding."
+            "New links may be older publications. Selected article bodies are checked for explicit contextual UK place references; all extracted excerpts are source-linked and require review."
         ),
-        "counts": {**counts, "total_retained": min(len(kept), 900)},
+        "counts": {**counts, **reviewed, "total_retained": min(len(kept), 900)},
         "source_status": status,
         "records": kept[:900],
     }
