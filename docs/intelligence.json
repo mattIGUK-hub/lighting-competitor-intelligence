@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T12:40:10+00:00",
+  "generated_at": "2026-11-15T14:36:37+00:00",
   "feed_type": "public_research_discovery",
   "note": "Automatically discovered public headlines. Every record requires source and claim verification.",
   "source_status": [
@@ -37,7 +37,7 @@
   ],
   "counts": {
     "found": 21,
-    "added": 0,
+    "added": 1,
     "retained": 24,
     "failures": 0
   },
@@ -217,6 +217,22 @@
       "verification": "needs_review",
       "brand_match": false,
       "collected_at": "2026-11-14"
+    },
+    {
+      "id": "f4d352d8e15f81c6",
+      "competitor": "Zumtobel",
+      "headline": "UK data centre boom should not come at expense of the country's net zero ambitions - Data Centre Solutions",
+      "summary": "UK data centre boom should not come at expense of the country's net zero ambitions Data Centre Solutions",
+      "published_at": "2026-11-06",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYTBCRGtRQ2hLaTNKcFpRRXBtTEJ0WXlXQmU2MlQ3VEZjTUhaRzN1UmluWmJEX3VMYnAzWi0tUnhkb0ZlYjBIbi1pejlERGc0bUk3TUhrZVk1TjdVMnJWLWVRYnlwalZjUGhMXzluY2dBT1JWZWNDaGM1MjJYZEU5X1lLR0ZoUVFGNUlTdWhSLW1IX1BWRVRYeXRMTGVSR1pPVXNIWHdOczEzY2lHdXBPZ3hYSEFITW40ME1Kam9PMGhSNXQxamxQXzE2Ykw?oc=5",
+      "source_name": "Google News RSS: Zumtobel",
+      "category": "Other",
+      "geography": "UK",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-15"
     },
     {
       "id": "3682fb5e25e37087",
