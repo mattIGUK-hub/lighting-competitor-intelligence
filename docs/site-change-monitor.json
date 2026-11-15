@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T14:45:05.481999+00:00",
+  "generated_at": "2026-11-15T14:47:37.454387+00:00",
   "method": "Selected public server-HTML text only, checked daily; changes are unreviewed signals. Social networks excluded. Some sites block automated reading or rely on JavaScript.",
   "counts": {
     "checked": 14,
     "unavailable": 9,
-    "changed": 1,
+    "changed": 0,
     "new_baselines": 0
   },
   "sources": [
@@ -160,7 +160,7 @@
         "Content"
       ],
       "status": "ok",
-      "changed_in_latest_scan": true,
+      "changed_in_latest_scan": false,
       "baseline": false,
       "digest": "577daaf4ec48b7bc5052e69546df919f6229d6bce7c751b986a7289087f85dc5",
       "characters": 1824,
