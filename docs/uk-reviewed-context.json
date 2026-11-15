@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-15",
+  "description": "Editorially verified UK location context from official published activity pages. These records supplement automated article extraction when the HTML page text is inaccessible to the daily collector. All facts are public; event dates are distinct from publication dates.",
+  "items": [
+    {
+      "brand": "iGuzzini",
+      "title": "iGuzzini at LiGHT26",
+      "category": "Events",
+      "source_url": "https://www.iguzzini.com/en/news--events/iguzzini-at-light-26/",
+      "event_at": "2026-11-18",
+      "quote": "we will be at LiGHT26 at the Business Design Centre in London",
+      "place": "London"
+    },
+    {
+      "brand": "Delta Light",
+      "title": "Beyond the Expected at LiGHT26",
+      "category": "Events",
+      "source_url": "https://deltalight.com/en/more-inspiration/events/2026/11/beyond-the-expected-at-light26",
+      "event_at": "2026-11-18",
+      "quote": "LiGHT26 18-19 November Business Design Centre London Booth 11",
+      "place": "London"
+    },
+    {
+      "brand": "ERCO",
+      "title": "ERCO and Zaha Hadid Architects at Clerkenwell Design Week 2026",
+      "category": "Events",
+      "source_url": "https://www.erco.com/gb/erco-united-kingdom/erco-zaha-hadid-architects-clerkenwell-design-week-2026/",
+      "event_at": "2026-05-19",
+      "quote": "Zaha Hadid Architects Gallery, 101 Goswell Road, London, EC1V 7EZ",
+      "place": "London"
+    },
+    {
+      "brand": "TRILUX",
+      "title": "New Light Studios in London and Madrid",
+      "category": "Events",
+      "source_url": "https://www.trilux.com/gb/blog/light-studios/",
+      "published_at": "2026-06-11",
+      "quote": "newly opened Light Studios in London and Madrid",
+      "place": "London"
+    }
+  ]
+}
