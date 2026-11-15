@@ -15,7 +15,7 @@ import re
 from datetime import datetime, timezone, timedelta
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urljoin, urlsplit
+from urllib.parse import urljoin, urlsplit, unquote
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parent
@@ -93,6 +93,41 @@ def categories(title, link):
     return found or ["Content"]
 
 
+EXCLUDED_WORDS = {
+    "iguzzini", "erco", "fagerhult", "zumtobel", "xal", "trilux",
+    "deltalight", "delta", "light", "news", "event", "events",
+    "press", "release", "company", "insights", "about", "more",
+    "from", "this", "that", "with", "find", "read", "view", "the",
+    "and", "new", "for", "2026", "2025", "2024",
+}
+
+
+def clean_title(title):
+    title = re.sub(r"^(?:Press Release|Insights|Inspirations|General|Events)\s+", "", title, flags=re.I)
+    title = re.sub(r"^Find out more\s*about\s*", "", title, flags=re.I)
+    title = re.sub(r"\s+Read More(?:\s.*)?$", "", title, flags=re.I)
+    title = re.sub(r"\s+\d{1,2}[. ]\s*(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{4}.*$", "", title, flags=re.I)
+    title = re.sub(r"\s+\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sept?|Oct|Nov|Dec)\s+\d{4}\s*\|\s*NEWS ARTICLE.*$", "", title, flags=re.I)
+    return title.strip(" .|-")[:160]
+
+
+def matching_title_and_url(title, link):
+    # Avoid headline/link mismatches caused by nested anchors or site menus.
+    slug = unquote(urlsplit(link).path).strip("/").split("/")[-1]
+    words = lambda t: {w for w in re.findall(r"[a-z0-9]{4,}", t.lower()) if w not in EXCLUDED_WORDS}
+    title_words, slug_words = words(title), words(slug)
+    if title_words and slug_words and not title_words.intersection(slug_words):
+        return False
+    # Filter obviously old archives from first-time discovery; never label 2024 as new in 2026.
+    if re.search(r"/20(?:1\d|2[0-5])/", urlsplit(link).path):
+        return False
+    if re.match(r"^(?:20(?:1\d|2[0-5])|[0-3]?\d[./-][01]?\d[./-]20(?:1\d|2[0-5]))\b", title):
+        return False
+    if re.search(r"\b20(?:1\d|2[0-5])\b", title) and not re.search(r"\b2026\b", title):
+        return False
+    return True
+
+
 def extract(page, source, day):
     parser = Links()
     parser.feed(page)
@@ -104,7 +139,9 @@ def extract(page, source, day):
         target = urljoin(source["url"], href).split("#", 1)[0]
         if not good_link(target, source):
             continue
-        title = title[:160]
+        title = clean_title(title)
+        if not 15 <= len(title) <= 160 or not matching_title_and_url(title, target):
+            continue
         if re.search(r"\b(privacy|cookies|careers?|login|imprint|"
                      r"terms and conditions|all news|product overview)\b", title, re.I):
             continue
@@ -119,7 +156,7 @@ def extract(page, source, day):
             "source_url": target,
             "source_name": source["name"],
             "source_type": "official_website",
-            "scope": "UK mentioned" if UK.search(title + " " + target) else source["scope"],
+            "scope": "UK mentioned" if UK.search(title) else source["scope"],
             "first_seen": day,
             "published_at": None,
             "date_type": "first_seen",
@@ -184,7 +221,15 @@ def main():
                 previous["scope"] = item["scope"]
     # Preserve history for 180 days, even when a source temporarily fails.
     cutoff = (datetime.now(timezone.utc).date() - timedelta(days=180)).isoformat()
-    kept = [r for r in old.values() if r.get("first_seen", "") >= cutoff]
+    kept = [r for r in old.values() if r.get("first_seen", "") >= cutoff and (r.get("origin") == "editorial_seed" or matching_title_and_url(r.get("title",""), r.get("source_url","")))]
+    # Collapse duplicates when an editorially checked record and a scraped link share a URL.
+    preferred = {}
+    for row in kept:
+        identity = (row["brand"], row["source_url"].rstrip("/").lower())
+        previous = preferred.get(identity)
+        if not previous or (row.get("origin") == "editorial_seed" and previous.get("origin") != "editorial_seed"):
+            preferred[identity] = row
+    kept = list(preferred.values())
     kept.sort(key=lambda r: (r["first_seen"], r["brand"], r["title"]), reverse=True)
     payload = {
         "schema_version": 1,
