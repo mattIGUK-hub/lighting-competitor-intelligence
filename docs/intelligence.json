@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T22:16:37+00:00",
+  "generated_at": "2026-11-15T08:18:06+00:00",
   "feed_type": "public_research_discovery",
   "note": "Automatically discovered public headlines. Every record requires source and claim verification.",
   "source_status": [
@@ -12,7 +12,7 @@
     {
       "competitor": "Fagerhult",
       "status": "ok",
-      "items_discovered": 6
+      "items_discovered": 7
     },
     {
       "competitor": "Zumtobel",
@@ -36,8 +36,8 @@
     }
   ],
   "counts": {
-    "found": 20,
-    "added": 0,
+    "found": 21,
+    "added": 2,
     "retained": 20,
     "failures": 0
   },
@@ -59,6 +59,22 @@
       "collected_at": "2026-11-14"
     },
     {
+      "id": "4fad0d315bc24027",
+      "competitor": "Zumtobel",
+      "headline": "Task Lighting Market To 2035: Smart Office and Human-Centric Lighting Fuel Growth - News and Statistics - IndexBox",
+      "summary": "Task Lighting Market To 2035: Smart Office and Human-Centric Lighting Fuel Growth - News and Statistics IndexBox",
+      "published_at": "2026-11-14",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTkU0OWdrZHlLaFVqQVplNzVCMGtjRHdoQzhjS3lMaDhiTnM2Q0tTUlpRNnVGZGdwU2hmRVpjdDdSeVhOSXZGeGZoeHJiYXloTm92b0NDNTVPTFJFMFZyWVdhX3I0WWVDbElnNXo5ZXdCNDV2cjJkcWoxSm5ZbFd1OXNsemlMQzJ1YUMwYjJKbF9fUkpLX3p6cmkxdVdKRGNjQnQyRmNZQ2RhWjZMRkRLUnY1R0NTX1VUU05UR2Z3UlZvWnpBdTQwN2JvUQ?oc=5",
+      "source_name": "Google News RSS: Zumtobel",
+      "category": "Other",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-15"
+    },
+    {
       "id": "d380006266607265",
       "competitor": "Fagerhult",
       "headline": "LED High Bay Lights Market Forecast to 2035: Warehouse Automation and Retrofits Fuel Growth - News and Statistics - IndexBox",
@@ -73,6 +89,22 @@
       "verification": "needs_review",
       "brand_match": false,
       "collected_at": "2026-11-14"
+    },
+    {
+      "id": "379e1ff66ba30bf1",
+      "competitor": "Fagerhult",
+      "headline": "Task Lighting Market To 2035: Smart Office and Human-Centric Lighting Fuel Growth - News and Statistics - IndexBox",
+      "summary": "Task Lighting Market To 2035: Smart Office and Human-Centric Lighting Fuel Growth - News and Statistics IndexBox",
+      "published_at": "2026-11-14",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTkU0OWdrZHlLaFVqQVplNzVCMGtjRHdoQzhjS3lMaDhiTnM2Q0tTUlpRNnVGZGdwU2hmRVpjdDdSeVhOSXZGeGZoeHJiYXloTm92b0NDNTVPTFJFMFZyWVdhX3I0WWVDbElnNXo5ZXdCNDV2cjJkcWoxSm5ZbFd1OXNsemlMQzJ1YUMwYjJKbF9fUkpLX3p6cmkxdVdKRGNjQnQyRmNZQ2RhWjZMRkRLUnY1R0NTX1VUU05UR2Z3UlZvWnpBdTQwN2JvUQ?oc=5",
+      "source_name": "Google News RSS: Fagerhult",
+      "category": "Other",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-15"
     },
     {
       "id": "d371ba2123f580f1",
