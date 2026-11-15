@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T09:14:11+00:00",
+  "generated_at": "2026-11-15T09:14:40+00:00",
   "feed_type": "public_research_discovery",
   "note": "Automatically discovered public headlines. Every record requires source and claim verification.",
   "source_status": [
@@ -12,7 +12,7 @@
     {
       "competitor": "Fagerhult",
       "status": "ok",
-      "items_discovered": 7
+      "items_discovered": 8
     },
     {
       "competitor": "Zumtobel",
@@ -36,8 +36,8 @@
     }
   ],
   "counts": {
-    "found": 21,
-    "added": 0,
+    "found": 22,
+    "added": 1,
     "retained": 23,
     "failures": 0
   },
@@ -329,6 +329,22 @@
       "verification": "needs_review",
       "brand_match": true,
       "collected_at": "2026-11-14"
+    },
+    {
+      "id": "6b7ff59bf91b8184",
+      "competitor": "Fagerhult",
+      "headline": "FAG: Smart lighting innovation meets near-term earnings pressure and ambitious climate targets - TradingView",
+      "summary": "FAG: Smart lighting innovation meets near-term earnings pressure and ambitious climate targets TradingView",
+      "published_at": "2026-09-28",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOLTBNaG9POXZsekRqaGVRY1Y4akNBa3NIeE8yX1FOYS1MOHY5RUlLeGc0dEF3dU01X0ZZLUpVYmFobGRiTUdBc1JKbnZ6MDB3ZnlpcXF0LTczd1VlVkEzN0tnUHp5eFhtRnprTHRYMS0tQzJTMm5UVmNjaThvTXJjMHd1SEZ4dWNyckY1WFV6MjJvUWhNeDFaMHlLZmZzajVma21zLWVzSEFhM1F4TVZxcFhGS1h3OUZQcXluRWEzT1JvRzdRWUFDTkk2Vk5tSFdHX211VUxrQmhtWGI3T05BYVh0SjlmOXhVa2tLWVpwc2dSTGF3d200Q0Nld0ZrY1kyS2R5cW1ZQQ?oc=5",
+      "source_name": "Google News RSS: Fagerhult",
+      "category": "Products",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-15"
     },
     {
       "id": "b3d1e8134e7e2a0f",
