@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T12:36:33.560367+00:00",
+  "generated_at": "2026-11-15T12:40:14.658508+00:00",
   "description": "Direct links discovered on official public news, event and press pages. First-seen date is when this system noticed a link, NOT a publication or event date. New links may be older publications. Nothing here is an AI-generated finding.",
   "counts": {
     "checked_sources": 9,
     "unavailable_sources": 0,
-    "newly_seen": 0,
-    "total_retained": 60
+    "newly_seen": 2,
+    "total_retained": 58
   },
   "source_status": [
     {
@@ -14,7 +14,7 @@
       "name": "iGuzzini news and events",
       "url": "https://www.iguzzini.com/en/",
       "status": "ok",
-      "items_found": 17
+      "items_found": 16
     },
     {
       "brand": "ERCO",
@@ -42,7 +42,7 @@
       "name": "XAL company news",
       "url": "https://www.xal.com/en/company/news",
       "status": "ok",
-      "items_found": 5
+      "items_found": 4
     },
     {
       "brand": "TRILUX",
@@ -183,24 +183,6 @@
       "date_type": "first_seen",
       "review_status": "editorially_checked",
       "origin": "editorial_seed"
-    },
-    {
-      "id": "bb10d571ce2393356bb5",
-      "brand": "iGuzzini",
-      "title": "iGuzzini at LiGHT25",
-      "summary": "",
-      "category": "Content",
-      "categories": [
-        "Content"
-      ],
-      "source_url": "https://www.iguzzini.com/en/news--events/light25-london/",
-      "source_name": "iGuzzini news and events",
-      "source_type": "official_website",
-      "scope": "Global / UK when identified",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
     },
     {
       "id": "editorial-002",
@@ -659,24 +641,6 @@
       "review_status": "source_discovery"
     },
     {
-      "id": "94f62d54e31984b8b429",
-      "brand": "XAL",
-      "title": "Patent proceedings in Europe",
-      "summary": "",
-      "category": "Content",
-      "categories": [
-        "Content"
-      ],
-      "source_url": "https://www.xal.com/en/company/news/patent-move-it-pro",
-      "source_name": "XAL company news",
-      "source_type": "official_website",
-      "scope": "Global",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
       "id": "f86808d0a5a3ea0275f0",
       "brand": "XAL",
       "title": "News 26 | Catalogue for download",
@@ -800,8 +764,8 @@
       "source_type": "official_website",
       "scope": "UK website",
       "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
+      "published_at": "2026-03-19",
+      "date_type": "published",
       "review_status": "source_discovery"
     },
     {
@@ -874,26 +838,8 @@
       "source_type": "official_website",
       "scope": "UK website",
       "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
-      "id": "fa882e607b67b2e2b3fa",
-      "brand": "Fagerhult",
-      "title": "Top stories Lighting the Night Responsibly: Protecting Our Night Skies",
-      "summary": "",
-      "category": "Content",
-      "categories": [
-        "Content"
-      ],
-      "source_url": "https://www.fagerhult.com/en-GB/news/2026/lighting-the-night-responsibly-protecting-our-night-skies/",
-      "source_name": "Fagerhult UK news",
-      "source_type": "official_website",
-      "scope": "UK website",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
+      "published_at": "2026-07-23",
+      "date_type": "published",
       "review_status": "source_discovery"
     },
     {
@@ -910,8 +856,8 @@
       "source_type": "official_website",
       "scope": "UK website",
       "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
+      "published_at": "2026-08-18",
+      "date_type": "published",
       "review_status": "source_discovery"
     },
     {
@@ -928,8 +874,8 @@
       "source_type": "official_website",
       "scope": "UK website",
       "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
+      "published_at": "2026-10-28",
+      "date_type": "published",
       "review_status": "source_discovery"
     },
     {
@@ -952,6 +898,24 @@
       "origin": "editorial_seed"
     },
     {
+      "id": "fa882e607b67b2e2b3fa",
+      "brand": "Fagerhult",
+      "title": "Lighting the Night Responsibly: Protecting Our Night Skies",
+      "summary": "",
+      "category": "Content",
+      "categories": [
+        "Content"
+      ],
+      "source_url": "https://www.fagerhult.com/en-GB/news/2026/lighting-the-night-responsibly-protecting-our-night-skies/",
+      "source_name": "Fagerhult UK news",
+      "source_type": "official_website",
+      "scope": "UK website",
+      "first_seen": "2026-11-15",
+      "published_at": "2026-11-05",
+      "date_type": "published",
+      "review_status": "source_discovery"
+    },
+    {
       "id": "3368e6cd4c1cc12bba46",
       "brand": "Fagerhult",
       "title": "Lighting for Cognitive Load in Education",
@@ -965,8 +929,8 @@
       "source_type": "official_website",
       "scope": "UK website",
       "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
+      "published_at": "2026-09-22",
+      "date_type": "published",
       "review_status": "source_discovery"
     },
     {
