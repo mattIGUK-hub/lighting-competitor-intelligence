@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T12:29:37.636526+00:00",
+  "generated_at": "2026-11-15T12:30:34.369136+00:00",
   "method": "Selected public server-HTML text only, checked daily; changes are unreviewed signals. Social networks excluded. Some sites block automated reading or rely on JavaScript.",
   "counts": {
     "checked": 14,
     "unavailable": 9,
-    "changed": 2,
+    "changed": 0,
     "new_baselines": 0
   },
   "sources": [
@@ -159,7 +159,7 @@
         "Branding"
       ],
       "status": "ok",
-      "changed_in_latest_scan": true,
+      "changed_in_latest_scan": false,
       "baseline": false,
       "digest": "455f85031a61c392a0e3a6dd5a36941fd3f70d1c5d09163f0eb72ebfe32f1c0b",
       "characters": 2353,
@@ -322,7 +322,7 @@
         "Events"
       ],
       "status": "ok",
-      "changed_in_latest_scan": true,
+      "changed_in_latest_scan": false,
       "baseline": false,
       "digest": "fae12a0fded104d5fa8fc3c679e0af5b0a270052c845a8926302cb47009ceef9",
       "characters": 1006,
