@@ -112,6 +112,19 @@ def clean_title(title):
     return title.strip(" .|-")[:160]
 
 
+def listing_publication_date(label):
+    # Dates on official listing cards, not dates guessed from URL paths.
+    pattern = r"\b(\d{1,2})[.\s]+(January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[.,\s]+(20\d{2})\b"
+    match = re.search(pattern, label, re.I)
+    if not match:
+        return None
+    months = dict(jan=1,feb=2,mar=3,apr=4,may=5,jun=6,jul=7,aug=8,sep=9,oct=10,nov=11,dec=12)
+    try:
+        return datetime(int(match[3]), months[match[2][:3].lower()], int(match[1])).date().isoformat()
+    except (ValueError, TypeError):
+        return None
+
+
 def matching_title_and_url(title, link):
     # Avoid headline/link mismatches caused by nested anchors or site menus.
     slug = unquote(urlsplit(link).path).strip("/").split("/")[-1]
@@ -161,8 +174,8 @@ def extract(page, source, day):
             "source_type": "official_website",
             "scope": "UK mentioned" if UK.search(title) else source["scope"],
             "first_seen": day,
-            "published_at": None,
-            "date_type": "first_seen",
+            "published_at": listing_publication_date(label),
+            "date_type": "published" if listing_publication_date(label) else "first_seen",
             "review_status": "source_discovery",
         }
         old = best.get(key)
@@ -222,6 +235,9 @@ def main():
                 previous["categories"] = item["categories"]
                 previous["category"] = item["category"]
                 previous["scope"] = item["scope"]
+                if item.get("published_at") and not previous.get("published_at"):
+                    previous["published_at"] = item["published_at"]
+                    previous["date_type"] = "published"
     # Preserve history for 180 days, even when a source temporarily fails.
     cutoff = (datetime.now(timezone.utc).date() - timedelta(days=180)).isoformat()
     kept = [r for r in old.values() if r.get("first_seen", "") >= cutoff and not re.search(r"\b(patent proceedings|light25|light 25)\b", r.get("title", ""), re.I) and (r.get("origin") == "editorial_seed" or matching_title_and_url(r.get("title",""), r.get("source_url","")))]
