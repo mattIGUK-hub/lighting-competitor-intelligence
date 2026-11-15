@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T08:18:06+00:00",
+  "generated_at": "2026-11-15T09:13:33+00:00",
   "feed_type": "public_research_discovery",
   "note": "Automatically discovered public headlines. Every record requires source and claim verification.",
   "source_status": [
@@ -37,8 +37,8 @@
   ],
   "counts": {
     "found": 21,
-    "added": 2,
-    "retained": 20,
+    "added": 1,
+    "retained": 22,
     "failures": 0
   },
   "records": [
@@ -169,6 +169,22 @@
       "verification": "needs_review",
       "brand_match": true,
       "collected_at": "2026-11-14"
+    },
+    {
+      "id": "459b84bb0f85b5b6",
+      "competitor": "Zumtobel",
+      "headline": "Vertiv completes $1.45bn acquisition of microgrid firm UtilityInnovation Group - Data Centre Solutions",
+      "summary": "Vertiv completes $1.45bn acquisition of microgrid firm UtilityInnovation Group Data Centre Solutions",
+      "published_at": "2026-11-10",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNl9nZldZTEZmVFhYRTBWMlVvTTZoVWxlNjBZemp2WmpyQjdQV09jcnptLTVZTi1FWGozX2JWanN2SnNBV2xxMVV2Q3pjcG5DRDZGcWRXSkFLbEx2T1o4TjNwMUdkTjhod1NNdjF4LUZITEgxN2sycmo5ZlNTUG90Zkx2MFByUVpMM25zYzRNLU1hc2pOQll6ODdNaXZiWUdyckNiMmdJbmNIRU9OQ3hmNUVvMWdRcDdMa1ZYQWtZakNrdXdv?oc=5",
+      "source_name": "Google News RSS: Zumtobel",
+      "category": "Products",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-15"
     },
     {
       "id": "6edfd982588e035b",
