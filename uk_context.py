@@ -123,7 +123,7 @@ def uk_activity_evidence(html, title, source_url, checked_at):
             # If headline unambiguously identifies an overseas event, a
             # UK office mention elsewhere must not reassign its geography.
             if foreign_title and not re.search(
-                r"\b(?:also|and|plus|both|subsequently|additionally|UK leg|UK event)\b", block, re.I
+                r"\b(?:UK (?:leg|event|edition|tour|launch)|London (?:edition|event|launch)|(?:separate|second|further) (?:event|launch|exhibition) in (?:the UK|London)|also took place in (?:the UK|London))\b", block, re.I
             ):
                 continue
             start=max(0,m.start()-100)
