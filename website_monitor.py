@@ -12,6 +12,7 @@ import json
 import re
 from datetime import datetime, timezone
 from html.parser import HTMLParser
+from html import unescape
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
@@ -56,6 +57,29 @@ def normalized_text(html):
     return re.sub(r"\s+", " ", " ".join(use)).strip()[:120000]
 
 
+def readable_blocks(html_body):
+    """Short visible heading/paragraph fragments for explaining detected changes."""
+    matches = re.findall(
+        r'<(?:h[1-4]|p)\b[^>]*>(.*?)</(?:h[1-4]|p)>',
+        html_body, flags=re.I | re.S,
+    )
+    blocks = []
+    seen = set()
+    for section in matches[:350]:
+        clean = " ".join(unescape(re.sub(r"<[^>]*>", " ", section)).split())
+        if not 48 <= len(clean) <= 550:
+            continue
+        if re.search(r"^(?:cookie|privacy|accept all|newsletter signup|contact us)\b", clean, re.I):
+            continue
+        digest = hashlib.sha256(clean.casefold().encode("utf-8")).hexdigest()[:16]
+        if digest not in seen:
+            seen.add(digest)
+            blocks.append((digest, clean))
+        if len(blocks) >= 150:
+            break
+    return blocks
+
+
 def check_one(source, previous):
     row = {field: source[field] for field in ("id", "brand", "url", "categories")}
     row.update(status="error", changed_in_latest_scan=False, baseline=False)
@@ -78,9 +102,14 @@ def check_one(source, previous):
         if len(text) < 130:
             raise ValueError("Too little readable server HTML to compare")
         digest = hashlib.sha256(text.encode("utf-8")).hexdigest()
+        blocks = readable_blocks(body)
+        old_blocks = set(previous.get("block_hashes") or [])
         old_digest = previous.get("digest")
         changed = bool(old_digest and digest != old_digest)
+        new_fragments = [value for key, value in blocks if key not in old_blocks] if old_blocks and changed else []
+        snippets = [" ".join(value.split()[:18]) for value in new_fragments[:3]]
         row.update(status="ok", digest=digest, characters=len(text),
+                   block_hashes=[key for key, _ in blocks], change_snippets=snippets,
                    baseline=not bool(old_digest),
                    changed_in_latest_scan=changed,
                    last_changed_at=(
