@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T12:32:53.991416+00:00",
+  "generated_at": "2026-11-15T12:36:33.560367+00:00",
   "description": "Direct links discovered on official public news, event and press pages. First-seen date is when this system noticed a link, NOT a publication or event date. New links may be older publications. Nothing here is an AI-generated finding.",
   "counts": {
     "checked_sources": 9,
     "unavailable_sources": 0,
-    "newly_seen": 67,
-    "total_retained": 82
+    "newly_seen": 0,
+    "total_retained": 60
   },
   "source_status": [
     {
@@ -14,14 +14,14 @@
       "name": "iGuzzini news and events",
       "url": "https://www.iguzzini.com/en/",
       "status": "ok",
-      "items_found": 21
+      "items_found": 17
     },
     {
       "brand": "ERCO",
       "name": "ERCO official press office",
       "url": "https://press.erco.com/en",
       "status": "ok",
-      "items_found": 4
+      "items_found": 2
     },
     {
       "brand": "Fagerhult",
@@ -35,28 +35,28 @@
       "name": "Zumtobel UK news and events",
       "url": "https://www.zumtobel.co.uk/en-gb/news-events",
       "status": "ok",
-      "items_found": 16
+      "items_found": 14
     },
     {
       "brand": "XAL",
       "name": "XAL company news",
       "url": "https://www.xal.com/en/company/news",
       "status": "ok",
-      "items_found": 10
+      "items_found": 5
     },
     {
       "brand": "TRILUX",
       "name": "TRILUX UK press",
       "url": "https://www.trilux.com/gb/company/trilux/press/",
       "status": "ok",
-      "items_found": 3
+      "items_found": 2
     },
     {
       "brand": "Delta Light",
       "name": "Delta Light news",
       "url": "https://deltalight.com/en/more-inspiration/news",
       "status": "ok",
-      "items_found": 6
+      "items_found": 2
     },
     {
       "brand": "Delta Light",
@@ -70,7 +70,7 @@
       "name": "Delta Light UK homepage",
       "url": "https://deltalight.com/en-gb",
       "status": "ok",
-      "items_found": 1
+      "items_found": 0
     }
   ],
   "records": [
@@ -84,24 +84,6 @@
         "Content"
       ],
       "source_url": "https://www.iguzzini.com/en/news--events/iguzzini-wins-the-compasso-d-oro-international-with-agora/",
-      "source_name": "iGuzzini news and events",
-      "source_type": "official_website",
-      "scope": "Global / UK when identified",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
-      "id": "b272e0dc8c60047ebea3",
-      "brand": "iGuzzini",
-      "title": "iGuzzini supports the 70th National Congress of Engineers",
-      "summary": "",
-      "category": "Content",
-      "categories": [
-        "Content"
-      ],
-      "source_url": "https://www.iguzzini.com/en/news--events/iguzzini-at-light-26/",
       "source_name": "iGuzzini news and events",
       "source_type": "official_website",
       "scope": "Global / UK when identified",
@@ -214,25 +196,6 @@
       "source_url": "https://www.iguzzini.com/en/news--events/light25-london/",
       "source_name": "iGuzzini news and events",
       "source_type": "official_website",
-      "scope": "UK mentioned",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
-      "id": "ff1592853bc67ed82ff2",
-      "brand": "iGuzzini",
-      "title": "iGuzzini at Dubai Design Week 2025",
-      "summary": "",
-      "category": "Events",
-      "categories": [
-        "Events",
-        "Messaging"
-      ],
-      "source_url": "https://www.iguzzini.com/en/news--events/event-at-dubai-design-week-2025/",
-      "source_name": "iGuzzini news and events",
-      "source_type": "official_website",
       "scope": "Global / UK when identified",
       "first_seen": "2026-11-15",
       "published_at": null,
@@ -259,24 +222,6 @@
       "origin": "editorial_seed"
     },
     {
-      "id": "db819304a23be489ee66",
-      "brand": "iGuzzini",
-      "title": "iGuzzini at ARCHITECT@WORK 2026",
-      "summary": "",
-      "category": "Events",
-      "categories": [
-        "Events"
-      ],
-      "source_url": "https://www.iguzzini.com/en/news--events/iguzzini-at-architecht-at-work-20262/",
-      "source_name": "iGuzzini news and events",
-      "source_type": "official_website",
-      "scope": "Global / UK when identified",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
       "id": "24734a9353e82d3c47d0",
       "brand": "iGuzzini",
       "title": "Ribeira wins the iF DESIGN AWARD 2026",
@@ -286,24 +231,6 @@
         "Messaging"
       ],
       "source_url": "https://www.iguzzini.com/en/news--events/ribeira-wins-the-if-design-award-2026/",
-      "source_name": "iGuzzini news and events",
-      "source_type": "official_website",
-      "scope": "Global / UK when identified",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
-      "id": "5c17c03245586724110d",
-      "brand": "iGuzzini",
-      "title": "Ribeira wins the Red Dot: Best of the Best 2026​",
-      "summary": "",
-      "category": "Content",
-      "categories": [
-        "Content"
-      ],
-      "source_url": "https://www.iguzzini.com/en/news--events/red-dot-2026-ribeira2/",
       "source_name": "iGuzzini news and events",
       "source_type": "official_website",
       "scope": "Global / UK when identified",
@@ -423,43 +350,6 @@
       "review_status": "source_discovery"
     },
     {
-      "id": "ffba2d45aa6e79071878",
-      "brand": "iGuzzini",
-      "title": "Conference: “Architecture and the Culture of Light: public lighting, light, and urban space”",
-      "summary": "",
-      "category": "Events",
-      "categories": [
-        "Events",
-        "Content"
-      ],
-      "source_url": "https://www.iguzzini.com/en/news--events/convegno-architettura-e-cultura-della-luce/",
-      "source_name": "iGuzzini news and events",
-      "source_type": "official_website",
-      "scope": "Global / UK when identified",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
-      "id": "da9084164b99baf5e348",
-      "brand": "iGuzzini",
-      "title": "Agorà, winner of the 2025 International Compasso d’Oro, takes center stage in Milan",
-      "summary": "",
-      "category": "Content",
-      "categories": [
-        "Content"
-      ],
-      "source_url": "https://www.iguzzini.com/en/news--events/agora-di-iguzzini-al-compasso-d%E2%80%99oro-international-2025-a-milano/",
-      "source_name": "iGuzzini news and events",
-      "source_type": "official_website",
-      "scope": "Global / UK when identified",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
       "id": "d051c103e25569828239",
       "brand": "iGuzzini",
       "title": "A unique experience at the brand-new iGuzzini Showroom",
@@ -497,6 +387,43 @@
       "review_status": "source_discovery"
     },
     {
+      "id": "6c93cc8165e51663f50e",
+      "brand": "Zumtobel",
+      "title": "Zumtobel supports compliance with the EU Buildings Directive (EPBD)",
+      "summary": "",
+      "category": "Content",
+      "categories": [
+        "Content"
+      ],
+      "source_url": "https://www.zumtobel.co.uk/en-gb/news-events/zumtobel-supports-compliance-with-the-eu-buildings-directive",
+      "source_name": "Zumtobel UK news and events",
+      "source_type": "official_website",
+      "scope": "UK website",
+      "first_seen": "2026-11-15",
+      "published_at": null,
+      "date_type": "first_seen",
+      "review_status": "source_discovery"
+    },
+    {
+      "id": "912f9e5df344d5044767",
+      "brand": "Zumtobel",
+      "title": "Zumtobel at EuroShop 2026: “New Retail” Combines Contextual Intelligence and Customer Experience",
+      "summary": "",
+      "category": "Events",
+      "categories": [
+        "Events",
+        "Messaging"
+      ],
+      "source_url": "https://www.zumtobel.co.uk/en-gb/news-events/zumtobel-at-euroshop",
+      "source_name": "Zumtobel UK news and events",
+      "source_type": "official_website",
+      "scope": "UK website",
+      "first_seen": "2026-11-15",
+      "published_at": null,
+      "date_type": "first_seen",
+      "review_status": "source_discovery"
+    },
+    {
       "id": "editorial-008",
       "brand": "Zumtobel",
       "title": "Zumtobel and Impact Acoustic announce partnership",
@@ -516,46 +443,9 @@
       "origin": "editorial_seed"
     },
     {
-      "id": "6c93cc8165e51663f50e",
-      "brand": "Zumtobel",
-      "title": "Press Release Zumtobel supports compliance with the EU Buildings Directive (EPBD) Read More",
-      "summary": "",
-      "category": "Content",
-      "categories": [
-        "Content"
-      ],
-      "source_url": "https://www.zumtobel.co.uk/en-gb/news-events/zumtobel-supports-compliance-with-the-eu-buildings-directive",
-      "source_name": "Zumtobel UK news and events",
-      "source_type": "official_website",
-      "scope": "UK mentioned",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
-      "id": "912f9e5df344d5044767",
-      "brand": "Zumtobel",
-      "title": "Press Release Zumtobel at EuroShop 2026: “New Retail” Combines Contextual Intelligence and Customer Experience Read More",
-      "summary": "",
-      "category": "Events",
-      "categories": [
-        "Events",
-        "Messaging"
-      ],
-      "source_url": "https://www.zumtobel.co.uk/en-gb/news-events/zumtobel-at-euroshop",
-      "source_name": "Zumtobel UK news and events",
-      "source_type": "official_website",
-      "scope": "UK mentioned",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
       "id": "ecf83081b1fc839c877e",
       "brand": "Zumtobel",
-      "title": "Press Release Zumtobel and Impact Acoustic Partner Improve Quality of Life in Enclosed Spaces Read More",
+      "title": "Zumtobel and Impact Acoustic Partner Improve Quality of Life in Enclosed Spaces",
       "summary": "",
       "category": "Messaging",
       "categories": [
@@ -564,7 +454,7 @@
       "source_url": "https://www.zumtobel.co.uk/en-gb/news-events/impact-acoustic-partnership-new",
       "source_name": "Zumtobel UK news and events",
       "source_type": "official_website",
-      "scope": "UK mentioned",
+      "scope": "UK website",
       "first_seen": "2026-11-15",
       "published_at": null,
       "date_type": "first_seen",
@@ -573,7 +463,7 @@
     {
       "id": "7e53de4503eedbe9c432",
       "brand": "Zumtobel",
-      "title": "Press Release Zumtobel Receives EcoVadis Gold Rating Read More",
+      "title": "Zumtobel Receives EcoVadis Gold Rating",
       "summary": "",
       "category": "Content",
       "categories": [
@@ -582,7 +472,7 @@
       "source_url": "https://www.zumtobel.co.uk/en-gb/news-events/ecovadis-gold",
       "source_name": "Zumtobel UK news and events",
       "source_type": "official_website",
-      "scope": "UK mentioned",
+      "scope": "UK website",
       "first_seen": "2026-11-15",
       "published_at": null,
       "date_type": "first_seen",
@@ -591,7 +481,7 @@
     {
       "id": "cdc55794f0b0df5a7870",
       "brand": "Zumtobel",
-      "title": "Press Release The Necropolis under St. Peter's Basilica shines in a new light. Zumtobel implements the lighting concept Read More",
+      "title": "The Necropolis under St. Peter's Basilica shines in a new light. Zumtobel implements the lighting concept",
       "summary": "",
       "category": "Messaging",
       "categories": [
@@ -600,7 +490,7 @@
       "source_url": "https://www.zumtobel.co.uk/en-gb/news-events/pr-vatican-necropolis",
       "source_name": "Zumtobel UK news and events",
       "source_type": "official_website",
-      "scope": "UK mentioned",
+      "scope": "UK website",
       "first_seen": "2026-11-15",
       "published_at": null,
       "date_type": "first_seen",
@@ -609,7 +499,7 @@
     {
       "id": "f567a6b7734c066642c0",
       "brand": "Zumtobel",
-      "title": "Press Release Red Dot Award for THE EDITIONS Read More",
+      "title": "Red Dot Award for THE EDITIONS",
       "summary": "",
       "category": "Messaging",
       "categories": [
@@ -618,7 +508,7 @@
       "source_url": "https://www.zumtobel.co.uk/en-gb/news-events/red-dot-editions",
       "source_name": "Zumtobel UK news and events",
       "source_type": "official_website",
-      "scope": "UK mentioned",
+      "scope": "UK website",
       "first_seen": "2026-11-15",
       "published_at": null,
       "date_type": "first_seen",
@@ -627,7 +517,7 @@
     {
       "id": "2fb1f5e8373790c5ff9e",
       "brand": "Zumtobel",
-      "title": "Press Release Porsche TVZ: Lighting for delivery quality at the highest level Read More",
+      "title": "Porsche TVZ: Lighting for delivery quality at the highest level",
       "summary": "",
       "category": "Content",
       "categories": [
@@ -636,7 +526,7 @@
       "source_url": "https://www.zumtobel.co.uk/en-gb/news-events/pr-porsche-parts-distribution-centre-tvz-",
       "source_name": "Zumtobel UK news and events",
       "source_type": "official_website",
-      "scope": "UK mentioned",
+      "scope": "UK website",
       "first_seen": "2026-11-15",
       "published_at": null,
       "date_type": "first_seen",
@@ -645,7 +535,7 @@
     {
       "id": "43ac71356a080f704679",
       "brand": "Zumtobel",
-      "title": "Press Release Orelli Hall: Contemporary lighting design meets Baroque Read More",
+      "title": "Orelli Hall: Contemporary lighting design meets Baroque",
       "summary": "",
       "category": "Messaging",
       "categories": [
@@ -654,7 +544,7 @@
       "source_url": "https://www.zumtobel.co.uk/en-gb/news-events/orelli-hall",
       "source_name": "Zumtobel UK news and events",
       "source_type": "official_website",
-      "scope": "UK mentioned",
+      "scope": "UK website",
       "first_seen": "2026-11-15",
       "published_at": null,
       "date_type": "first_seen",
@@ -663,7 +553,7 @@
     {
       "id": "4651dd9c141e97bd78e4",
       "brand": "Zumtobel",
-      "title": "Press Release ORGATEC 2026: One Workspace, Many Possibilities Read More",
+      "title": "ORGATEC 2026: One Workspace, Many Possibilities",
       "summary": "",
       "category": "Events",
       "categories": [
@@ -672,7 +562,7 @@
       "source_url": "https://www.zumtobel.co.uk/en-gb/news-events/pr-orgatec-2026",
       "source_name": "Zumtobel UK news and events",
       "source_type": "official_website",
-      "scope": "UK mentioned",
+      "scope": "UK website",
       "first_seen": "2026-11-15",
       "published_at": null,
       "date_type": "first_seen",
@@ -681,7 +571,7 @@
     {
       "id": "9476bbbb2c5a1fcec55f",
       "brand": "Zumtobel",
-      "title": "Press Release MUTEC 2026: Light as a precision tool and world premiere for IDIA Read More",
+      "title": "MUTEC 2026: Light as a precision tool and world premiere for IDIA",
       "summary": "",
       "category": "Content",
       "categories": [
@@ -690,25 +580,7 @@
       "source_url": "https://www.zumtobel.co.uk/en-gb/news-events/pr-mutec-2026",
       "source_name": "Zumtobel UK news and events",
       "source_type": "official_website",
-      "scope": "UK mentioned",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
-      "id": "cc494931596f07700976",
-      "brand": "Zumtobel",
-      "title": "Press Release Light. Built In. Felt Everywhere. Zumtobel Expands Its Application Portfolio Read More",
-      "summary": "",
-      "category": "Content",
-      "categories": [
-        "Content"
-      ],
-      "source_url": "https://www.zumtobel.co.uk/en-gb/news-events/light-as-infrastructure-and-experience",
-      "source_name": "Zumtobel UK news and events",
-      "source_type": "official_website",
-      "scope": "UK mentioned",
+      "scope": "UK website",
       "first_seen": "2026-11-15",
       "published_at": null,
       "date_type": "first_seen",
@@ -717,7 +589,7 @@
     {
       "id": "3f8fc8fa2bcd229b0e22",
       "brand": "Zumtobel",
-      "title": "Press Release Light for the “Haus zum Falken” Read More",
+      "title": "Light for the “Haus zum Falken”",
       "summary": "",
       "category": "Content",
       "categories": [
@@ -726,53 +598,16 @@
       "source_url": "https://www.zumtobel.co.uk/en-gb/news-events/pr-haus-zum-falken",
       "source_name": "Zumtobel UK news and events",
       "source_type": "official_website",
-      "scope": "UK mentioned",
+      "scope": "UK website",
       "first_seen": "2026-11-15",
       "published_at": null,
       "date_type": "first_seen",
       "review_status": "source_discovery"
-    },
-    {
-      "id": "7343de8836954e4aa286",
-      "brand": "Zumtobel",
-      "title": "Press Release Light + Building Highlights Read More",
-      "summary": "",
-      "category": "Content",
-      "categories": [
-        "Content"
-      ],
-      "source_url": "https://www.zumtobel.co.uk/en-gb/news-events/highlightlightandbuilding",
-      "source_name": "Zumtobel UK news and events",
-      "source_type": "official_website",
-      "scope": "UK mentioned",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
-      "id": "editorial-007",
-      "brand": "Zumtobel",
-      "title": "ORGATEC 2026: One Workspace, Many Possibilities",
-      "summary": "",
-      "category": "Events",
-      "categories": [
-        "Events"
-      ],
-      "source_url": "https://www.zumtobel.co.uk/en-gb/news-events",
-      "source_name": "Official Zumtobel website",
-      "source_type": "official_website",
-      "scope": "Global",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "editorially_checked",
-      "origin": "editorial_seed"
     },
     {
       "id": "521c69caf2b4a8a0e351",
       "brand": "Zumtobel",
-      "title": "27/10/2026 - 30/10/2026 Cologne, Germany Orgatec Read More",
+      "title": "27/10/2026 - 30/10/2026 Cologne, Germany Orgatec",
       "summary": "",
       "category": "Events",
       "categories": [
@@ -781,7 +616,7 @@
       "source_url": "https://www.zumtobel.co.uk/en-gb/news-events/orgatec",
       "source_name": "Zumtobel UK news and events",
       "source_type": "official_website",
-      "scope": "UK mentioned",
+      "scope": "UK website",
       "first_seen": "2026-11-15",
       "published_at": null,
       "date_type": "first_seen",
@@ -790,7 +625,7 @@
     {
       "id": "1207f0aca32f49e7aee4",
       "brand": "Zumtobel",
-      "title": "17/06/2026 - 19/06/2026 Paris, France IALD 2026 Read More",
+      "title": "17/06/2026 - 19/06/2026 Paris, France IALD 2026",
       "summary": "",
       "category": "Content",
       "categories": [
@@ -799,7 +634,7 @@
       "source_url": "https://www.zumtobel.co.uk/en-gb/news-events/iald-2026",
       "source_name": "Zumtobel UK news and events",
       "source_type": "official_website",
-      "scope": "UK mentioned",
+      "scope": "UK website",
       "first_seen": "2026-11-15",
       "published_at": null,
       "date_type": "first_seen",
@@ -808,7 +643,7 @@
     {
       "id": "b986384d6187842e1220",
       "brand": "Zumtobel",
-      "title": "05/11/2026 - 06/11/2026 Leipzig, Germany MUTEC 2026 Read More",
+      "title": "05/11/2026 - 06/11/2026 Leipzig, Germany MUTEC 2026",
       "summary": "",
       "category": "Content",
       "categories": [
@@ -817,27 +652,7 @@
       "source_url": "https://www.zumtobel.co.uk/en-gb/news-events/mutec-2026",
       "source_name": "Zumtobel UK news and events",
       "source_type": "official_website",
-      "scope": "UK mentioned",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
-      "id": "ffdf7c1c5fc5e8496d17",
-      "brand": "XAL",
-      "title": "Winner at the World Architecture Festival",
-      "summary": "",
-      "category": "Events",
-      "categories": [
-        "Events",
-        "Content",
-        "Messaging"
-      ],
-      "source_url": "https://www.xal.com/en/company/news/waf-award-2025",
-      "source_name": "XAL company news",
-      "source_type": "official_website",
-      "scope": "Global",
+      "scope": "UK website",
       "first_seen": "2026-11-15",
       "published_at": null,
       "date_type": "first_seen",
@@ -898,24 +713,6 @@
       "review_status": "source_discovery"
     },
     {
-      "id": "04f615613395b6fe14a4",
-      "brand": "XAL",
-      "title": "Leading Employer 2025",
-      "summary": "",
-      "category": "Content",
-      "categories": [
-        "Content"
-      ],
-      "source_url": "https://www.xal.com/en/company/news/leading-employer-2025",
-      "source_name": "XAL company news",
-      "source_type": "official_website",
-      "scope": "Global",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
       "id": "editorial-009",
       "brand": "XAL",
       "title": "KLANGLICHT 2026: XAL-sponsored immersive installation",
@@ -953,24 +750,6 @@
       "review_status": "source_discovery"
     },
     {
-      "id": "97bc72d2c5fd267fe21f",
-      "brand": "XAL",
-      "title": "Fit for Future 2024",
-      "summary": "",
-      "category": "Messaging",
-      "categories": [
-        "Messaging"
-      ],
-      "source_url": "https://www.xal.com/en/company/news/national%20award",
-      "source_name": "XAL company news",
-      "source_type": "official_website",
-      "scope": "Global",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
       "id": "d49589f5531586577e6c",
       "brand": "XAL",
       "title": "ENVIVA suspended is Cradle to Cradle Certified®",
@@ -980,61 +759,6 @@
         "Messaging"
       ],
       "source_url": "https://www.xal.com/en/company/news/enviva-c2c",
-      "source_name": "XAL company news",
-      "source_type": "official_website",
-      "scope": "Global",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
-      "id": "editorial-010",
-      "brand": "XAL",
-      "title": "ENVIVA receives Cradle to Cradle certification",
-      "summary": "",
-      "category": "Messaging",
-      "categories": [
-        "Messaging"
-      ],
-      "source_url": "https://www.xal.com/en/company/news",
-      "source_name": "Official XAL website",
-      "source_type": "official_website",
-      "scope": "Global",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "editorially_checked",
-      "origin": "editorial_seed"
-    },
-    {
-      "id": "dae919f281a7a8e00eb4",
-      "brand": "XAL",
-      "title": "Design Awards Winner 2026",
-      "summary": "",
-      "category": "Messaging",
-      "categories": [
-        "Messaging"
-      ],
-      "source_url": "https://www.xal.com/en/company/news/award-winners-2026",
-      "source_name": "XAL company news",
-      "source_type": "official_website",
-      "scope": "Global",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
-      "id": "7311cfd1afaba49d79d5",
-      "brand": "XAL",
-      "title": "Award Winners 2025",
-      "summary": "",
-      "category": "Messaging",
-      "categories": [
-        "Messaging"
-      ],
-      "source_url": "https://www.xal.com/en/company/news/award-winner-2025",
       "source_name": "XAL company news",
       "source_type": "official_website",
       "scope": "Global",
@@ -1061,6 +785,24 @@
       "date_type": "published",
       "review_status": "editorially_checked",
       "origin": "editorial_seed"
+    },
+    {
+      "id": "49b5773f484424ad9e09",
+      "brand": "TRILUX",
+      "title": "TRILUX trade fair review - Light + Build­ing 2026",
+      "summary": "",
+      "category": "Content",
+      "categories": [
+        "Content"
+      ],
+      "source_url": "https://www.trilux.com/gb/company/trilux/press/trade-fair-review-light-building-2026",
+      "source_name": "TRILUX UK press",
+      "source_type": "official_website",
+      "scope": "UK website",
+      "first_seen": "2026-11-15",
+      "published_at": null,
+      "date_type": "first_seen",
+      "review_status": "source_discovery"
     },
     {
       "id": "editorial-012",
@@ -1119,31 +861,12 @@
       "review_status": "source_discovery"
     },
     {
-      "id": "49b5773f484424ad9e09",
-      "brand": "TRILUX",
-      "title": "Insights TRILUX trade fair review - Light + Build­ing 2026 19. March 2026 At Light + Building 2026, TRILUX showed how light shapes spaces and supports people in",
-      "summary": "",
-      "category": "Content",
-      "categories": [
-        "Content"
-      ],
-      "source_url": "https://www.trilux.com/gb/company/trilux/press/trade-fair-review-light-building-2026",
-      "source_name": "TRILUX UK press",
-      "source_type": "official_website",
-      "scope": "UK website",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
       "id": "2e523c145a8f37dceb4e",
       "brand": "TRILUX",
-      "title": "Insights A new ad­di­tion to the TRILUX Lenty family 23. July 2026 New spotlight models available now",
+      "title": "A new ad­di­tion to the TRILUX Lenty family",
       "summary": "",
-      "category": "Content",
+      "category": "Messaging",
       "categories": [
-        "Content",
         "Messaging"
       ],
       "source_url": "https://www.trilux.com/gb/company/trilux/press/lenty",
@@ -1158,7 +881,7 @@
     {
       "id": "fa882e607b67b2e2b3fa",
       "brand": "Fagerhult",
-      "title": "Top stories Lighting the Night Responsibly: Protecting Our Night Skies 05 Nov 2026 | NEWS ARTICLE",
+      "title": "Top stories Lighting the Night Responsibly: Protecting Our Night Skies",
       "summary": "",
       "category": "Content",
       "categories": [
@@ -1176,7 +899,7 @@
     {
       "id": "a5abfc4675508940e3d7",
       "brand": "Fagerhult",
-      "title": "The Evolution of Retail Experience: Insights from Professor Laura Ugolini – Part One 18 Aug 2026 | NEWS ARTICLE",
+      "title": "The Evolution of Retail Experience: Insights from Professor Laura Ugolini – Part One",
       "summary": "",
       "category": "Content",
       "categories": [
@@ -1194,7 +917,7 @@
     {
       "id": "bd4db38541542d629068",
       "brand": "Fagerhult",
-      "title": "Rethinking office lighting for a less predictable workplace 28 Oct 2026 | NEWS ARTICLE",
+      "title": "Rethinking office lighting for a less predictable workplace",
       "summary": "",
       "category": "Content",
       "categories": [
@@ -1231,7 +954,7 @@
     {
       "id": "3368e6cd4c1cc12bba46",
       "brand": "Fagerhult",
-      "title": "Lighting for Cognitive Load in Education 22 Sept 2026 | NEWS ARTICLE",
+      "title": "Lighting for Cognitive Load in Education",
       "summary": "",
       "category": "Content",
       "categories": [
@@ -1340,99 +1063,9 @@
       "review_status": "source_discovery"
     },
     {
-      "id": "3114a11f382f38999a8c",
-      "brand": "ERCO",
-      "title": "23.05.2018 Palm Trees, Circular Quay, Sydney A stroll along Circular Quay offers not only a view of the Sydney Opera House, it also leads you past palm trees. B",
-      "summary": "",
-      "category": "Messaging",
-      "categories": [
-        "Messaging"
-      ],
-      "source_url": "https://press.erco.com/en/press-release/projects/palm-trees-circular-quay-sydney_2669",
-      "source_name": "ERCO official press office",
-      "source_type": "official_website",
-      "scope": "Global / UK when identified",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
-      "id": "d0587d806f2dce0d6e01",
-      "brand": "ERCO",
-      "title": "22.10.2019 Light for every format The John Curtin Gallery is part of the university of the same name in Perth. It was inaugurated in 1998, and as Australia's la",
-      "summary": "",
-      "category": "Content",
-      "categories": [
-        "Content"
-      ],
-      "source_url": "https://press.erco.com/en/press-release/projects/light-for-every-format_2755",
-      "source_name": "ERCO official press office",
-      "source_type": "official_website",
-      "scope": "Global / UK when identified",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
-      "id": "6df1beaa2c84c722190e",
-      "brand": "Delta Light",
-      "title": "Join us at Stand 11.",
-      "summary": "",
-      "category": "Events",
-      "categories": [
-        "Events"
-      ],
-      "source_url": "https://deltalight.com/en-gb/more-inspiration/events/2026/11/beyond-the-expected-at-light26",
-      "source_name": "Delta Light UK homepage",
-      "source_type": "official_website",
-      "scope": "UK website",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
-      "id": "4e5f32cd1efa21b84bda",
-      "brand": "Delta Light",
-      "title": "Find out more about Sight on a better life .",
-      "summary": "",
-      "category": "Content",
-      "categories": [
-        "Content"
-      ],
-      "source_url": "https://deltalight.com/en/more-inspiration/news/2025/01/sight-on-a-better-life",
-      "source_name": "Delta Light news",
-      "source_type": "official_website",
-      "scope": "Global",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
-      "id": "0a578bedc0320489527a",
-      "brand": "Delta Light",
-      "title": "Find out more about Founder Paul Ameloot honoured with prestigious award .",
-      "summary": "",
-      "category": "Messaging",
-      "categories": [
-        "Messaging"
-      ],
-      "source_url": "https://deltalight.com/en/more-inspiration/news/2024/11/founder-paul-ameloot-honoured-with-prestigious-award",
-      "source_name": "Delta Light news",
-      "source_type": "official_website",
-      "scope": "Global",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
       "id": "cf01690160795e667ecc",
       "brand": "Delta Light",
-      "title": "Find out more about Deltalight is an exclusive partner of WAF Interiors 2026 .",
+      "title": "Deltalight is an exclusive partner of WAF Interiors 2026",
       "summary": "",
       "category": "Messaging",
       "categories": [
@@ -1440,96 +1073,6 @@
       ],
       "source_url": "https://deltalight.com/en/more-inspiration/news/2026/11/deltalight-is-an-exclusive-partner-of-waf-interiors-2026-",
       "source_name": "Delta Light news",
-      "source_type": "official_website",
-      "scope": "Global",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
-      "id": "e31a794bae91e01b0420",
-      "brand": "Delta Light",
-      "title": "Find out more about Deltalight Awarded Silver EcoVadis Medal .",
-      "summary": "",
-      "category": "Messaging",
-      "categories": [
-        "Messaging"
-      ],
-      "source_url": "https://deltalight.com/en/more-inspiration/news/2025/02/deltalight-awarded-silver-ecovadis-medal",
-      "source_name": "Delta Light news",
-      "source_type": "official_website",
-      "scope": "Global",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
-      "id": "37c84011be96efff9d68",
-      "brand": "Delta Light",
-      "title": "Find out more about Deltalight Awarded Gold EcoVadis Medal .",
-      "summary": "",
-      "category": "Messaging",
-      "categories": [
-        "Messaging"
-      ],
-      "source_url": "https://deltalight.com/en/more-inspiration/news/2026/03/deltalight-awarded-gold-ecovadis-medal",
-      "source_name": "Delta Light news",
-      "source_type": "official_website",
-      "scope": "Global",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
-      "id": "c13ed8fecb1ea4140898",
-      "brand": "Delta Light",
-      "title": "Find out more about DELTALIGHT × CASAMBI × EXERGY Solutions at FOAID 2026 .",
-      "summary": "",
-      "category": "Messaging",
-      "categories": [
-        "Messaging"
-      ],
-      "source_url": "https://deltalight.com/en/more-inspiration/events/2026/11/exceptional-collaboration-at-foaid-2026",
-      "source_name": "Delta Light events",
-      "source_type": "official_website",
-      "scope": "Global",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
-      "id": "ebfec0ae70abc6ebb01f",
-      "brand": "Delta Light",
-      "title": "Find out more about Connecting Nature. Biophilic Design .",
-      "summary": "",
-      "category": "Messaging",
-      "categories": [
-        "Messaging"
-      ],
-      "source_url": "https://deltalight.com/en/more-inspiration/news/2024/06/connecting-nature-biophilic-design",
-      "source_name": "Delta Light news",
-      "source_type": "official_website",
-      "scope": "Global",
-      "first_seen": "2026-11-15",
-      "published_at": null,
-      "date_type": "first_seen",
-      "review_status": "source_discovery"
-    },
-    {
-      "id": "3537d117d16c61fb126b",
-      "brand": "Delta Light",
-      "title": "Find out more about Beyond the Expected at LiGHT26 .",
-      "summary": "",
-      "category": "Events",
-      "categories": [
-        "Events"
-      ],
-      "source_url": "https://deltalight.com/en/more-inspiration/events/2026/11/beyond-the-expected-at-light26",
-      "source_name": "Delta Light events",
       "source_type": "official_website",
       "scope": "Global",
       "first_seen": "2026-11-15",
@@ -1557,6 +1100,24 @@
       "origin": "editorial_seed"
     },
     {
+      "id": "37c84011be96efff9d68",
+      "brand": "Delta Light",
+      "title": "Deltalight Awarded Gold EcoVadis Medal",
+      "summary": "",
+      "category": "Messaging",
+      "categories": [
+        "Messaging"
+      ],
+      "source_url": "https://deltalight.com/en/more-inspiration/news/2026/03/deltalight-awarded-gold-ecovadis-medal",
+      "source_name": "Delta Light news",
+      "source_type": "official_website",
+      "scope": "Global",
+      "first_seen": "2026-11-15",
+      "published_at": null,
+      "date_type": "first_seen",
+      "review_status": "source_discovery"
+    },
+    {
       "id": "editorial-015",
       "brand": "Delta Light",
       "title": "Delta Light 2026 design experiences and new products",
@@ -1574,6 +1135,42 @@
       "date_type": "first_seen",
       "review_status": "editorially_checked",
       "origin": "editorial_seed"
+    },
+    {
+      "id": "c13ed8fecb1ea4140898",
+      "brand": "Delta Light",
+      "title": "DELTALIGHT × CASAMBI × EXERGY Solutions at FOAID 2026",
+      "summary": "",
+      "category": "Messaging",
+      "categories": [
+        "Messaging"
+      ],
+      "source_url": "https://deltalight.com/en/more-inspiration/events/2026/11/exceptional-collaboration-at-foaid-2026",
+      "source_name": "Delta Light events",
+      "source_type": "official_website",
+      "scope": "Global",
+      "first_seen": "2026-11-15",
+      "published_at": null,
+      "date_type": "first_seen",
+      "review_status": "source_discovery"
+    },
+    {
+      "id": "3537d117d16c61fb126b",
+      "brand": "Delta Light",
+      "title": "Beyond the Expected at LiGHT26",
+      "summary": "",
+      "category": "Events",
+      "categories": [
+        "Events"
+      ],
+      "source_url": "https://deltalight.com/en/more-inspiration/events/2026/11/beyond-the-expected-at-light26",
+      "source_name": "Delta Light events",
+      "source_type": "official_website",
+      "scope": "Global",
+      "first_seen": "2026-11-15",
+      "published_at": null,
+      "date_type": "first_seen",
+      "review_status": "source_discovery"
     }
   ]
 }
