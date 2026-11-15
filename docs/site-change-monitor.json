@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T12:31:28.155938+00:00",
+  "generated_at": "2026-11-15T12:32:58.438522+00:00",
   "method": "Selected public server-HTML text only, checked daily; changes are unreviewed signals. Social networks excluded. Some sites block automated reading or rely on JavaScript.",
   "counts": {
-    "checked": 12,
-    "unavailable": 11,
+    "checked": 14,
+    "unavailable": 9,
     "changed": 0,
     "new_baselines": 0
   },
@@ -36,6 +36,25 @@
       "baseline": false,
       "digest": "194a68e8c8ce35c904f6d36ffdf69e6fce986f15a4457b25bb73fe77f7d4efc3",
       "characters": 2263,
+      "block_hashes": [
+        "6b594ce75f6267e8",
+        "ee2af1d7864c9274",
+        "ab22815fef7d7498",
+        "4b8c61fd448962a6",
+        "c0f524f85293d8c6",
+        "1d446dbf2daa6a5d",
+        "ecd5cb2d68108b5c",
+        "5ce142bf49625574",
+        "9e6715adf307a7a8",
+        "8883d32916a0ac5b",
+        "8323f07eabe653fd",
+        "4b8e7b4650ede645",
+        "a99e6882eca96c58",
+        "5c5c2a3df51d9624",
+        "48db0ba01794b15e",
+        "09068ee382366045"
+      ],
+      "change_snippets": [],
       "last_changed_at": null
     },
     {
@@ -64,6 +83,12 @@
       "baseline": false,
       "digest": "859840e28c24acdfc311711976b2d996fd4c9513befa28f5ca4660b1e679ecb8",
       "characters": 810,
+      "block_hashes": [
+        "76740aee4c7172db",
+        "48db0ba01794b15e",
+        "09068ee382366045"
+      ],
+      "change_snippets": [],
       "last_changed_at": null
     },
     {
@@ -92,6 +117,11 @@
       "baseline": false,
       "digest": "2957ec5e88084677b8ebd32a23cad6cb07fd4fc328d7657ff3a18aa426fc3d1d",
       "characters": 2787,
+      "block_hashes": [
+        "48db0ba01794b15e",
+        "09068ee382366045"
+      ],
+      "change_snippets": [],
       "last_changed_at": null
     },
     {
@@ -134,6 +164,13 @@
       "baseline": false,
       "digest": "f2f80efd78ca4ae3d75023fecc443278bdb506c672f134e7647b323239e3b7ff",
       "characters": 1824,
+      "block_hashes": [
+        "d7e764dab9b79ba2",
+        "c54e6209f986c9b7",
+        "48db0ba01794b15e",
+        "09068ee382366045"
+      ],
+      "change_snippets": [],
       "last_changed_at": "2026-11-15T09:17:38.891054+00:00"
     },
     {
@@ -149,6 +186,37 @@
       "baseline": false,
       "digest": "f3ab661c377c36e51a94f2f0989518d464cd8e8a16196d453d508417bbe9f087",
       "characters": 19054,
+      "block_hashes": [
+        "e18d700798ad8e19",
+        "81baa7fc3c0b0f36",
+        "e59633c2b73fa1f3",
+        "8980e17756674784",
+        "c4af7d7f0d8e791b",
+        "b3cef921f6c6ba25",
+        "ecf1618e6dc18b20",
+        "c559807a74449f9e",
+        "9208e1d946483863",
+        "4d713ef6b4f7420e",
+        "71c21afb82929621",
+        "1cf3adbb7c78d84d",
+        "4fc390ddf2cf2651",
+        "02e0ad3654929362",
+        "56f75f416e132d1b",
+        "0b153f7bb8f904ab",
+        "b41943f90c17cf29",
+        "ff16a21b31860e1f",
+        "c38860219209eef6",
+        "99ce8175a25cd5ff",
+        "7178866727528c3b",
+        "115d7cfa78f0338f",
+        "fd3a8a99cfa35cd1",
+        "40667098e94987b2",
+        "502461e2441dd58e",
+        "f7f22188a239e46c",
+        "8600dd168460b4e3",
+        "d2ecdfae093ae20a"
+      ],
+      "change_snippets": [],
       "last_changed_at": null
     },
     {
@@ -163,6 +231,14 @@
       "baseline": false,
       "digest": "455f85031a61c392a0e3a6dd5a36941fd3f70d1c5d09163f0eb72ebfe32f1c0b",
       "characters": 2353,
+      "block_hashes": [
+        "d852737eb2d33f4e",
+        "97856960509f6770",
+        "581dd3518721755c",
+        "c30dda1019088413",
+        "1a346c3ea7139313"
+      ],
+      "change_snippets": [],
       "last_changed_at": "2026-11-15T12:29:31.281399+00:00"
     },
     {
@@ -178,6 +254,24 @@
       "baseline": false,
       "digest": "896e8097f605251bae8bc783dde71f031f6e83f8ae4c1be4c4244af15deaf1d2",
       "characters": 4314,
+      "block_hashes": [
+        "e18d700798ad8e19",
+        "81baa7fc3c0b0f36",
+        "e59633c2b73fa1f3",
+        "8980e17756674784",
+        "a8137b65e8e85521",
+        "3774acf5dafb76dc",
+        "26747e6ec9f7e8ca",
+        "ff066302d95997b9",
+        "c80483114d5903ca",
+        "c3221e762fbed1d5",
+        "3ff6dc317a952431",
+        "fb38ffe05c2d83da",
+        "562c0746af5be07a",
+        "efc86367ef858064",
+        "d2ecdfae093ae20a"
+      ],
+      "change_snippets": [],
       "last_changed_at": null
     },
     {
@@ -193,6 +287,11 @@
       "baseline": false,
       "digest": "997953d9720f2bb465f7136228d3d0a6e1401e3721d406825f89179c4a141f1d",
       "characters": 2621,
+      "block_hashes": [
+        "177a33ae9835d63c",
+        "dd7a17c7fcd71b1d"
+      ],
+      "change_snippets": [],
       "last_changed_at": null
     },
     {
@@ -208,6 +307,12 @@
       "baseline": false,
       "digest": "aa67310040762cfe2eddb0d474256fdb0d185f68718d52c520cfd985b0f7068d",
       "characters": 4440,
+      "block_hashes": [
+        "60a6d2d92d4163a3",
+        "d6acd10e52cae03d",
+        "0bfa3963f2ec1091"
+      ],
+      "change_snippets": [],
       "last_changed_at": null
     },
     {
@@ -222,6 +327,11 @@
       "baseline": false,
       "digest": "c84fced52405606fe602fdb37db33de0cf71e80129f300a6cdcea2fe40c6f6b4",
       "characters": 1264,
+      "block_hashes": [
+        "65388a9779b6a7ac",
+        "1fddd0c2f57c5996"
+      ],
+      "change_snippets": [],
       "last_changed_at": null
     },
     {
@@ -234,11 +344,71 @@
         "Website",
         "Content"
       ],
-      "status": "error",
+      "status": "ok",
       "changed_in_latest_scan": false,
       "baseline": false,
-      "detail": "HTTP Error 403: Forbidden",
       "digest": "f6a66459965a896b3f4103d7ff5a1a44fbba9e5f79306459d0292bdee5f82287",
+      "characters": 12216,
+      "block_hashes": [
+        "0bb2d8b48597aed5",
+        "8b64fca09cc46ce2",
+        "0e091b841468b620",
+        "29b157c4f3055813",
+        "c5b132c160dcd89e",
+        "8d85e574575500fb",
+        "b1bcd72bcbde81f3",
+        "2dba6ffc4a118c5f",
+        "6b5c32073d7d3115",
+        "2585ab82067000e6",
+        "423d2b7e7de4dbbc",
+        "44ad1bf479e69650",
+        "3a9200b71bec8bf8",
+        "6572f66456b7e205",
+        "c7f99d325f28315f",
+        "a86bd79fc6795f18",
+        "c54c750b852bda9f",
+        "f9317f5f025d27f8",
+        "78b7af616021ca59",
+        "9f719fa4e8378524",
+        "891b9c6774043e25",
+        "568ab75cd834213a",
+        "d0ea433963dc051a",
+        "eb1a002c0d51d4e8",
+        "4e318019e5688bfe",
+        "a8989ee80dc9d4c4",
+        "e80c3411954c8819",
+        "35c591a14efa1776",
+        "8a38d8c45167544a",
+        "2836d86d14803fb8",
+        "24722452d5d371b5",
+        "f3e50c3816c89a5b",
+        "6645da674303456e",
+        "60e9ecf58cc361fe",
+        "c93378b0d7daf093",
+        "e740948e490e022e",
+        "81538e21c1e2b234",
+        "459754f13f09aedb",
+        "f4fb3bdc6e2c61c2",
+        "ed399da6d018a545",
+        "b6e4802c591b6161",
+        "888ab638d911630c",
+        "c5c533d38f8b6279",
+        "febb628ba7c17262",
+        "79aeee724f2e4841",
+        "26d05608c923678d",
+        "db3f91ab349b8003",
+        "3b7e3b17e0194c62",
+        "887eb32b4ffd459a",
+        "1f47dd58d958be4d",
+        "647bdc0c3f30f183",
+        "228d9bc005264461",
+        "c9abf51429dc6eaf",
+        "31d26571b2c36222",
+        "4af3362b7c37b209",
+        "7887785dee5903e7",
+        "c39b25f36f30c9d0"
+      ],
+      "change_snippets": [],
       "last_changed_at": null
     },
     {
@@ -248,11 +418,42 @@
       "categories": [
         "Events"
       ],
-      "status": "error",
+      "status": "ok",
       "changed_in_latest_scan": false,
       "baseline": false,
-      "detail": "HTTP Error 403: Forbidden",
       "digest": "43316f35aaeae27bfd9ae74e95dba6c953e99ac4175a55e38c5fcec274dfb6ad",
+      "characters": 8322,
+      "block_hashes": [
+        "67a53ca1feaff106",
+        "73b82fa892eef937",
+        "0412901338c13ce2",
+        "57688696d482e8b0",
+        "09e614aca4aae68d",
+        "5fd9845747d373cf",
+        "4bd42a5de51067a2",
+        "4c402dfe28496922",
+        "4d4db40f3d19c3e3",
+        "4b8ffb6f06b67bc6",
+        "0219c50b8cdbebe8",
+        "631aab784d397cd5",
+        "f817d3e992db50ce",
+        "fb74f06a5e02f926",
+        "653452f3bf17fc18",
+        "4524b4c7943eac7a",
+        "95af7b9423d1563b",
+        "fb876d895536d6eb",
+        "d5cb90d19f46db34",
+        "48af38a0a87ebbc3",
+        "e8b5149c95114dfb",
+        "7367e0d42192dd70",
+        "95c8190741fb4157",
+        "c306a96f6b712c53",
+        "55c43b0f4895640d",
+        "bd5eb0b1a67f53d4",
+        "7887785dee5903e7",
+        "c39b25f36f30c9d0"
+      ],
+      "change_snippets": [],
       "last_changed_at": null
     },
     {
@@ -326,6 +527,16 @@
       "baseline": false,
       "digest": "fae12a0fded104d5fa8fc3c679e0af5b0a270052c845a8926302cb47009ceef9",
       "characters": 1006,
+      "block_hashes": [
+        "a1b4e5b8ad92392d",
+        "6cf89a3b154527e0",
+        "aac1dbc29a5a2c86",
+        "776c2c24b73b45b5",
+        "7bec9b25ec283f3d",
+        "aa3d4f6ebc249a0e",
+        "24a0b5a4da022b24"
+      ],
+      "change_snippets": [],
       "last_changed_at": "2026-11-15T12:29:37.243513+00:00"
     },
     {
@@ -341,6 +552,13 @@
       "baseline": false,
       "digest": "2d435d085d21bc01f5a7917786438b47eb5df9c801f1a5a2bd39910b0f6d1e61",
       "characters": 535,
+      "block_hashes": [
+        "a1b4e5b8ad92392d",
+        "6cf89a3b154527e0",
+        "aac1dbc29a5a2c86",
+        "6f994e062aed9444"
+      ],
+      "change_snippets": [],
       "last_changed_at": null
     }
   ]
