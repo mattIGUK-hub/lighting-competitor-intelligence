@@ -35,6 +35,9 @@ jobs:
       - name: Discover public competitor news
         run: python collector.py
 
+      - name: Discover first-party marketing activity
+        run: python marketing_activity_collector.py
+
       - name: Monitor selected public marketing pages
         run: python website_monitor.py
 
@@ -42,7 +45,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/intelligence.json docs/site-change-monitor.json
+          git add docs/intelligence.json docs/site-change-monitor.json docs/marketing-activity.json
           if ! git diff --cached --quiet; then
             git commit -m "Refresh public competitor intelligence feed"
             git push
@@ -99,7 +102,7 @@ jobs:
 
           root = 'https://mattiguk-hub.github.io/lighting-competitor-intelligence/'
           origin = 'https://iguzziniuk.htmltolink.dev'
-          for filename in ('marketing-assessments.json', 'site-change-monitor.json'):
+          for filename in ('marketing-assessments.json', 'site-change-monitor.json', 'marketing-activity.json'):
               for attempt in range(5):
                   try:
                       request = Request(root + filename + '?audit=' + str(time.time()),
@@ -113,8 +116,10 @@ jobs:
                           assert payload.get('schema_version') == 1, 'Unexpected published schema'
                           if filename == 'marketing-assessments.json':
                               assert len(payload.get('competitors', {})) == 6
-                          else:
+                          elif filename == 'site-change-monitor.json':
                               assert len(payload.get('sources', [])) >= 20
+                          else:
+                              assert len(payload.get('records', [])) >= 7
                       break
                   except Exception:
                       if attempt == 4:
