@@ -1,0 +1,963 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-15",
+  "research_method": "Public-source editorial comparison. UK sources prioritised; global evidence labelled. Differences are editorial interpretations, not measured performance or automated AI assessments.",
+  "categories": [
+    "Messaging",
+    "Branding",
+    "Social Media",
+    "Events",
+    "Website",
+    "Content"
+  ],
+  "competitors": {
+    "ERCO": {
+      "Messaging": {
+        "competitor": {
+          "headline": "Light as the fourth dimension of architecture",
+          "summary": "ERCO UK centres perception-oriented design and efficient visual comfort, explicitly framing light as an architectural dimension and linking the claim to comfort and energy use.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "ERCO / Introducing ERCO",
+              "url": "https://www.erco.com/gb/erco-united-kingdom/introducing-erco/"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "LIGHT THAT MOVES / people, culture and spaces",
+          "summary": "The global proposition connects lighting to social innovation, design, connectivity and sustainability. Current product communications translate this into visual comfort, choice and architectural possibility.",
+          "scope": "Global",
+          "evidence": [
+            {
+              "label": "iGuzzini / main website",
+              "url": "https://www.iguzzini.com/en/"
+            }
+          ]
+        },
+        "difference": "ERCO leads with a named lighting-design method; iGuzzini leads with a broader cultural and human-centred promise.",
+        "consider": "Consider whether UK campaigns should make a single recognisable technical principle as memorable as the broader brand platform."
+      },
+      "Branding": {
+        "competitor": {
+          "headline": "Editorial and exhibition-led architectural identity",
+          "summary": "UK marketing uses museum, heritage and gallery settings as recurring proof of its position. The 2026 Framing Light exhibition turned a London showroom into an arts-led brand experience.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "ERCO / Framing Light exhibition",
+              "url": "https://www.erco.com/en/inspiration/projects/framing-light-exhibition-london/"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "A flexible design-led identity",
+          "summary": "The LIGHT THAT MOVES platform is carried through distinctive typography, architectural imagery and product-led presentations. Forward 2026 gives the brand a consistent editorial vocabulary.",
+          "scope": "Global",
+          "evidence": [
+            {
+              "label": "iGuzzini / Forward 2026",
+              "url": "https://www.iguzzini.com/en/about-us/downloads/"
+            }
+          ]
+        },
+        "difference": "ERCO gives visual authorship to curated art settings; iGuzzini combines a broader range of architectural sectors with a global design-led identity.",
+        "consider": "Compare how the brands use real UK installations as distinctive hero visuals, rather than judging logos or colour palettes alone."
+      },
+      "Social Media": {
+        "competitor": {
+          "headline": "Project and expertise stories pointing to a UK hub",
+          "summary": "The UK landing page surfaces local cultural projects, CPDs, workshops and Zaha Hadid Architects collaborations; it provides a clear catalogue of subjects that ERCO can amplify across social channels. This is a content strategy observation, not a quantified social audit.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "ERCO / UK marketing hub",
+              "url": "https://www.erco.com/gb/erco-united-kingdom/"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "Product narratives under one global brand",
+          "summary": "The global LinkedIn account runs multiple Laser Evo posts explaining optical design, configurations and visual comfort; it has also promoted the upcoming London LiGHT26 experience. This is a content observation, not a performance claim.",
+          "scope": "UK + global",
+          "evidence": [
+            {
+              "label": "iGuzzini / LinkedIn posts",
+              "url": "https://uk.linkedin.com/company/iguzzini"
+            }
+          ]
+        },
+        "difference": "ERCO has a visible, sector-specific UK story bank; iGuzzini’s public LinkedIn posts currently emphasise global product narratives with selected UK event promotion.",
+        "consider": "Review whether existing iGuzzini UK reference projects could support a more regular local social editorial series."
+      },
+      "Events": {
+        "competitor": {
+          "headline": "Architect-led talks and showroom exhibitions",
+          "summary": "ERCO collaborated with Zaha Hadid Architects on talks at Clerkenwell Design Week 2026, and hosted the Framing Light exhibition in its London showroom in October and November.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "ERCO / ZHA at Clerkenwell 2026",
+              "url": "https://www.erco.com/gb/erco-united-kingdom/erco-zaha-hadid-architects-clerkenwell-design-week-2026/"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "LiGHT26: immersive experience plus welcome area",
+          "summary": "The UK activation announced for 18–19 November includes an updated walk-in lighting container and hands-on introductions to Laser Evo and Newfo InOut at the Business Design Centre.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "iGuzzini / LiGHT26 announcement",
+              "url": "https://www.iguzzini.com/en/news--events/iguzzini-at-light-26/"
+            }
+          ]
+        },
+        "difference": "ERCO’s format is anchored in external creative voices and curated cultural programming; iGuzzini’s current London activation invites visitors into an immersive product experience.",
+        "consider": "What would a programme combining iGuzzini’s experience design with independent UK design voices look like?"
+      },
+      "Website": {
+        "competitor": {
+          "headline": "A dedicated UK marketing destination",
+          "summary": "ERCO’s UK landing page groups local projects, consultations, CPDs, industry talks and sector-specific stories, including museums, education and heritage.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "ERCO / UK landing page",
+              "url": "https://www.erco.com/gb/erco-united-kingdom/"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "Global site with broad project and product journeys",
+          "summary": "The English-language website leads with LIGHT THAT MOVES, product launches and sector navigation, supported by technical services and UK project pages, including Paddington Square.",
+          "scope": "Global + UK proof",
+          "evidence": [
+            {
+              "label": "iGuzzini / website",
+              "url": "https://www.iguzzini.com/en/"
+            }
+          ]
+        },
+        "difference": "ERCO places UK marketing activity in one visible local hub; iGuzzini’s public English homepage is primarily a global narrative with UK stories embedded in its wider library.",
+        "consider": "Assess whether priority UK references and local events should be easier to find from a dedicated iGuzzini UK landing experience."
+      },
+      "Content": {
+        "competitor": {
+          "headline": "Specialist guidance for defined audiences",
+          "summary": "ERCO UK publishes a list of accredited CPDs, including vertical illuminance, inclusive spaces and qualitative versus quantitative lighting. It also makes topic-led UK project material available.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "ERCO / UK CPD courses",
+              "url": "https://www.erco.com/gb/erco-united-kingdom/erco-lighting-uk-cpd-courses/"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "Forward 2026 plus project-specific evidence",
+          "summary": "Forward 2026 combines brand narrative, innovation and sectors. UK reference stories such as Paddington Square add design-team credits, location and products used.",
+          "scope": "UK + global",
+          "evidence": [
+            {
+              "label": "iGuzzini / Paddington Square project",
+              "url": "https://www.iguzzini.com/en/inspiration/infrastructure/paddington-square/"
+            }
+          ]
+        },
+        "difference": "ERCO visibly packages specialist design knowledge as bookable learning; iGuzzini foregrounds broader project stories and product/innovation resources in its global library.",
+        "consider": "Consider which UK specifier questions could become repeatable, clearly titled educational assets for iGuzzini."
+      }
+    },
+    "Fagerhult": {
+      "Messaging": {
+        "competitor": {
+          "headline": "Light for Better Living, backed by real outcomes",
+          "summary": "Fagerhult frames lighting around people, sustainability and smart spaces. Its UK Warwick library case study demonstrates the pitch through energy savings and occupancy insights.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "Fagerhult / Warwick case study",
+              "url": "https://www.fagerhult.com/en-GB/news/2025/university-of-warwick-library-adopts-smart-lighting/"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "LIGHT THAT MOVES / people, culture and spaces",
+          "summary": "The global proposition connects lighting to social innovation, design, connectivity and sustainability. Current product communications translate this into visual comfort, choice and architectural possibility.",
+          "scope": "Global",
+          "evidence": [
+            {
+              "label": "iGuzzini / main website",
+              "url": "https://www.iguzzini.com/en/"
+            }
+          ]
+        },
+        "difference": "Both brands talk about people and sustainability, but Fagerhult uses measured operating outcomes as prominent proof; iGuzzini’s LIGHT THAT MOVES narrative is wider in cultural scope.",
+        "consider": "Where verified UK performance figures exist, bring them closer to the core creative story rather than leaving them deep in technical documents."
+      },
+      "Branding": {
+        "competitor": {
+          "headline": "Technical sustainability presented accessibly",
+          "summary": "The WRAPPED luminaire is promoted through restrained product imagery and a direct material/CO₂ story, including its [d]arc Awards shortlist and calls for voting.",
+          "scope": "UK award / global account",
+          "evidence": [
+            {
+              "label": "Fagerhult / WRAPPED LinkedIn post",
+              "url": "https://www.linkedin.com/posts/fagerhult_darcawards-fagerhult-wrapped-activity-7432741243237036032-Wg4n"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "A flexible design-led identity",
+          "summary": "The LIGHT THAT MOVES platform is carried through distinctive typography, architectural imagery and product-led presentations. Forward 2026 gives the brand a consistent editorial vocabulary.",
+          "scope": "Global",
+          "evidence": [
+            {
+              "label": "iGuzzini / Forward 2026",
+              "url": "https://www.iguzzini.com/en/about-us/downloads/"
+            }
+          ]
+        },
+        "difference": "Fagerhult’s campaign creative uses a low-impact product as the message itself; iGuzzini’s branding is more expressive and architectural across multiple sectors.",
+        "consider": "Compare whether sustainability claims are supported with equally clear, product-level visual evidence in iGuzzini materials."
+      },
+      "Social Media": {
+        "competitor": {
+          "headline": "Expert authorship and native LinkedIn articles",
+          "summary": "Fagerhult publishes long-form LinkedIn thought leadership, including an August 2026 circularity article and September interview with its Lighting Academy director.",
+          "scope": "Global + UK voices",
+          "evidence": [
+            {
+              "label": "Fagerhult / circularity LinkedIn article",
+              "url": "https://www.linkedin.com/pulse/has-lighting-industry-reached-turning-point-circularity-fagerhult-svqye"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "Product narratives under one global brand",
+          "summary": "The global LinkedIn account runs multiple Laser Evo posts explaining optical design, configurations and visual comfort; it has also promoted the upcoming London LiGHT26 experience. This is a content observation, not a performance claim.",
+          "scope": "UK + global",
+          "evidence": [
+            {
+              "label": "iGuzzini / LinkedIn posts",
+              "url": "https://uk.linkedin.com/company/iguzzini"
+            }
+          ]
+        },
+        "difference": "Fagerhult often makes expert people and practical industry questions the content; iGuzzini’s recent public feed places greater weight on product families and design possibilities.",
+        "consider": "Test whether UK technical specialists or project partners could front a recurring editorial format."
+      },
+      "Events": {
+        "competitor": {
+          "headline": "Accredited CPDs and interactive sustainability learning",
+          "summary": "Fagerhult UK offers CIBSE-accredited presentations delivered in person, hybrid or online, and participated in Circular Lighting Live 2026 discussions around luminaire materials.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "Fagerhult / accredited CPDs",
+              "url": "https://www.fagerhult.com/en-GB/CPD-technical-seminars/"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "LiGHT26: immersive experience plus welcome area",
+          "summary": "The UK activation announced for 18–19 November includes an updated walk-in lighting container and hands-on introductions to Laser Evo and Newfo InOut at the Business Design Centre.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "iGuzzini / LiGHT26 announcement",
+              "url": "https://www.iguzzini.com/en/news--events/iguzzini-at-light-26/"
+            }
+          ]
+        },
+        "difference": "Fagerhult builds repeated educational touchpoints through bookable sessions; iGuzzini’s LiGHT26 offer is focused on a concentrated product-experience activation.",
+        "consider": "Consider how event follow-up could turn a one-off experience into an ongoing learning programme."
+      },
+      "Website": {
+        "competitor": {
+          "headline": "UK learning and support paths are explicit",
+          "summary": "The UK site has direct routes to CPD booking, sector projects, expert features and a monthly lighting newsletter. Its Warwick story provides detailed operational outcomes.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "Fagerhult / UK CPD webpage",
+              "url": "https://www.fagerhult.com/en-GB/CPD-technical-seminars/"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "Global site with broad project and product journeys",
+          "summary": "The English-language website leads with LIGHT THAT MOVES, product launches and sector navigation, supported by technical services and UK project pages, including Paddington Square.",
+          "scope": "Global + UK proof",
+          "evidence": [
+            {
+              "label": "iGuzzini / website",
+              "url": "https://www.iguzzini.com/en/"
+            }
+          ]
+        },
+        "difference": "Fagerhult creates clear lead-in points for education and technical credibility; iGuzzini’s English site makes products, inspiration and bespoke consulting more prominent.",
+        "consider": "Compare how quickly a UK specifier can move from inspiration to a useful contact or educational resource on both sites."
+      },
+      "Content": {
+        "competitor": {
+          "headline": "Case studies with quantified building value",
+          "summary": "The University of Warwick library feature explains collaboration with estates staff, data-driven occupancy benefits and documented energy/cost savings, alongside the company’s lighting-education articles.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "Fagerhult / Warwick library feature",
+              "url": "https://www.fagerhult.com/en-GB/news/2025/university-of-warwick-library-adopts-smart-lighting/"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "Forward 2026 plus project-specific evidence",
+          "summary": "Forward 2026 combines brand narrative, innovation and sectors. UK reference stories such as Paddington Square add design-team credits, location and products used.",
+          "scope": "UK + global",
+          "evidence": [
+            {
+              "label": "iGuzzini / Paddington Square project",
+              "url": "https://www.iguzzini.com/en/inspiration/infrastructure/paddington-square/"
+            }
+          ]
+        },
+        "difference": "Fagerhult devotes considerable space to post-installation outcomes and operational proof; iGuzzini’s Paddington Square case study is rich in architectural narrative and contributor credits.",
+        "consider": "An opportunity is to pair iGuzzini’s design storytelling with documented user, energy or maintenance outcomes when clients approve publication."
+      }
+    },
+    "Zumtobel": {
+      "Messaging": {
+        "competitor": {
+          "headline": "Exceeding Expectations through adaptable workplaces",
+          "summary": "Zumtobel used Exceeding Expectations and Make Space Smart at ORGATEC 2026, translating flexibility, remanufacturing and workplace wellbeing into an application-led narrative.",
+          "scope": "Global / UK website",
+          "evidence": [
+            {
+              "label": "Zumtobel / ORGATEC campaign",
+              "url": "https://www.zumtobel.co.uk/en-gb/news-events/orgatec"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "LIGHT THAT MOVES / people, culture and spaces",
+          "summary": "The global proposition connects lighting to social innovation, design, connectivity and sustainability. Current product communications translate this into visual comfort, choice and architectural possibility.",
+          "scope": "Global",
+          "evidence": [
+            {
+              "label": "iGuzzini / main website",
+              "url": "https://www.iguzzini.com/en/"
+            }
+          ]
+        },
+        "difference": "Zumtobel anchors its current campaign around a defined workplace challenge; iGuzzini uses a broader cross-sector proposition with visual comfort and human experience.",
+        "consider": "For UK campaigns, consider a precise specifier problem that could give a wider brand idea a tangible application."
+      },
+      "Branding": {
+        "competitor": {
+          "headline": "Architectural partnerships give a physical brand stage",
+          "summary": "Zumtobel and sister brand Thorn backed the 25th Serpentine Pavilion designed by LANZA atelier, connecting their names to a recognised London architectural institution.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "Zumtobel / Serpentine Pavilion 2026",
+              "url": "https://www.zumtobel.co.uk/en-gb/news-events/serpentine-pavilion-2026"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "A flexible design-led identity",
+          "summary": "The LIGHT THAT MOVES platform is carried through distinctive typography, architectural imagery and product-led presentations. Forward 2026 gives the brand a consistent editorial vocabulary.",
+          "scope": "Global",
+          "evidence": [
+            {
+              "label": "iGuzzini / Forward 2026",
+              "url": "https://www.iguzzini.com/en/about-us/downloads/"
+            }
+          ]
+        },
+        "difference": "Zumtobel builds perceived design authority through public cultural association; iGuzzini’s branded experience at LiGHT26 creates a directly controlled product stage.",
+        "consider": "Observe how the two brands balance partner recognition with their own distinct visual and verbal identity."
+      },
+      "Social Media": {
+        "competitor": {
+          "headline": "Partnership-led editorial tied to UK architecture",
+          "summary": "Public LinkedIn material from sister brand Thorn promotes the Serpentine sponsorship, references the Pavilion’s architecture and invites dialogue about light shaping public spaces. Brand-level Zumtobel engagement is not quantified.",
+          "scope": "UK / group brand",
+          "evidence": [
+            {
+              "label": "Thorn / Serpentine LinkedIn post",
+              "url": "https://www.linkedin.com/posts/thorn-lighting_serpentinepavilion-architecturalexcellence-activity-7483068105292664832-_TAT"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "Product narratives under one global brand",
+          "summary": "The global LinkedIn account runs multiple Laser Evo posts explaining optical design, configurations and visual comfort; it has also promoted the upcoming London LiGHT26 experience. This is a content observation, not a performance claim.",
+          "scope": "UK + global",
+          "evidence": [
+            {
+              "label": "iGuzzini / LinkedIn posts",
+              "url": "https://uk.linkedin.com/company/iguzzini"
+            }
+          ]
+        },
+        "difference": "The group’s Serpentine storytelling foregrounds the architect and setting; iGuzzini’s recent posts foreground product capability and its upcoming London experience.",
+        "consider": "Compare creative and post-event storytelling before judging which approach attracts more specifier interest."
+      },
+      "Events": {
+        "competitor": {
+          "headline": "Architectural sponsorship plus targeted client evenings",
+          "summary": "The 2026 Serpentine Pavilion was sponsored by Zumtobel and Thorn, with a private viewing for the UK design community reported in September.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "Zumtobel / Serpentine sponsorship",
+              "url": "https://www.zumtobel.co.uk/en-gb/news-events/serpentine-pavilion-2026"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "LiGHT26: immersive experience plus welcome area",
+          "summary": "The UK activation announced for 18–19 November includes an updated walk-in lighting container and hands-on introductions to Laser Evo and Newfo InOut at the Business Design Centre.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "iGuzzini / LiGHT26 announcement",
+              "url": "https://www.iguzzini.com/en/news--events/iguzzini-at-light-26/"
+            }
+          ]
+        },
+        "difference": "Zumtobel uses a high-profile independent architectural setting for UK relationship-building; iGuzzini is activating a self-contained immersive space at LiGHT26.",
+        "consider": "The useful comparison is the quality of dialogue, content and follow-up produced by each event format, not visitor numbers alone."
+      },
+      "Website": {
+        "competitor": {
+          "headline": "Clear application routes on the UK domain",
+          "summary": "Zumtobel’s UK website organises its proposition around application areas such as office, education, healthcare, retail and art/culture, with calls to request guidance.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "Zumtobel / UK applications",
+              "url": "https://www.zumtobel.co.uk/en-gb/applications"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "Global site with broad project and product journeys",
+          "summary": "The English-language website leads with LIGHT THAT MOVES, product launches and sector navigation, supported by technical services and UK project pages, including Paddington Square.",
+          "scope": "Global + UK proof",
+          "evidence": [
+            {
+              "label": "iGuzzini / website",
+              "url": "https://www.iguzzini.com/en/"
+            }
+          ]
+        },
+        "difference": "Both brands are sector-led online, but Zumtobel starts more explicitly from application requirements while iGuzzini’s homepage initially leads through the broader brand and innovations.",
+        "consider": "Review the number of steps required for a UK designer to reach relevant projects and product support."
+      },
+      "Content": {
+        "competitor": {
+          "headline": "Detailed workplace campaign ecosystem",
+          "summary": "The ORGATEC campaign combines an event proposition, named partners Visplay and Gerriets, featured products and a remanufacturing proposition in one landing page.",
+          "scope": "Global / UK website",
+          "evidence": [
+            {
+              "label": "Zumtobel / ORGATEC 2026",
+              "url": "https://www.zumtobel.co.uk/en-gb/news-events/orgatec"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "Forward 2026 plus project-specific evidence",
+          "summary": "Forward 2026 combines brand narrative, innovation and sectors. UK reference stories such as Paddington Square add design-team credits, location and products used.",
+          "scope": "UK + global",
+          "evidence": [
+            {
+              "label": "iGuzzini / Paddington Square project",
+              "url": "https://www.iguzzini.com/en/inspiration/infrastructure/paddington-square/"
+            }
+          ]
+        },
+        "difference": "Zumtobel ties several content assets to one workplace narrative; iGuzzini’s Forward 2026 is wider across multiple sectors and product families.",
+        "consider": "Look for opportunities to package one iGuzzini UK sector story as a linked set of case studies, guidance and products."
+      }
+    },
+    "XAL": {
+      "Messaging": {
+        "competitor": {
+          "headline": "Reduced to the maximum: one product, one promise",
+          "summary": "The ENVIVA campaign uses a single clear idea supported by data on resource use, efficiency, circularity and independently verified certification.",
+          "scope": "Global",
+          "evidence": [
+            {
+              "label": "XAL / ENVIVA campaign",
+              "url": "https://www.xal.com/en/enviva"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "LIGHT THAT MOVES / people, culture and spaces",
+          "summary": "The global proposition connects lighting to social innovation, design, connectivity and sustainability. Current product communications translate this into visual comfort, choice and architectural possibility.",
+          "scope": "Global",
+          "evidence": [
+            {
+              "label": "iGuzzini / main website",
+              "url": "https://www.iguzzini.com/en/"
+            }
+          ]
+        },
+        "difference": "XAL’s ENVIVA story makes a specific product proposition instantly recognisable; iGuzzini’s broader LIGHT THAT MOVES platform covers a wider emotional and technical territory.",
+        "consider": "Could a priority UK launch sit under the global brand while retaining its own simple memorable creative proposition?"
+      },
+      "Branding": {
+        "competitor": {
+          "headline": "Minimalist form reinforces the campaign claim",
+          "summary": "ENVIVA visuals centre the slender suspended luminaire and material finish while repeating the Reduced to the maximum proposition; sustainability credentials appear within the same visual story.",
+          "scope": "Global",
+          "evidence": [
+            {
+              "label": "XAL / ENVIVA presentation",
+              "url": "https://www.xal.com/en/enviva"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "A flexible design-led identity",
+          "summary": "The LIGHT THAT MOVES platform is carried through distinctive typography, architectural imagery and product-led presentations. Forward 2026 gives the brand a consistent editorial vocabulary.",
+          "scope": "Global",
+          "evidence": [
+            {
+              "label": "iGuzzini / Forward 2026",
+              "url": "https://www.iguzzini.com/en/about-us/downloads/"
+            }
+          ]
+        },
+        "difference": "XAL lets the physical product form carry the message; iGuzzini’s visual identity more often connects products to spatial experience and architectural imagery.",
+        "consider": "Compare whether campaign visuals prove each brand’s promise at first glance."
+      },
+      "Social Media": {
+        "competitor": {
+          "headline": "Design awards used as repeatable proof points",
+          "summary": "XAL has published a 2026 award story linking ENVIVA’s iF and Red Dot recognition to circular design, minimal materials and light quality. Specific social posting frequency is not verified.",
+          "scope": "Global",
+          "evidence": [
+            {
+              "label": "XAL / 2026 design awards",
+              "url": "https://www.xal.com/en/company/news/award-winners-2026"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "Product narratives under one global brand",
+          "summary": "The global LinkedIn account runs multiple Laser Evo posts explaining optical design, configurations and visual comfort; it has also promoted the upcoming London LiGHT26 experience. This is a content observation, not a performance claim.",
+          "scope": "UK + global",
+          "evidence": [
+            {
+              "label": "iGuzzini / LinkedIn posts",
+              "url": "https://uk.linkedin.com/company/iguzzini"
+            }
+          ]
+        },
+        "difference": "XAL’s owned launch materials make third-party design validation easy to repurpose socially; iGuzzini’s LinkedIn Laser Evo series explains features and optical possibilities in successive posts.",
+        "consider": "Check whether iGuzzini UK product campaigns connect awards or certification to a tangible customer benefit in social copy."
+      },
+      "Events": {
+        "competitor": {
+          "headline": "Global design exhibitions reinforce product themes",
+          "summary": "XAL’s 2026 product catalogue and news pages place ENVIVA alongside a wider international programme of product launches. A comparable UK-specific activation was not independently verified for this assessment.",
+          "scope": "Global / UK unverified",
+          "evidence": [
+            {
+              "label": "XAL / 2026 products",
+              "url": "https://www.xal.com/en/company/news/catalogue-news26"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "LiGHT26: immersive experience plus welcome area",
+          "summary": "The UK activation announced for 18–19 November includes an updated walk-in lighting container and hands-on introductions to Laser Evo and Newfo InOut at the Business Design Centre.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "iGuzzini / LiGHT26 announcement",
+              "url": "https://www.iguzzini.com/en/news--events/iguzzini-at-light-26/"
+            }
+          ]
+        },
+        "difference": "iGuzzini has a clearly announced UK LiGHT26 activation; the XAL evidence here is global, so an equivalent UK event conclusion would be premature.",
+        "consider": "Track any independently verified XAL UK events before drawing conclusions about local specifier engagement."
+      },
+      "Website": {
+        "competitor": {
+          "headline": "Dedicated deep-dive product landing pages",
+          "summary": "ENVIVA has a campaign landing page combining efficiency, materials, lifecycle questions, certifications, variants and product CTAs. The public page is global rather than specifically UK-localised.",
+          "scope": "Global",
+          "evidence": [
+            {
+              "label": "XAL / ENVIVA",
+              "url": "https://www.xal.com/en/enviva"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "Global site with broad project and product journeys",
+          "summary": "The English-language website leads with LIGHT THAT MOVES, product launches and sector navigation, supported by technical services and UK project pages, including Paddington Square.",
+          "scope": "Global + UK proof",
+          "evidence": [
+            {
+              "label": "iGuzzini / website",
+              "url": "https://www.iguzzini.com/en/"
+            }
+          ]
+        },
+        "difference": "XAL uses one page as a comprehensive campaign destination; iGuzzini’s main site distributes product, innovation and inspiration across different navigation journeys.",
+        "consider": "For a UK priority launch, compare whether the most persuasive proof sits on one clearly linked landing page."
+      },
+      "Content": {
+        "competitor": {
+          "headline": "A product claim expanded into technical education",
+          "summary": "XAL’s ENVIVA page explains material choices, repairability, carbon calculations, EPDs and relevant product formats; Light Stories provides broader design narratives.",
+          "scope": "Global",
+          "evidence": [
+            {
+              "label": "XAL / ENVIVA technical content",
+              "url": "https://www.xal.com/en/enviva"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "Forward 2026 plus project-specific evidence",
+          "summary": "Forward 2026 combines brand narrative, innovation and sectors. UK reference stories such as Paddington Square add design-team credits, location and products used.",
+          "scope": "UK + global",
+          "evidence": [
+            {
+              "label": "iGuzzini / Paddington Square project",
+              "url": "https://www.iguzzini.com/en/inspiration/infrastructure/paddington-square/"
+            }
+          ]
+        },
+        "difference": "XAL builds depth around one product and its sustainability claims; iGuzzini’s Forward 2026 presents a much broader portfolio and philosophy.",
+        "consider": "Consider a UK content pack pairing one hero product with independently substantiated claims and practical design scenarios."
+      }
+    },
+    "TRILUX": {
+      "Messaging": {
+        "competitor": {
+          "headline": "Simplify Your Light with an experiential extension",
+          "summary": "TRILUX frames itself as simplifying professional lighting, while its London Light Studio makes collaboration, experimentation and knowledge transfer the practical invitation.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "TRILUX / London Light Studio",
+              "url": "https://www.trilux.com/en/company/events/showrooms/london/"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "LIGHT THAT MOVES / people, culture and spaces",
+          "summary": "The global proposition connects lighting to social innovation, design, connectivity and sustainability. Current product communications translate this into visual comfort, choice and architectural possibility.",
+          "scope": "Global",
+          "evidence": [
+            {
+              "label": "iGuzzini / main website",
+              "url": "https://www.iguzzini.com/en/"
+            }
+          ]
+        },
+        "difference": "TRILUX turns a functional promise into an ongoing local service experience; iGuzzini connects lighting to design and cultural impact, currently activating that through LiGHT26.",
+        "consider": "Assess how clearly iGuzzini UK describes the support someone will actually receive after experiencing a product."
+      },
+      "Branding": {
+        "competitor": {
+          "headline": "Immersive Sphere of Light as a signature experience",
+          "summary": "The London studio combines spatial media, changing light scenes and sound under a named Sphere of Light concept, forming a reusable branded environment.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "TRILUX / new Light Studios",
+              "url": "https://www.trilux.com/gb/blog/light-studios/"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "A flexible design-led identity",
+          "summary": "The LIGHT THAT MOVES platform is carried through distinctive typography, architectural imagery and product-led presentations. Forward 2026 gives the brand a consistent editorial vocabulary.",
+          "scope": "Global",
+          "evidence": [
+            {
+              "label": "iGuzzini / Forward 2026",
+              "url": "https://www.iguzzini.com/en/about-us/downloads/"
+            }
+          ]
+        },
+        "difference": "TRILUX has a permanent branded installation in London; iGuzzini uses an evolving transportable immersive container as a distinctive temporary experience.",
+        "consider": "Compare opportunities for reusing physical brand assets across multiple UK moments."
+      },
+      "Social Media": {
+        "competitor": {
+          "headline": "Studio openings and community moments become posts",
+          "summary": "TRILUX’s public LinkedIn updates promote the London studio launch and show a CDW Light Club follow-up, extending the physical experience into social storytelling.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "TRILUX / Light Club LinkedIn post",
+              "url": "https://www.linkedin.com/posts/trilux_cdw2026-clerkenwelldesignweek-teamtrilux-activity-7463517887853428737-TYWT"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "Product narratives under one global brand",
+          "summary": "The global LinkedIn account runs multiple Laser Evo posts explaining optical design, configurations and visual comfort; it has also promoted the upcoming London LiGHT26 experience. This is a content observation, not a performance claim.",
+          "scope": "UK + global",
+          "evidence": [
+            {
+              "label": "iGuzzini / LinkedIn posts",
+              "url": "https://uk.linkedin.com/company/iguzzini"
+            }
+          ]
+        },
+        "difference": "TRILUX’s visible UK social examples document people and event experience; iGuzzini’s global feed highlights Laser Evo capability and pre-event LiGHT26 invitations.",
+        "consider": "When the UK activation takes place, plan the follow-up social sequence as carefully as the invitation."
+      },
+      "Events": {
+        "competitor": {
+          "headline": "Permanent London studio with a programme of events",
+          "summary": "The studio opened in April 2026; TRILUX reported seven Clerkenwell Design Week events, followed by a November Client Lab mixing innovation sessions and a customer-journey workshop.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "TRILUX / Client Lab London",
+              "url": "https://www.trilux.com/gb/company/events/triux-client-lab-london/"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "LiGHT26: immersive experience plus welcome area",
+          "summary": "The UK activation announced for 18–19 November includes an updated walk-in lighting container and hands-on introductions to Laser Evo and Newfo InOut at the Business Design Centre.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "iGuzzini / LiGHT26 announcement",
+              "url": "https://www.iguzzini.com/en/news--events/iguzzini-at-light-26/"
+            }
+          ]
+        },
+        "difference": "TRILUX uses one venue for repeated workshops and client engagement; iGuzzini is preparing a focused two-day LiGHT26 experience.",
+        "consider": "Evaluate whether a repeatable post-event programme could keep iGuzzini’s London conversations going beyond the exhibition."
+      },
+      "Website": {
+        "competitor": {
+          "headline": "A UK showroom page built around next actions",
+          "summary": "The London Light Studio page leads with immersive experience, personal consultations and Academy CPD, alongside contact details for the local team.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "TRILUX / London Studio page",
+              "url": "https://www.trilux.com/en/company/events/showrooms/london/"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "Global site with broad project and product journeys",
+          "summary": "The English-language website leads with LIGHT THAT MOVES, product launches and sector navigation, supported by technical services and UK project pages, including Paddington Square.",
+          "scope": "Global + UK proof",
+          "evidence": [
+            {
+              "label": "iGuzzini / website",
+              "url": "https://www.iguzzini.com/en/"
+            }
+          ]
+        },
+        "difference": "TRILUX makes a local service and visit easy to understand from one page; iGuzzini’s site foregrounds its international portfolio and technical consulting.",
+        "consider": "Compare the visibility of a clear, UK-specific invitation or booking action."
+      },
+      "Content": {
+        "competitor": {
+          "headline": "Services and learning wrapped around the showroom",
+          "summary": "The London studio combines in-person expert guidance, Akademie CPD and an interactive light show; the Client Lab page supplies a detailed running order and topics.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "TRILUX / Studio knowledge and collaboration",
+              "url": "https://www.trilux.com/en/company/events/showrooms/london/"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "Forward 2026 plus project-specific evidence",
+          "summary": "Forward 2026 combines brand narrative, innovation and sectors. UK reference stories such as Paddington Square add design-team credits, location and products used.",
+          "scope": "UK + global",
+          "evidence": [
+            {
+              "label": "iGuzzini / Paddington Square project",
+              "url": "https://www.iguzzini.com/en/inspiration/infrastructure/paddington-square/"
+            }
+          ]
+        },
+        "difference": "TRILUX’s UK content often supports booking a conversation or experience; iGuzzini’s project library supports exploration and product specification.",
+        "consider": "Test whether selected iGuzzini resources should carry a stronger invitation to an expert conversation."
+      }
+    },
+    "Delta Light": {
+      "Messaging": {
+        "competitor": {
+          "headline": "Pure Lighting Pleasure with material-led design",
+          "summary": "Delta Light’s UK showroom explicitly invites visitors to experience Pure Lighting Pleasure; the planned LiGHT26 presence promises tactile discovery of products, materials and finishes.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "Delta Light / UK showroom",
+              "url": "https://deltalight.com/en-gb/locator/deltalight-uk"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "LIGHT THAT MOVES / people, culture and spaces",
+          "summary": "The global proposition connects lighting to social innovation, design, connectivity and sustainability. Current product communications translate this into visual comfort, choice and architectural possibility.",
+          "scope": "Global",
+          "evidence": [
+            {
+              "label": "iGuzzini / main website",
+              "url": "https://www.iguzzini.com/en/"
+            }
+          ]
+        },
+        "difference": "Delta Light positions an aesthetic experience as the immediate invitation; iGuzzini’s LIGHT THAT MOVES proposition gives more explicit space to innovation, culture and social impact.",
+        "consider": "Compare whether the emotional idea becomes immediately concrete in campaign copy and the physical visitor experience."
+      },
+      "Branding": {
+        "competitor": {
+          "headline": "Monotone design language carried into physical space",
+          "summary": "The London showroom’s description highlights a signature monotone palette and refined styling, making the brand environment itself part of its marketing.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "Delta Light / London showroom",
+              "url": "https://deltalight.com/en-gb/locator/deltalight-uk"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "A flexible design-led identity",
+          "summary": "The LIGHT THAT MOVES platform is carried through distinctive typography, architectural imagery and product-led presentations. Forward 2026 gives the brand a consistent editorial vocabulary.",
+          "scope": "Global",
+          "evidence": [
+            {
+              "label": "iGuzzini / Forward 2026",
+              "url": "https://www.iguzzini.com/en/about-us/downloads/"
+            }
+          ]
+        },
+        "difference": "Delta Light makes its visual vocabulary tangible in a showroom; iGuzzini’s more variable architectural imagery is anchored by LIGHT THAT MOVES and its own experience design.",
+        "consider": "Review whether photography of iGuzzini UK installations consistently looks and feels part of one campaign."
+      },
+      "Social Media": {
+        "competitor": {
+          "headline": "A lookbook unfolded into six LinkedIn lessons",
+          "summary": "Delta Light published a sequence of six residential lighting layers, with separate posts on general, indirect, decorative, accent, task and other layers, each referring readers to its lookbook.",
+          "scope": "Global",
+          "evidence": [
+            {
+              "label": "Delta Light / LinkedIn content series",
+              "url": "https://www.linkedin.com/company/delta-light"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "Product narratives under one global brand",
+          "summary": "The global LinkedIn account runs multiple Laser Evo posts explaining optical design, configurations and visual comfort; it has also promoted the upcoming London LiGHT26 experience. This is a content observation, not a performance claim.",
+          "scope": "UK + global",
+          "evidence": [
+            {
+              "label": "iGuzzini / LinkedIn posts",
+              "url": "https://uk.linkedin.com/company/iguzzini"
+            }
+          ]
+        },
+        "difference": "Delta Light gives each post a numbered educational role leading to one downloadable asset; iGuzzini’s recent Laser Evo posts introduce a family through configurations and visual comfort.",
+        "consider": "The practical comparison is the strength of each content sequence and its resource destination, not follower counts."
+      },
+      "Events": {
+        "competitor": {
+          "headline": "London showroom plus tactile LiGHT26 presentation",
+          "summary": "Delta Light runs a London showroom with an event space, while its announced 18–19 November LiGHT26 display invites visitors to examine new materials and finishes.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "Delta Light / LiGHT26",
+              "url": "https://deltalight.com/en/more-inspiration/events/2026/11/beyond-the-expected-at-light26"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "LiGHT26: immersive experience plus welcome area",
+          "summary": "The UK activation announced for 18–19 November includes an updated walk-in lighting container and hands-on introductions to Laser Evo and Newfo InOut at the Business Design Centre.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "iGuzzini / LiGHT26 announcement",
+              "url": "https://www.iguzzini.com/en/news--events/iguzzini-at-light-26/"
+            }
+          ]
+        },
+        "difference": "Both brands will be present at LiGHT26: Delta Light emphasises material touch and finish; iGuzzini is promoting an immersive container and hands-on optical/product previews.",
+        "consider": "A direct, like-for-like observation of visitor invitations and follow-up content after LiGHT26 could be especially useful."
+      },
+      "Website": {
+        "competitor": {
+          "headline": "UK-localised digital storefront and London appointment route",
+          "summary": "The UK site foregrounds product novelties, inspiration and The Lighting Bible; a dedicated London showroom page gives a specific address and appointment invitation.",
+          "scope": "UK",
+          "evidence": [
+            {
+              "label": "Delta Light / UK website",
+              "url": "https://deltalight.com/en-gb"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "Global site with broad project and product journeys",
+          "summary": "The English-language website leads with LIGHT THAT MOVES, product launches and sector navigation, supported by technical services and UK project pages, including Paddington Square.",
+          "scope": "Global + UK proof",
+          "evidence": [
+            {
+              "label": "iGuzzini / website",
+              "url": "https://www.iguzzini.com/en/"
+            }
+          ]
+        },
+        "difference": "Delta Light has an explicit UK showroom conversion path; iGuzzini’s English site routes users through international product, inspiration and service information.",
+        "consider": "Compare how quickly UK visitors can get from an inspiring product story to local help."
+      },
+      "Content": {
+        "competitor": {
+          "headline": "An editorial lookbook with a clear social distribution plan",
+          "summary": "The Residential Insights Report and residential lookbook are supported by a themed LinkedIn series; project galleries also showcase UK locations, including The Old Orchard.",
+          "scope": "Global + UK casework",
+          "evidence": [
+            {
+              "label": "Delta Light / UK homepage",
+              "url": "https://deltalight.com/en-gb"
+            }
+          ]
+        },
+        "iguzzini": {
+          "headline": "Forward 2026 plus project-specific evidence",
+          "summary": "Forward 2026 combines brand narrative, innovation and sectors. UK reference stories such as Paddington Square add design-team credits, location and products used.",
+          "scope": "UK + global",
+          "evidence": [
+            {
+              "label": "iGuzzini / Paddington Square project",
+              "url": "https://www.iguzzini.com/en/inspiration/infrastructure/paddington-square/"
+            }
+          ]
+        },
+        "difference": "Delta Light turns a thematic downloadable asset into six individual learning moments; iGuzzini’s Forward 2026 is more comprehensive and project-led.",
+        "consider": "Consider turning one existing iGuzzini guide or UK project resource into a coordinated educational release."
+      }
+    }
+  }
+}
