@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T14:36:42.413650+00:00",
+  "generated_at": "2026-11-15T14:37:37.385830+00:00",
   "description": "Direct links discovered on official public news, event and press pages. First-seen date is when this system noticed a link, NOT a publication or event date. New links may be older publications. Nothing here is an AI-generated finding.",
   "counts": {
     "checked_sources": 9,
