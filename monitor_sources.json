@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "description": "Public-page text monitoring for the UK-first competitor marketing comparison. Social network profiles intentionally excluded. No user data.",
+  "sources": [
+    {
+      "id": "source-01",
+      "brand": "ERCO",
+      "url": "https://www.erco.com/gb/erco-united-kingdom/introducing-erco/",
+      "categories": [
+        "Messaging"
+      ]
+    },
+    {
+      "id": "source-02",
+      "brand": "iGuzzini",
+      "url": "https://www.iguzzini.com/en/",
+      "categories": [
+        "Messaging",
+        "Website"
+      ]
+    },
+    {
+      "id": "source-03",
+      "brand": "ERCO",
+      "url": "https://www.erco.com/en/inspiration/projects/framing-light-exhibition-london/",
+      "categories": [
+        "Branding"
+      ]
+    },
+    {
+      "id": "source-04",
+      "brand": "iGuzzini",
+      "url": "https://www.iguzzini.com/en/about-us/downloads/",
+      "categories": [
+        "Branding"
+      ]
+    },
+    {
+      "id": "source-05",
+      "brand": "ERCO",
+      "url": "https://www.erco.com/gb/erco-united-kingdom/erco-zaha-hadid-architects-clerkenwell-design-week-2026/",
+      "categories": [
+        "Events"
+      ]
+    },
+    {
+      "id": "source-06",
+      "brand": "iGuzzini",
+      "url": "https://www.iguzzini.com/en/news--events/iguzzini-at-light-26/",
+      "categories": [
+        "Events"
+      ]
+    },
+    {
+      "id": "source-07",
+      "brand": "ERCO",
+      "url": "https://www.erco.com/gb/erco-united-kingdom/",
+      "categories": [
+        "Website"
+      ]
+    },
+    {
+      "id": "source-08",
+      "brand": "ERCO",
+      "url": "https://www.erco.com/gb/erco-united-kingdom/erco-lighting-uk-cpd-courses/",
+      "categories": [
+        "Content"
+      ]
+    },
+    {
+      "id": "source-09",
+      "brand": "iGuzzini",
+      "url": "https://www.iguzzini.com/en/inspiration/infrastructure/paddington-square/",
+      "categories": [
+        "Content"
+      ]
+    },
+    {
+      "id": "source-10",
+      "brand": "Fagerhult",
+      "url": "https://www.fagerhult.com/en-GB/news/2025/university-of-warwick-library-adopts-smart-lighting/",
+      "categories": [
+        "Messaging",
+        "Content"
+      ]
+    },
+    {
+      "id": "source-11",
+      "brand": "Fagerhult",
+      "url": "https://www.linkedin.com/posts/fagerhult_darcawards-fagerhult-wrapped-activity-7432741243237036032-Wg4n",
+      "categories": [
+        "Branding"
+      ]
+    },
+    {
+      "id": "source-12",
+      "brand": "Fagerhult",
+      "url": "https://www.fagerhult.com/en-GB/CPD-technical-seminars/",
+      "categories": [
+        "Events",
+        "Website"
+      ]
+    },
+    {
+      "id": "source-13",
+      "brand": "Zumtobel",
+      "url": "https://www.zumtobel.co.uk/en-gb/news-events/orgatec",
+      "categories": [
+        "Messaging",
+        "Content"
+      ]
+    },
+    {
+      "id": "source-14",
+      "brand": "Zumtobel",
+      "url": "https://www.zumtobel.co.uk/en-gb/news-events/serpentine-pavilion-2026",
+      "categories": [
+        "Branding",
+        "Events"
+      ]
+    },
+    {
+      "id": "source-15",
+      "brand": "Zumtobel",
+      "url": "https://www.zumtobel.co.uk/en-gb/applications",
+      "categories": [
+        "Website"
+      ]
+    },
+    {
+      "id": "source-16",
+      "brand": "XAL",
+      "url": "https://www.xal.com/en/enviva",
+      "categories": [
+        "Messaging",
+        "Branding",
+        "Website",
+        "Content"
+      ]
+    },
+    {
+      "id": "source-17",
+      "brand": "XAL",
+      "url": "https://www.xal.com/en/company/news/catalogue-news26",
+      "categories": [
+        "Events"
+      ]
+    },
+    {
+      "id": "source-18",
+      "brand": "TRILUX",
+      "url": "https://www.trilux.com/en/company/events/showrooms/london/",
+      "categories": [
+        "Messaging",
+        "Website",
+        "Content"
+      ]
+    },
+    {
+      "id": "source-19",
+      "brand": "TRILUX",
+      "url": "https://www.trilux.com/gb/blog/light-studios/",
+      "categories": [
+        "Branding"
+      ]
+    },
+    {
+      "id": "source-20",
+      "brand": "TRILUX",
+      "url": "https://www.trilux.com/gb/company/events/triux-client-lab-london/",
+      "categories": [
+        "Events"
+      ]
+    },
+    {
+      "id": "source-21",
+      "brand": "Delta Light",
+      "url": "https://deltalight.com/en-gb/locator/deltalight-uk",
+      "categories": [
+        "Messaging",
+        "Branding"
+      ]
+    },
+    {
+      "id": "source-22",
+      "brand": "Delta Light",
+      "url": "https://deltalight.com/en/more-inspiration/events/2026/11/beyond-the-expected-at-light26",
+      "categories": [
+        "Events"
+      ]
+    },
+    {
+      "id": "source-23",
+      "brand": "Delta Light",
+      "url": "https://deltalight.com/en-gb",
+      "categories": [
+        "Website",
+        "Content"
+      ]
+    }
+  ]
+}
