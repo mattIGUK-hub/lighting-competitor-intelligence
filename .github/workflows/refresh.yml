@@ -89,3 +89,35 @@ jobs:
       - name: Publish to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Verify the public assessment and monitoring endpoints
+        run: |
+          python - <<'PY'
+          import json
+          import time
+          from urllib.request import Request, urlopen
+
+          root = 'https://mattiguk-hub.github.io/lighting-competitor-intelligence/'
+          origin = 'https://iguzziniuk.htmltolink.dev'
+          for filename in ('marketing-assessments.json', 'site-change-monitor.json'):
+              for attempt in range(5):
+                  try:
+                      request = Request(root + filename + '?audit=' + str(time.time()),
+                                        headers={'Origin': origin, 'User-Agent': 'Mozilla/5.0 (marketing feed check)'})
+                      with urlopen(request, timeout=20) as response:
+                          payload = json.load(response)
+                          cors = response.headers.get('Access-Control-Allow-Origin')
+                          print(filename, 'HTTP', response.status, 'CORS', cors)
+                          assert response.status == 200
+                          assert cors in ('*', origin), 'Browser origin not allowed'
+                          assert payload.get('schema_version') == 1, 'Unexpected published schema'
+                          if filename == 'marketing-assessments.json':
+                              assert len(payload.get('competitors', {})) == 6
+                          else:
+                              assert len(payload.get('sources', [])) >= 20
+                      break
+                  except Exception:
+                      if attempt == 4:
+                          raise
+                      time.sleep(3)
+          PY
