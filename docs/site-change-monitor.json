@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T09:15:32.621862+00:00",
+  "generated_at": "2026-11-15T09:17:42.878306+00:00",
   "method": "Selected public server-HTML text only, checked daily; changes are unreviewed signals. Social networks excluded. Some sites block automated reading or rely on JavaScript.",
   "counts": {
     "checked": 14,
     "unavailable": 9,
-    "changed": 0,
-    "new_baselines": 14
+    "changed": 1,
+    "new_baselines": 0
   },
   "sources": [
     {
@@ -33,7 +33,7 @@
       ],
       "status": "ok",
       "changed_in_latest_scan": false,
-      "baseline": true,
+      "baseline": false,
       "digest": "194a68e8c8ce35c904f6d36ffdf69e6fce986f15a4457b25bb73fe77f7d4efc3",
       "characters": 2263,
       "last_changed_at": null
@@ -61,7 +61,7 @@
       ],
       "status": "ok",
       "changed_in_latest_scan": false,
-      "baseline": true,
+      "baseline": false,
       "digest": "859840e28c24acdfc311711976b2d996fd4c9513befa28f5ca4660b1e679ecb8",
       "characters": 810,
       "last_changed_at": null
@@ -89,7 +89,7 @@
       ],
       "status": "ok",
       "changed_in_latest_scan": false,
-      "baseline": true,
+      "baseline": false,
       "digest": "2957ec5e88084677b8ebd32a23cad6cb07fd4fc328d7657ff3a18aa426fc3d1d",
       "characters": 2787,
       "last_changed_at": null
@@ -130,11 +130,11 @@
         "Content"
       ],
       "status": "ok",
-      "changed_in_latest_scan": false,
-      "baseline": true,
-      "digest": "deca4e7d14f986ddbb72a08f1fc839cd041ccf828b82fed1f27bc9b267658a66",
+      "changed_in_latest_scan": true,
+      "baseline": false,
+      "digest": "f2f80efd78ca4ae3d75023fecc443278bdb506c672f134e7647b323239e3b7ff",
       "characters": 1824,
-      "last_changed_at": null
+      "last_changed_at": "2026-11-15T09:17:38.891054+00:00"
     },
     {
       "id": "source-10",
@@ -146,7 +146,7 @@
       ],
       "status": "ok",
       "changed_in_latest_scan": false,
-      "baseline": true,
+      "baseline": false,
       "digest": "f3ab661c377c36e51a94f2f0989518d464cd8e8a16196d453d508417bbe9f087",
       "characters": 19054,
       "last_changed_at": null
@@ -160,7 +160,7 @@
       ],
       "status": "ok",
       "changed_in_latest_scan": false,
-      "baseline": true,
+      "baseline": false,
       "digest": "6c64df5b8344a621e5ef8e4937f64e5a928189f51a084f175e6ff026220c1854",
       "characters": 2353,
       "last_changed_at": null
@@ -175,7 +175,7 @@
       ],
       "status": "ok",
       "changed_in_latest_scan": false,
-      "baseline": true,
+      "baseline": false,
       "digest": "896e8097f605251bae8bc783dde71f031f6e83f8ae4c1be4c4244af15deaf1d2",
       "characters": 4314,
       "last_changed_at": null
@@ -190,7 +190,7 @@
       ],
       "status": "ok",
       "changed_in_latest_scan": false,
-      "baseline": true,
+      "baseline": false,
       "digest": "997953d9720f2bb465f7136228d3d0a6e1401e3721d406825f89179c4a141f1d",
       "characters": 2621,
       "last_changed_at": null
@@ -205,7 +205,7 @@
       ],
       "status": "ok",
       "changed_in_latest_scan": false,
-      "baseline": true,
+      "baseline": false,
       "digest": "aa67310040762cfe2eddb0d474256fdb0d185f68718d52c520cfd985b0f7068d",
       "characters": 4440,
       "last_changed_at": null
@@ -219,7 +219,7 @@
       ],
       "status": "ok",
       "changed_in_latest_scan": false,
-      "baseline": true,
+      "baseline": false,
       "digest": "c84fced52405606fe602fdb37db33de0cf71e80129f300a6cdcea2fe40c6f6b4",
       "characters": 1264,
       "last_changed_at": null
@@ -236,7 +236,7 @@
       ],
       "status": "ok",
       "changed_in_latest_scan": false,
-      "baseline": true,
+      "baseline": false,
       "digest": "f6a66459965a896b3f4103d7ff5a1a44fbba9e5f79306459d0292bdee5f82287",
       "characters": 12216,
       "last_changed_at": null
@@ -250,7 +250,7 @@
       ],
       "status": "ok",
       "changed_in_latest_scan": false,
-      "baseline": true,
+      "baseline": false,
       "digest": "43316f35aaeae27bfd9ae74e95dba6c953e99ac4175a55e38c5fcec274dfb6ad",
       "characters": 8322,
       "last_changed_at": null
@@ -323,7 +323,7 @@
       ],
       "status": "ok",
       "changed_in_latest_scan": false,
-      "baseline": true,
+      "baseline": false,
       "digest": "bb3c743b0247c9f9729c0ed72d4aa47171f4b010c68d007559ab8cdbddc3bf7b",
       "characters": 784,
       "last_changed_at": null
@@ -338,7 +338,7 @@
       ],
       "status": "ok",
       "changed_in_latest_scan": false,
-      "baseline": true,
+      "baseline": false,
       "digest": "2d435d085d21bc01f5a7917786438b47eb5df9c801f1a5a2bd39910b0f6d1e61",
       "characters": 535,
       "last_changed_at": null
