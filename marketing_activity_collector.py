@@ -265,7 +265,7 @@ def main():
             row.get("published_at") or row.get("first_seen") or "",
             row.get("first_seen") or ""
         ), reverse=True)
-        selected.extend(brand_rows[:9])
+        selected.extend(brand_rows[:18])
     reviewed = {"articles_checked": 0, "uk_context_found": 0,
                 "no_uk_context": 0, "articles_unavailable": 0}
     checked_at = datetime.now(timezone.utc).isoformat()
