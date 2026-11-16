@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T14:47:17+00:00",
+  "generated_at": "2026-11-16T09:51:24+00:00",
   "feed_type": "public_research_discovery",
   "note": "Automatically discovered public headlines. Every record requires source and claim verification.",
   "source_status": [
@@ -12,7 +12,7 @@
     {
       "competitor": "Fagerhult",
       "status": "ok",
-      "items_discovered": 7
+      "items_discovered": 6
     },
     {
       "competitor": "Zumtobel",
@@ -36,8 +36,8 @@
     }
   ],
   "counts": {
-    "found": 21,
-    "added": 0,
+    "found": 20,
+    "added": 2,
     "retained": 25,
     "failures": 0
   },
@@ -139,6 +139,22 @@
       "collected_at": "2026-11-14"
     },
     {
+      "id": "2e6abcde371be245",
+      "competitor": "Zumtobel",
+      "headline": "Black & White Engineering expands global ICT and security services - Data Centre Solutions",
+      "summary": "Black & White Engineering expands global ICT and security services Data Centre Solutions",
+      "published_at": "2026-11-12",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdnNYMDU1VUVpWlNMRDFRTGRUSnkzWEJBV2tWemNmeXprUlRtWGFUUzY0MjRfdklFQmc2TGxoalk5SlZEaEJ0aEREQW44UFFETTJhS3NCVGlLSjVvQUZNSGxyWUNRNnlHcjU0TFR2UkoxMF9TNEJoZW13V05EUjEySUlWd3V1X0plMjlwak5nZGFybmlsS3I4c3hOS1R5N1lkYUJQN3lyTEVjV0h3eHhRMTJBcng?oc=5",
+      "source_name": "Google News RSS: Zumtobel",
+      "category": "Other",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-16"
+    },
+    {
       "id": "6e5f9d9eb6d7107b",
       "competitor": "Delta Light",
       "headline": "Belgian Design Makes Its U.S. Debut in California, Nov. 11–13 - Lohud",
@@ -185,6 +201,22 @@
       "verification": "needs_review",
       "brand_match": false,
       "collected_at": "2026-11-15"
+    },
+    {
+      "id": "9f3e708022cb45e7",
+      "competitor": "Zumtobel",
+      "headline": "Forsters on Data Centre Development, Planning and Regulatory Challenges - Data Centre Solutions",
+      "summary": "Forsters on Data Centre Development, Planning and Regulatory Challenges Data Centre Solutions",
+      "published_at": "2026-11-10",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTHVzLTgxd3czMU9XSFFJX3pqY1Z6MkNuYndoRmxqVWRpdHpOSnlMWnA5U0UyakYzcERId3BoNWNhdGx0VnJfaHBaUkVlVEZJekVNTXZiTXY0Q09lX2tPYjlUQnh3UzVTRHpWZThrb3pKNGZHenkwb3AwNm5Ka3ZwMVBTc1g4OThGQS1HY2FhM2g0MTc4S2tlaGZhd0lndExOSGZFeW9iZ2JvaVZSd2VCbzl5YkVNRUtvX21LVWFn?oc=5",
+      "source_name": "Google News RSS: Zumtobel",
+      "category": "Other",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-16"
     },
     {
       "id": "6edfd982588e035b",
