@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T09:51:50.919572+00:00",
+  "generated_at": "2026-11-17T08:27:55.748225+00:00",
   "method": "Selected public server-HTML text only, checked daily; changes are unreviewed signals. Social networks excluded. Some sites block automated reading or rely on JavaScript.",
   "counts": {
     "checked": 14,
     "unavailable": 9,
-    "changed": 3,
+    "changed": 5,
     "new_baselines": 0
   },
   "sources": [
@@ -162,7 +162,7 @@
       "status": "ok",
       "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "4447eedf20f1bf2aeb3aa729fb7809f736e66c2646a2ec28b4492000fd5ceae3",
+      "digest": "b281ac5d55e6aaaf878815b4a8e201debe11b3ebd17e0a6fe0f3d35cf3f4fef1",
       "characters": 1824,
       "block_hashes": [
         "d7e764dab9b79ba2",
@@ -171,7 +171,7 @@
         "09068ee382366045"
       ],
       "change_snippets": [],
-      "last_changed_at": "2026-11-16T09:51:39.398748+00:00"
+      "last_changed_at": "2026-11-17T08:27:50.935452+00:00"
     },
     {
       "id": "source-10",
@@ -182,15 +182,11 @@
         "Content"
       ],
       "status": "ok",
-      "changed_in_latest_scan": false,
+      "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "f3ab661c377c36e51a94f2f0989518d464cd8e8a16196d453d508417bbe9f087",
-      "characters": 19054,
+      "digest": "e9b5c035cfa2ef7246b028476a2420a3936c6dcc88a33acdafc6b3a074a58be8",
+      "characters": 18276,
       "block_hashes": [
-        "e18d700798ad8e19",
-        "81baa7fc3c0b0f36",
-        "e59633c2b73fa1f3",
-        "8980e17756674784",
         "c4af7d7f0d8e791b",
         "b3cef921f6c6ba25",
         "ecf1618e6dc18b20",
@@ -217,7 +213,7 @@
         "d2ecdfae093ae20a"
       ],
       "change_snippets": [],
-      "last_changed_at": null
+      "last_changed_at": "2026-11-17T08:27:50.863170+00:00"
     },
     {
       "id": "source-11",
@@ -229,7 +225,7 @@
       "status": "ok",
       "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "5a15c1fb5ccba7e43e36380e9d9df5b73d82e1e17945e1e89ef0494c23d9c768",
+      "digest": "e879da87553de13dc906be4d3505dd4651b40d19b9a56e5b987c0135d30d55a6",
       "characters": 2353,
       "block_hashes": [
         "d852737eb2d33f4e",
@@ -239,7 +235,7 @@
         "1a346c3ea7139313"
       ],
       "change_snippets": [],
-      "last_changed_at": "2026-11-16T09:51:39.599075+00:00"
+      "last_changed_at": "2026-11-17T08:27:51.208281+00:00"
     },
     {
       "id": "source-12",
@@ -250,15 +246,11 @@
         "Website"
       ],
       "status": "ok",
-      "changed_in_latest_scan": false,
+      "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "896e8097f605251bae8bc783dde71f031f6e83f8ae4c1be4c4244af15deaf1d2",
-      "characters": 4314,
+      "digest": "27ab18bf22d3fafba83c309a6421386fac4f70d4a4bae01eb8ab1b07011ad192",
+      "characters": 3536,
       "block_hashes": [
-        "e18d700798ad8e19",
-        "81baa7fc3c0b0f36",
-        "e59633c2b73fa1f3",
-        "8980e17756674784",
         "a8137b65e8e85521",
         "3774acf5dafb76dc",
         "26747e6ec9f7e8ca",
@@ -272,7 +264,7 @@
         "d2ecdfae093ae20a"
       ],
       "change_snippets": [],
-      "last_changed_at": null
+      "last_changed_at": "2026-11-17T08:27:51.028148+00:00"
     },
     {
       "id": "source-13",
@@ -525,8 +517,8 @@
       "status": "ok",
       "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "bb3c743b0247c9f9729c0ed72d4aa47171f4b010c68d007559ab8cdbddc3bf7b",
-      "characters": 784,
+      "digest": "fae12a0fded104d5fa8fc3c679e0af5b0a270052c845a8926302cb47009ceef9",
+      "characters": 1006,
       "block_hashes": [
         "a1b4e5b8ad92392d",
         "6cf89a3b154527e0",
@@ -537,7 +529,7 @@
         "24a0b5a4da022b24"
       ],
       "change_snippets": [],
-      "last_changed_at": "2026-11-16T09:51:45.201661+00:00"
+      "last_changed_at": "2026-11-17T08:27:55.180817+00:00"
     },
     {
       "id": "source-23",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T09:51:24+00:00",
+  "generated_at": "2026-11-17T08:27:37+00:00",
   "feed_type": "public_research_discovery",
   "note": "Automatically discovered public headlines. Every record requires source and claim verification.",
   "source_status": [
@@ -12,12 +12,12 @@
     {
       "competitor": "Fagerhult",
       "status": "ok",
-      "items_discovered": 6
+      "items_discovered": 7
     },
     {
       "competitor": "Zumtobel",
       "status": "ok",
-      "items_discovered": 10
+      "items_discovered": 9
     },
     {
       "competitor": "XAL",
@@ -38,7 +38,7 @@
   "counts": {
     "found": 20,
     "added": 2,
-    "retained": 25,
+    "retained": 27,
     "failures": 0
   },
   "records": [
@@ -219,6 +219,22 @@
       "collected_at": "2026-11-16"
     },
     {
+      "id": "220c821f876cab19",
+      "competitor": "Zumtobel",
+      "headline": "Zumtobel Group on Data Centre Growth, AI Infrastructure and Supply Chain Challenges - Data Centre Solutions",
+      "summary": "Zumtobel Group on Data Centre Growth, AI Infrastructure and Supply Chain Challenges Data Centre Solutions",
+      "published_at": "2026-11-10",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSnBwZnZJN0xEOFEtUTRtSDFQc1phSGYwaGVXVklnREV1NWFaSEZhT3M2ZXJobENad3haUHNFQ0RNanNBb1hzQmhJeEdFR2J1emxuOVNZUnc4djJoRVluVU1PSFl0Zk5PRGktZEdUNnVIamVqd3MybjlkWDRKa0RrSnEtUFRaUGRTekphOS1IV2tfUVN2MHlwZ3pDZVZXbU1OSExwb1RINnJkSkQtVGtrVlAwUnYzSldqY054TUppSDhmYkZTbmhpQzhmYXZodw?oc=5",
+      "source_name": "Google News RSS: Zumtobel",
+      "category": "Other",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": true,
+      "collected_at": "2026-11-17"
+    },
+    {
       "id": "6edfd982588e035b",
       "competitor": "Zumtobel",
       "headline": "Circadian Wellness Lighting Market Size, Share & Forecast 2036 - Fact.MR",
@@ -345,6 +361,22 @@
       "verification": "needs_review",
       "brand_match": false,
       "collected_at": "2026-11-14"
+    },
+    {
+      "id": "3912707f7875859b",
+      "competitor": "Zumtobel",
+      "headline": "Zumtobel illuminates the Vatican Necropolis: light to preserve heritage - Foro3D",
+      "summary": "Zumtobel illuminates the Vatican Necropolis: light to preserve heritage Foro3D",
+      "published_at": "2026-10-11",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMkpvUXpRb0NhVzRuV19WNHkxaTB3NzY2b3Z2Qm1UREt2OFdDMElzdk5adVRkYXRuYVV6WmVPVkhaY1JxazdYbnJCcUlEdlNVUEQyZ29WM0p2aTE1UFR3WnBIUlZ5eEpyWkZxcVFlWjZETGpIVDN2ZGNtWDhLenVPbVNhVGVRUEsyam1GTHpMb0hYWUVZUmJPUG85MlVlTFRSVjlNVXhsdVExVHpUUkNF?oc=5",
+      "source_name": "Google News RSS: Zumtobel",
+      "category": "Projects",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": true,
+      "collected_at": "2026-11-17"
     },
     {
       "id": "6b48b14c556608f6",
