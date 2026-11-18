@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T08:27:37+00:00",
+  "generated_at": "2026-11-18T08:28:46+00:00",
   "feed_type": "public_research_discovery",
   "note": "Automatically discovered public headlines. Every record requires source and claim verification.",
   "source_status": [
@@ -12,12 +12,12 @@
     {
       "competitor": "Fagerhult",
       "status": "ok",
-      "items_discovered": 7
+      "items_discovered": 5
     },
     {
       "competitor": "Zumtobel",
       "status": "ok",
-      "items_discovered": 9
+      "items_discovered": 10
     },
     {
       "competitor": "XAL",
@@ -36,9 +36,9 @@
     }
   ],
   "counts": {
-    "found": 20,
-    "added": 2,
-    "retained": 27,
+    "found": 19,
+    "added": 0,
+    "retained": 29,
     "failures": 0
   },
   "records": [
