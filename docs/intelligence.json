@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T08:28:46+00:00",
+  "generated_at": "2026-11-19T08:32:22+00:00",
   "feed_type": "public_research_discovery",
   "note": "Automatically discovered public headlines. Every record requires source and claim verification.",
   "source_status": [
@@ -12,12 +12,12 @@
     {
       "competitor": "Fagerhult",
       "status": "ok",
-      "items_discovered": 5
+      "items_discovered": 6
     },
     {
       "competitor": "Zumtobel",
       "status": "ok",
-      "items_discovered": 10
+      "items_discovered": 9
     },
     {
       "competitor": "XAL",
@@ -27,21 +27,53 @@
     {
       "competitor": "TRILUX",
       "status": "ok",
-      "items_discovered": 1
+      "items_discovered": 2
     },
     {
       "competitor": "Delta Light",
       "status": "ok",
-      "items_discovered": 2
+      "items_discovered": 3
     }
   ],
   "counts": {
-    "found": 19,
-    "added": 0,
+    "found": 21,
+    "added": 4,
     "retained": 29,
     "failures": 0
   },
   "records": [
+    {
+      "id": "c4e99023bdc60606",
+      "competitor": "Zumtobel",
+      "headline": "Security Lights Market Forecast to 2035: Smart and Solar Adoption Drives Growth - News and Statistics - IndexBox",
+      "summary": "Security Lights Market Forecast to 2035: Smart and Solar Adoption Drives Growth - News and Statistics IndexBox",
+      "published_at": "2026-11-16",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdUpTUXgwNVl2QUJsd084S1FNR2VjcjBqZktoVHdYOHhudFp2YzBjYnpWTjBwNjktV1lMbmhINmVDNHp5WjdLbFFiVlpiUGpTUC1HX3BxU0w5ckZGd1NYMm8xSjJCS015U2MwVFpiVkE1bGdfa3FzNmZ6bW1CaGRVLURMMTB5TG5pVTZDdmhsbEZub2NaajVWU1NkYWMxUDJMWDVYSzlvbkFpMG8?oc=5",
+      "source_name": "Google News RSS: Zumtobel",
+      "category": "Other",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-19"
+    },
+    {
+      "id": "11b19e0889d31605",
+      "competitor": "Delta Light",
+      "headline": "Link House / Openideas Architects - ArchDaily",
+      "summary": "Link House / Openideas Architects ArchDaily",
+      "published_at": "2026-11-16",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9LYm9BOVpXdFctc1lWOWNEaGFETEt6MHNNNlBPTmtlZThpTU5yZ0oteXJlbVEySW5jQnJ4dS02ckJ2aTJMUFR2MF8xYl9kRGFxcklUckw2VmdVZGdPRGZFMW12VWptYkJxSmVHNnBqNVJwMnM?oc=5",
+      "source_name": "Google News RSS: Delta Light",
+      "category": "Other",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-19"
+    },
     {
       "id": "c19db67b7d14e82f",
       "competitor": "Zumtobel",
@@ -315,6 +347,22 @@
       "collected_at": "2026-11-14"
     },
     {
+      "id": "354481d8c3475c89",
+      "competitor": "Fagerhult",
+      "headline": "Fagerhult Group (OM:FAG) Stock Price Flags Q2 Earnings Dividend Strain - Simply Wall St",
+      "summary": "Fagerhult Group (OM:FAG) Stock Price Flags Q2 Earnings Dividend Strain Simply Wall St",
+      "published_at": "2026-10-28",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPSE1QOGpXaWNNbHZRd0FtYTFTVUowNmw2VWUxODF2blRKQ0xnclphZjg3aWUxLVAzQ2ZEVVdZaVdqaC1lbWJyb3dwSjVVTnlkVzNKcjJwSVlzanFLQ29wREt1YWZxLTU3S01weUgySFBNWHM5VGxNZ294RVNvYVRqN3YzQVpFby1pY19PTTNoc0FPeGc1RkM5V2FhWXNLUjN4dklmY0wxVnVZeWNNcktKVjZBU3NzYy15Z2ZOblVaeE9wdkVoZi1XbzZWc2I5QjdIWW9zWEpDSVlYZ9IB3wFBVV95cUxQRHBJTWxETGtoR3ZJRkdZcTF4TGprcFpJR1lCNHF2Rm85VXdHckdEbGwydjQtLWJlQ2htUmE4NWZ5NlgyckV4UHMzdFB1UlhydDhlb2Y4LTJGU2lZLUdqTlFWSUNKWTdReVZ1NDd1SVE3cjlHeDhRTi1PUk9mX3FTTWNBcWpGekU5Zll6Y0FUZXNKQXNsNG5HNXktdzZoSGJ3ZWk3SjJ3Q1NzTHlxMWtrSURMX2E5X3hKbWJhQXZTcDNSUlBELXVzSHVhdllGdmdsNkt2blp0QzdKM0s2bnd3?oc=5",
+      "source_name": "Google News RSS: Fagerhult",
+      "category": "Other",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": true,
+      "collected_at": "2026-11-19"
+    },
+    {
       "id": "92c4ef6d67be6602",
       "competitor": "Fagerhult",
       "headline": "Fagerhult creates bespoke lighting for Gothenburg's new Grand Central - InteriorDaily",
@@ -489,6 +537,22 @@
       "verification": "needs_review",
       "brand_match": true,
       "collected_at": "2026-11-14"
+    },
+    {
+      "id": "79ee21e2893e24fa",
+      "competitor": "TRILUX",
+      "headline": "Europe Lighting Market Size, Share and Analysis, 2034 - Market Data Forecast",
+      "summary": "Europe Lighting Market Size, Share and Analysis, 2034 Market Data Forecast",
+      "published_at": "2026-09-03",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9vbG5rNXJvY1F0QS1OQzBSNGJNVTNQdG1mbmJqRk5ZYWVIUnBEWkU4R0tsTGdMNEt6b0ZjeVdhMnZ3eGhHUy1tVG04V0FpT3VRZklDRGRnVjFabk80Q1VTMXNjWW5iRzB2X3lENk5sQ3VqbktodU5IaGc1TWk?oc=5",
+      "source_name": "Google News RSS: TRILUX",
+      "category": "Other",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-19"
     },
     {
       "id": "1c003bde2b2029d8",

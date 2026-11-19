@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T08:29:21.881866+00:00",
+  "generated_at": "2026-11-19T08:32:46.165926+00:00",
   "method": "Selected public server-HTML text only, checked daily; changes are unreviewed signals. Social networks excluded. Some sites block automated reading or rely on JavaScript.",
   "counts": {
     "checked": 14,
@@ -162,7 +162,7 @@
       "status": "ok",
       "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "28a3d73a75487b955f143145c0b0baf8a414ee2f30f5768e9e402f9ab914a15e",
+      "digest": "1b7e26ed8e0d7618c43d6010fef7f676d944046e42eb1870b6919ee5f27988e6",
       "characters": 1824,
       "block_hashes": [
         "d7e764dab9b79ba2",
@@ -171,7 +171,7 @@
         "09068ee382366045"
       ],
       "change_snippets": [],
-      "last_changed_at": "2026-11-18T08:29:15.431225+00:00"
+      "last_changed_at": "2026-11-19T08:32:40.171074+00:00"
     },
     {
       "id": "source-10",
@@ -225,7 +225,7 @@
       "status": "ok",
       "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "5c039a97c1251f1507541044363819a267cf19f99068e65f91cf8b967aa109f1",
+      "digest": "8fc4a37f19441d9dfd014c3ea78387f90ca3878d0a556b8b6cba18ba4cdfe821",
       "characters": 2353,
       "block_hashes": [
         "d852737eb2d33f4e",
@@ -235,7 +235,7 @@
         "1a346c3ea7139313"
       ],
       "change_snippets": [],
-      "last_changed_at": "2026-11-18T08:29:15.850210+00:00"
+      "last_changed_at": "2026-11-19T08:32:40.403435+00:00"
     },
     {
       "id": "source-12",
@@ -517,8 +517,8 @@
       "status": "ok",
       "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "bb3c743b0247c9f9729c0ed72d4aa47171f4b010c68d007559ab8cdbddc3bf7b",
-      "characters": 784,
+      "digest": "fae12a0fded104d5fa8fc3c679e0af5b0a270052c845a8926302cb47009ceef9",
+      "characters": 1006,
       "block_hashes": [
         "a1b4e5b8ad92392d",
         "6cf89a3b154527e0",
@@ -529,7 +529,7 @@
         "24a0b5a4da022b24"
       ],
       "change_snippets": [],
-      "last_changed_at": "2026-11-18T08:29:20.063509+00:00"
+      "last_changed_at": "2026-11-19T08:32:45.621165+00:00"
     },
     {
       "id": "source-23",
