@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T08:32:46.165926+00:00",
+  "generated_at": "2026-11-20T08:29:13.373323+00:00",
   "method": "Selected public server-HTML text only, checked daily; changes are unreviewed signals. Social networks excluded. Some sites block automated reading or rely on JavaScript.",
   "counts": {
     "checked": 14,
     "unavailable": 9,
-    "changed": 3,
+    "changed": 5,
     "new_baselines": 0
   },
   "sources": [
@@ -32,10 +32,10 @@
         "Website"
       ],
       "status": "ok",
-      "changed_in_latest_scan": false,
+      "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "194a68e8c8ce35c904f6d36ffdf69e6fce986f15a4457b25bb73fe77f7d4efc3",
-      "characters": 2263,
+      "digest": "8755adabdef48e859e7c1a8167c5ddd3a01638fc7ad66656fed51cfcb6611d9d",
+      "characters": 2346,
       "block_hashes": [
         "6b594ce75f6267e8",
         "ee2af1d7864c9274",
@@ -55,7 +55,7 @@
         "09068ee382366045"
       ],
       "change_snippets": [],
-      "last_changed_at": null
+      "last_changed_at": "2026-11-20T08:29:08.777788+00:00"
     },
     {
       "id": "source-03",
@@ -162,7 +162,7 @@
       "status": "ok",
       "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "1b7e26ed8e0d7618c43d6010fef7f676d944046e42eb1870b6919ee5f27988e6",
+      "digest": "28a3d73a75487b955f143145c0b0baf8a414ee2f30f5768e9e402f9ab914a15e",
       "characters": 1824,
       "block_hashes": [
         "d7e764dab9b79ba2",
@@ -171,7 +171,7 @@
         "09068ee382366045"
       ],
       "change_snippets": [],
-      "last_changed_at": "2026-11-19T08:32:40.171074+00:00"
+      "last_changed_at": "2026-11-20T08:29:09.178788+00:00"
     },
     {
       "id": "source-10",
@@ -225,17 +225,19 @@
       "status": "ok",
       "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "8fc4a37f19441d9dfd014c3ea78387f90ca3878d0a556b8b6cba18ba4cdfe821",
+      "digest": "a68adf254fbbd1e1c8b93ad146f9349620ac32e8e6614f68cd5f9074741f957f",
       "characters": 2353,
       "block_hashes": [
         "d852737eb2d33f4e",
+        "1472144643c1c68a",
         "97856960509f6770",
         "581dd3518721755c",
-        "c30dda1019088413",
         "1a346c3ea7139313"
       ],
-      "change_snippets": [],
-      "last_changed_at": "2026-11-19T08:32:40.403435+00:00"
+      "change_snippets": [
+        "The Evolution of Retail Experience: Insights from Professor Laura Ugolini – Part Two"
+      ],
+      "last_changed_at": "2026-11-20T08:29:09.355594+00:00"
     },
     {
       "id": "source-12",
@@ -411,10 +413,10 @@
         "Events"
       ],
       "status": "ok",
-      "changed_in_latest_scan": false,
+      "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "43316f35aaeae27bfd9ae74e95dba6c953e99ac4175a55e38c5fcec274dfb6ad",
-      "characters": 8322,
+      "digest": "e584e81e32a54349b640fdc1cec0f9c22f01461b989b36feb83e99818609ee09",
+      "characters": 8289,
       "block_hashes": [
         "67a53ca1feaff106",
         "73b82fa892eef937",
@@ -446,7 +448,7 @@
         "c39b25f36f30c9d0"
       ],
       "change_snippets": [],
-      "last_changed_at": null
+      "last_changed_at": "2026-11-20T08:29:11.063996+00:00"
     },
     {
       "id": "source-18",
@@ -515,7 +517,7 @@
         "Events"
       ],
       "status": "ok",
-      "changed_in_latest_scan": true,
+      "changed_in_latest_scan": false,
       "baseline": false,
       "digest": "fae12a0fded104d5fa8fc3c679e0af5b0a270052c845a8926302cb47009ceef9",
       "characters": 1006,
@@ -540,10 +542,10 @@
         "Content"
       ],
       "status": "ok",
-      "changed_in_latest_scan": false,
+      "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "2d435d085d21bc01f5a7917786438b47eb5df9c801f1a5a2bd39910b0f6d1e61",
-      "characters": 535,
+      "digest": "bf2349eeb473160608e7bb41d0fc9626bdb169fa05b1dd3bc8cde2775ddd6967",
+      "characters": 544,
       "block_hashes": [
         "a1b4e5b8ad92392d",
         "6cf89a3b154527e0",
@@ -551,7 +553,7 @@
         "6f994e062aed9444"
       ],
       "change_snippets": [],
-      "last_changed_at": null
+      "last_changed_at": "2026-11-20T08:29:13.372715+00:00"
     }
   ]
 }

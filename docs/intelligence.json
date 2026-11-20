@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T08:32:22+00:00",
+  "generated_at": "2026-11-20T08:28:57+00:00",
   "feed_type": "public_research_discovery",
   "note": "Automatically discovered public headlines. Every record requires source and claim verification.",
   "source_status": [
@@ -12,12 +12,12 @@
     {
       "competitor": "Fagerhult",
       "status": "ok",
-      "items_discovered": 6
+      "items_discovered": 5
     },
     {
       "competitor": "Zumtobel",
       "status": "ok",
-      "items_discovered": 9
+      "items_discovered": 8
     },
     {
       "competitor": "XAL",
@@ -27,7 +27,7 @@
     {
       "competitor": "TRILUX",
       "status": "ok",
-      "items_discovered": 2
+      "items_discovered": 3
     },
     {
       "competitor": "Delta Light",
@@ -36,12 +36,28 @@
     }
   ],
   "counts": {
-    "found": 21,
-    "added": 4,
-    "retained": 29,
+    "found": 20,
+    "added": 1,
+    "retained": 33,
     "failures": 0
   },
   "records": [
+    {
+      "id": "b446701e6388de3f",
+      "competitor": "TRILUX",
+      "headline": "Human Centric Lighting Market Growth, Trends and Outlook - SNS Insider",
+      "summary": "Human Centric Lighting Market Growth, Trends and Outlook SNS Insider",
+      "published_at": "2026-11-19",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9yRXBzS0pmY1IyR00xZDU3ejg1RUhLcUhNZkxVU1Y0enJsejljei1NZUFGVWg4dnMwalZxdnpZOG9Id2tDOFRXdGd3VEc0SWw3a0s4RG1vY3BBa0V1UlBCTmxBYkNkMWNSdzZWZl9XdU9kQQ?oc=5",
+      "source_name": "Google News RSS: TRILUX",
+      "category": "Other",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-20"
+    },
     {
       "id": "c4e99023bdc60606",
       "competitor": "Zumtobel",
