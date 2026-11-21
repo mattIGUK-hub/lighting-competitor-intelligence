@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T08:29:13.373323+00:00",
+  "generated_at": "2026-11-21T08:20:39.225454+00:00",
   "method": "Selected public server-HTML text only, checked daily; changes are unreviewed signals. Social networks excluded. Some sites block automated reading or rely on JavaScript.",
   "counts": {
     "checked": 14,
     "unavailable": 9,
-    "changed": 5,
+    "changed": 6,
     "new_baselines": 0
   },
   "sources": [
@@ -34,8 +34,8 @@
       "status": "ok",
       "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "8755adabdef48e859e7c1a8167c5ddd3a01638fc7ad66656fed51cfcb6611d9d",
-      "characters": 2346,
+      "digest": "99b616dedaca1b190d6a0dccae1b05890e3c11db6a55751440a8999422a47af6",
+      "characters": 2492,
       "block_hashes": [
         "6b594ce75f6267e8",
         "ee2af1d7864c9274",
@@ -55,7 +55,7 @@
         "09068ee382366045"
       ],
       "change_snippets": [],
-      "last_changed_at": "2026-11-20T08:29:08.777788+00:00"
+      "last_changed_at": "2026-11-21T08:20:32.891528+00:00"
     },
     {
       "id": "source-03",
@@ -79,17 +79,17 @@
         "Branding"
       ],
       "status": "ok",
-      "changed_in_latest_scan": false,
+      "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "859840e28c24acdfc311711976b2d996fd4c9513befa28f5ca4660b1e679ecb8",
-      "characters": 810,
+      "digest": "9d7e90652a1eb4b7687889b5c735d6d537bfbabd7c0751848de5f86989cfe7fb",
+      "characters": 815,
       "block_hashes": [
         "76740aee4c7172db",
         "48db0ba01794b15e",
         "09068ee382366045"
       ],
       "change_snippets": [],
-      "last_changed_at": null
+      "last_changed_at": "2026-11-21T08:20:33.314403+00:00"
     },
     {
       "id": "source-05",
@@ -113,16 +113,16 @@
         "Events"
       ],
       "status": "ok",
-      "changed_in_latest_scan": false,
+      "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "2957ec5e88084677b8ebd32a23cad6cb07fd4fc328d7657ff3a18aa426fc3d1d",
-      "characters": 2787,
+      "digest": "327f4c302d9b9f536514719728414ea447d5eb8e971b6a77e9e583bf21bb8b98",
+      "characters": 2815,
       "block_hashes": [
         "48db0ba01794b15e",
         "09068ee382366045"
       ],
       "change_snippets": [],
-      "last_changed_at": null
+      "last_changed_at": "2026-11-21T08:20:33.164964+00:00"
     },
     {
       "id": "source-07",
@@ -162,7 +162,7 @@
       "status": "ok",
       "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "28a3d73a75487b955f143145c0b0baf8a414ee2f30f5768e9e402f9ab914a15e",
+      "digest": "ecd2a56a3d5c97cc84a1dce4d53af2e84785c845f914ce496a01f845f27d78ed",
       "characters": 1824,
       "block_hashes": [
         "d7e764dab9b79ba2",
@@ -171,7 +171,7 @@
         "09068ee382366045"
       ],
       "change_snippets": [],
-      "last_changed_at": "2026-11-20T08:29:09.178788+00:00"
+      "last_changed_at": "2026-11-21T08:20:33.601273+00:00"
     },
     {
       "id": "source-10",
@@ -225,8 +225,8 @@
       "status": "ok",
       "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "a68adf254fbbd1e1c8b93ad146f9349620ac32e8e6614f68cd5f9074741f957f",
-      "characters": 2353,
+      "digest": "1ec1e9166ca34606c440944cee143dce3787604b243f0df68ace48d4a1b7a8c9",
+      "characters": 2352,
       "block_hashes": [
         "d852737eb2d33f4e",
         "1472144643c1c68a",
@@ -234,10 +234,8 @@
         "581dd3518721755c",
         "1a346c3ea7139313"
       ],
-      "change_snippets": [
-        "The Evolution of Retail Experience: Insights from Professor Laura Ugolini – Part Two"
-      ],
-      "last_changed_at": "2026-11-20T08:29:09.355594+00:00"
+      "change_snippets": [],
+      "last_changed_at": "2026-11-21T08:20:33.727461+00:00"
     },
     {
       "id": "source-12",
@@ -413,7 +411,7 @@
         "Events"
       ],
       "status": "ok",
-      "changed_in_latest_scan": true,
+      "changed_in_latest_scan": false,
       "baseline": false,
       "digest": "e584e81e32a54349b640fdc1cec0f9c22f01461b989b36feb83e99818609ee09",
       "characters": 8289,
@@ -517,10 +515,10 @@
         "Events"
       ],
       "status": "ok",
-      "changed_in_latest_scan": false,
+      "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "fae12a0fded104d5fa8fc3c679e0af5b0a270052c845a8926302cb47009ceef9",
-      "characters": 1006,
+      "digest": "bb3c743b0247c9f9729c0ed72d4aa47171f4b010c68d007559ab8cdbddc3bf7b",
+      "characters": 784,
       "block_hashes": [
         "a1b4e5b8ad92392d",
         "6cf89a3b154527e0",
@@ -531,7 +529,7 @@
         "24a0b5a4da022b24"
       ],
       "change_snippets": [],
-      "last_changed_at": "2026-11-19T08:32:45.621165+00:00"
+      "last_changed_at": "2026-11-21T08:20:38.826652+00:00"
     },
     {
       "id": "source-23",
@@ -542,7 +540,7 @@
         "Content"
       ],
       "status": "ok",
-      "changed_in_latest_scan": true,
+      "changed_in_latest_scan": false,
       "baseline": false,
       "digest": "bf2349eeb473160608e7bb41d0fc9626bdb169fa05b1dd3bc8cde2775ddd6967",
       "characters": 544,

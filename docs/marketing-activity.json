@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T08:29:08.526246+00:00",
+  "generated_at": "2026-11-21T08:20:32.307098+00:00",
   "description": "Direct links discovered on official public news, event and press pages. First-seen date is when this system noticed a link, NOT a publication or event date. New links may be older publications. Selected article bodies are checked for explicit contextual UK place references; all extracted excerpts are source-linked and require review.",
   "counts": {
     "checked_sources": 9,
     "unavailable_sources": 0,
-    "newly_seen": 2,
-    "articles_checked": 58,
+    "newly_seen": 3,
+    "articles_checked": 59,
     "uk_context_found": 2,
-    "no_uk_context": 50,
+    "no_uk_context": 51,
     "articles_unavailable": 6,
-    "total_retained": 58
+    "total_retained": 59
   },
   "source_status": [
     {
@@ -18,7 +18,7 @@
       "name": "iGuzzini news and events",
       "url": "https://www.iguzzini.com/en/",
       "status": "ok",
-      "items_found": 16
+      "items_found": 17
     },
     {
       "brand": "ERCO",
@@ -79,6 +79,27 @@
   ],
   "records": [
     {
+      "id": "6dedd4150ef5cb3a60dc",
+      "brand": "iGuzzini",
+      "title": "iGuzzini @ Dubai Design Week 2026",
+      "summary": "",
+      "category": "Events",
+      "categories": [
+        "Events",
+        "Messaging"
+      ],
+      "source_url": "https://www.iguzzini.com/en/news--events/iguzzini-at-dubai-design-week2026/",
+      "source_name": "iGuzzini news and events",
+      "source_type": "official_website",
+      "scope": "Global / UK when identified",
+      "first_seen": "2026-11-21",
+      "published_at": null,
+      "date_type": "first_seen",
+      "review_status": "source_discovery",
+      "uk_context_status": "no_uk_context",
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
+    },
+    {
       "id": "01277fc23e4a83362032",
       "brand": "iGuzzini",
       "title": "iGuzzini wins the Compasso d’Oro International with Agorà",
@@ -96,7 +117,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "37e0a5b0b90e2b2f3c26",
@@ -116,7 +137,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "3d638853575797da1acf",
@@ -136,7 +157,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "645023fef268b52c492e",
@@ -156,7 +177,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "f5373d67e6ae105945fc",
@@ -177,7 +198,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "editorial-001",
@@ -198,7 +219,7 @@
       "review_status": "editorially_checked",
       "origin": "editorial_seed",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "editorial-002",
@@ -219,7 +240,7 @@
       "review_status": "editorially_checked",
       "origin": "editorial_seed",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "24734a9353e82d3c47d0",
@@ -239,7 +260,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "fe554937c02529c8ed38",
@@ -260,7 +281,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "f7dcdf0942ece92b5582",
@@ -280,7 +301,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "b6d040cb4754669c20d1",
@@ -301,7 +322,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "35481d00d7bf2dc93208",
@@ -321,7 +342,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "07fd1170150dfb77dfd9",
@@ -341,7 +362,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "0a5c379c818ab12cbc54",
@@ -361,7 +382,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "d051c103e25569828239",
@@ -382,7 +403,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "1a8c8f31732ecad4b46d",
@@ -402,7 +423,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "6c93cc8165e51663f50e",
@@ -422,7 +443,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "912f9e5df344d5044767",
@@ -443,7 +464,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "editorial-008",
@@ -464,7 +485,7 @@
       "review_status": "editorially_checked",
       "origin": "editorial_seed",
       "uk_context_status": "listing_page",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "ecf83081b1fc839c877e",
@@ -484,7 +505,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "7e53de4503eedbe9c432",
@@ -504,7 +525,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "cdc55794f0b0df5a7870",
@@ -524,7 +545,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "f567a6b7734c066642c0",
@@ -544,7 +565,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "2fb1f5e8373790c5ff9e",
@@ -564,7 +585,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "43ac71356a080f704679",
@@ -584,7 +605,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "4651dd9c141e97bd78e4",
@@ -604,7 +625,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "9476bbbb2c5a1fcec55f",
@@ -624,7 +645,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "3f8fc8fa2bcd229b0e22",
@@ -644,7 +665,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "521c69caf2b4a8a0e351",
@@ -664,7 +685,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "1207f0aca32f49e7aee4",
@@ -684,7 +705,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "b986384d6187842e1220",
@@ -704,7 +725,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "f86808d0a5a3ea0275f0",
@@ -724,7 +745,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "c4c70f244a8f140177a6",
@@ -744,7 +765,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "editorial-009",
@@ -765,7 +786,7 @@
       "review_status": "editorially_checked",
       "origin": "editorial_seed",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "e158f9e543fecd3a9150",
@@ -785,7 +806,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "d49589f5531586577e6c",
@@ -805,7 +826,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "editorial-011",
@@ -826,7 +847,7 @@
       "review_status": "editorially_checked",
       "origin": "editorial_seed",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "49b5773f484424ad9e09",
@@ -846,7 +867,7 @@
       "date_type": "published",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "editorial-012",
@@ -867,7 +888,7 @@
       "review_status": "editorially_checked",
       "origin": "editorial_seed",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "editorial-013",
@@ -888,7 +909,7 @@
       "review_status": "editorially_checked",
       "origin": "editorial_seed",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "6f8ec69669b9cc0a311f",
@@ -908,7 +929,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "2e523c145a8f37dceb4e",
@@ -928,7 +949,7 @@
       "date_type": "published",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "a5abfc4675508940e3d7",
@@ -948,14 +969,14 @@
       "date_type": "published",
       "review_status": "source_discovery",
       "uk_context_status": "uk_evidence_found",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00",
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00",
       "uk_evidence": {
         "quote": "We spoke with Professor Laura Ugolini , Director of the University of Wolverhampton’s Centre for the History of Retailing and Distribution (CHORD), to chart this history of retail stores and the role of lighting with in it",
         "place": "Wolverhampton",
         "origin": "official_article_body",
         "evidence_type": "uk_specific_activity",
         "source_url": "https://www.fagerhult.com/en-GB/news/2026/the-evolution-of-retail-experience-insights-from-professor-laura-ugolini/",
-        "checked_at": "2026-11-20T08:29:01.114704+00:00",
+        "checked_at": "2026-11-21T08:20:22.128277+00:00",
         "review_status": "automatically_extracted"
       }
     },
@@ -977,7 +998,7 @@
       "date_type": "published",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "editorial-005",
@@ -998,14 +1019,14 @@
       "review_status": "editorially_checked",
       "origin": "editorial_seed",
       "uk_context_status": "uk_evidence_found",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00",
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00",
       "uk_evidence": {
         "quote": "…-focused business towards a more specification-led, project-driven model – including creating a new London division focused on high-end residential developments",
         "place": "London",
         "origin": "official_article_body",
         "evidence_type": "uk_specific_activity",
         "source_url": "https://www.fagerhult.com/en-GB/news/2026/new-page/",
-        "checked_at": "2026-11-20T08:29:01.114704+00:00",
+        "checked_at": "2026-11-21T08:20:22.128277+00:00",
         "review_status": "automatically_extracted"
       }
     },
@@ -1027,7 +1048,7 @@
       "date_type": "published",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "3368e6cd4c1cc12bba46",
@@ -1047,7 +1068,7 @@
       "date_type": "published",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "editorial-006",
@@ -1068,7 +1089,7 @@
       "review_status": "editorially_checked",
       "origin": "editorial_seed",
       "uk_context_status": "listing_page",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "24ae70b2a614230581ae",
@@ -1088,7 +1109,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "unavailable_HTTPError",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "editorial-004",
@@ -1109,7 +1130,7 @@
       "review_status": "editorially_checked",
       "origin": "editorial_seed",
       "uk_context_status": "listing_page",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "editorial-003",
@@ -1130,7 +1151,7 @@
       "review_status": "editorially_checked",
       "origin": "editorial_seed",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "7f60010e0b41fd14314a",
@@ -1150,7 +1171,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "unavailable_HTTPError",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "cf01690160795e667ecc",
@@ -1170,7 +1191,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "editorial-014",
@@ -1191,7 +1212,7 @@
       "review_status": "editorially_checked",
       "origin": "editorial_seed",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "37c84011be96efff9d68",
@@ -1211,7 +1232,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "editorial-015",
@@ -1232,7 +1253,7 @@
       "review_status": "editorially_checked",
       "origin": "editorial_seed",
       "uk_context_status": "listing_page",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "c13ed8fecb1ea4140898",
@@ -1252,7 +1273,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     },
     {
       "id": "3537d117d16c61fb126b",
@@ -1272,7 +1293,7 @@
       "date_type": "first_seen",
       "review_status": "source_discovery",
       "uk_context_status": "no_uk_context",
-      "uk_context_checked_at": "2026-11-20T08:29:01.114704+00:00"
+      "uk_context_checked_at": "2026-11-21T08:20:22.128277+00:00"
     }
   ]
 }

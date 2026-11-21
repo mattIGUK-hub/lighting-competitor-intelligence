@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T08:28:57+00:00",
+  "generated_at": "2026-11-21T08:20:17+00:00",
   "feed_type": "public_research_discovery",
   "note": "Automatically discovered public headlines. Every record requires source and claim verification.",
   "source_status": [
@@ -12,12 +12,12 @@
     {
       "competitor": "Fagerhult",
       "status": "ok",
-      "items_discovered": 5
+      "items_discovered": 7
     },
     {
       "competitor": "Zumtobel",
       "status": "ok",
-      "items_discovered": 8
+      "items_discovered": 10
     },
     {
       "competitor": "XAL",
@@ -36,12 +36,60 @@
     }
   ],
   "counts": {
-    "found": 20,
-    "added": 1,
-    "retained": 33,
+    "found": 24,
+    "added": 4,
+    "retained": 34,
     "failures": 0
   },
   "records": [
+    {
+      "id": "18286e8630b024fb",
+      "competitor": "Zumtobel",
+      "headline": "Lamps and Lighting Market to Reach USD 170.25 Billion by 2031, Driven by LED Replacement Demand, Smart-Building Adoption and Energy-Efficient Lighting, Says Mordor Intelligence - StreetInsider",
+      "summary": "Lamps and Lighting Market to Reach USD 170.25 Billion by 2031, Driven by LED Replacement Demand, Smart-Building Adoption and Energy-Efficient Lighting, Says Mordor Intelligence StreetInsider",
+      "published_at": "2026-11-21",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxOVUZkMzRLRzh0bzJTaUpvdzVabUtzUHY1bktYb2RPZndyeDc0RTFPU1luSU81X3NzTTZsRExuaGRqYXh1Y3Jac20tcTdXRWZIaVRMeDlOSWsxcUdXODVtSS1ZcjVTYTJqV2tNdkRCR0RiUTZhTmkzd3BROEpTVG1oX3ZDekNZYVV6N3R4bkpXN2Z3VDdWOFNicE9ILUcwTFJMRnRBa0NaY3BMbnZ5bWFTVVNENTJLb2s4bTZOeUVQMkpCYmhkREF2aHkxWnR0TXlBUnhURnZYODhaSmd2TkRWT3hOWkx4VlpKc0c0dGYxQlRJeFdYVzlpbU1TYmFJTWdFU3E0TnVQNnFncGFZSDdUTXQxVjlGMzJ3VU9MY0ZXZG5lc3lqdEEtVXpGTXJjRlhMN200cTJMT0dnanpja3A4aEZVNEo2Rm5YQjluRnN6M1F2bjdY?oc=5",
+      "source_name": "Google News RSS: Zumtobel",
+      "category": "Products",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-21"
+    },
+    {
+      "id": "8a7ab5f67ad71e5c",
+      "competitor": "Fagerhult",
+      "headline": "Lamps and Lighting Market to Reach USD 170.25 Billion by 2031, Driven by LED Replacement Demand, Smart-Building Adoption and Energy-Efficient Lighting, Says Mordor Intelligence - StreetInsider",
+      "summary": "Lamps and Lighting Market to Reach USD 170.25 Billion by 2031, Driven by LED Replacement Demand, Smart-Building Adoption and Energy-Efficient Lighting, Says Mordor Intelligence StreetInsider",
+      "published_at": "2026-11-21",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxOVUZkMzRLRzh0bzJTaUpvdzVabUtzUHY1bktYb2RPZndyeDc0RTFPU1luSU81X3NzTTZsRExuaGRqYXh1Y3Jac20tcTdXRWZIaVRMeDlOSWsxcUdXODVtSS1ZcjVTYTJqV2tNdkRCR0RiUTZhTmkzd3BROEpTVG1oX3ZDekNZYVV6N3R4bkpXN2Z3VDdWOFNicE9ILUcwTFJMRnRBa0NaY3BMbnZ5bWFTVVNENTJLb2s4bTZOeUVQMkpCYmhkREF2aHkxWnR0TXlBUnhURnZYODhaSmd2TkRWT3hOWkx4VlpKc0c0dGYxQlRJeFdYVzlpbU1TYmFJTWdFU3E0TnVQNnFncGFZSDdUTXQxVjlGMzJ3VU9MY0ZXZG5lc3lqdEEtVXpGTXJjRlhMN200cTJMT0dnanpja3A4aEZVNEo2Rm5YQjluRnN6M1F2bjdY?oc=5",
+      "source_name": "Google News RSS: Fagerhult",
+      "category": "Products",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-21"
+    },
+    {
+      "id": "c83e5cecd5fd3289",
+      "competitor": "Zumtobel",
+      "headline": "Data centre high-density power market to top $42 billion by 2030 as AI racks move to 800 Vdc, according to Dell’Oro Group - Data Centre Solutions",
+      "summary": "Data centre high-density power market to top $42 billion by 2030 as AI racks move to 800 Vdc, according to Dell’Oro Group Data Centre Solutions",
+      "published_at": "2026-11-19",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNaFdZLWJZbkVHX1NiMkVvN2RBVW9qMkhyODJUcGZpMUt5eXhLTTdJMmwxY25QaGhadzhOcmZSSWpINXgtYjBoV0pYcVZYVUlONmM1VDZCWEc0UXBYdFRSLXQtaXIxdDhhRXUzeW04TnNKdTUtSEFaNTZEY256dHI2TmhraGVMYlMxYXg1QXRaXzVPUzRxRDdYQWpxdXhhQmp1dWtpMlZndUZWT21iZEhfWXNXRkZqWlp0bktjWWZwNXpkdlpVLU5JSmFUMm1DQWEyN1R4WERJbHpKTFBMSzgzcFY4dVRiSUl6NkVvWkRoUEZROGpXZWVoRFpHWFc?oc=5",
+      "source_name": "Google News RSS: Zumtobel",
+      "category": "Other",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-21"
+    },
     {
       "id": "b446701e6388de3f",
       "competitor": "TRILUX",
@@ -441,6 +489,22 @@
       "verification": "needs_review",
       "brand_match": true,
       "collected_at": "2026-11-17"
+    },
+    {
+      "id": "49d09f5bd95b2caa",
+      "competitor": "Zumtobel",
+      "headline": "Aggreko on Bridging Power Challenges for Asia’s Data Centres - Data Centre Solutions",
+      "summary": "Aggreko on Bridging Power Challenges for Asia’s Data Centres Data Centre Solutions",
+      "published_at": "2026-10-09",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6OENacnBwR2FIOXVadFRwYkFwZFZSd1RHLWNXWU9ndEZhQVR1YWhhcXYzeEFKekMxekRlYUttM1BKQW43cnRaUkJDWGlncTV0ZUE4Ymo5TUZRR2hZcXJlOVFZRGRoejFPa1NvYldybUlXaUlQMDVyVDVONEhldw?oc=5",
+      "source_name": "Google News RSS: Zumtobel",
+      "category": "Other",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-21"
     },
     {
       "id": "6b48b14c556608f6",
