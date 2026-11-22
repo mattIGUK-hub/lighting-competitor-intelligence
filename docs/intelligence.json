@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T08:20:17+00:00",
+  "generated_at": "2026-11-22T08:20:30+00:00",
   "feed_type": "public_research_discovery",
   "note": "Automatically discovered public headlines. Every record requires source and claim verification.",
   "source_status": [
     {
       "competitor": "ERCO",
       "status": "ok",
-      "items_discovered": 0
+      "items_discovered": 1
     },
     {
       "competitor": "Fagerhult",
@@ -17,7 +17,7 @@
     {
       "competitor": "Zumtobel",
       "status": "ok",
-      "items_discovered": 10
+      "items_discovered": 9
     },
     {
       "competitor": "XAL",
@@ -37,8 +37,8 @@
   ],
   "counts": {
     "found": 24,
-    "added": 4,
-    "retained": 34,
+    "added": 2,
+    "retained": 38,
     "failures": 0
   },
   "records": [
@@ -571,6 +571,22 @@
       "collected_at": "2026-11-14"
     },
     {
+      "id": "cf4575b3efc99310",
+      "competitor": "ERCO",
+      "headline": "Glamour at Yves Saint Laurent Museum - Swiss-Architects",
+      "summary": "Glamour at Yves Saint Laurent Museum Swiss-Architects",
+      "published_at": "2026-09-18",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSGNFaHZpT2xZVm5hV2Q3enJLNjFtU2I1NkdZbW11Y0FkWlMzUzBpS3hWc1N6WGt2UzhZTkVFNWVKUWVSdy02N1pPakxoOFdoMldfN3pnX3BPbmZfZVpjNUNhSDU1T016QnhqVF9pYmx4NGYzUHhWc3o5bnFSNkg0WnNSQWtONlFmNGpyMg?oc=5",
+      "source_name": "Google News RSS: ERCO",
+      "category": "Projects",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-22"
+    },
+    {
       "id": "ca6caf8119a48f7d",
       "competitor": "Fagerhult",
       "headline": "Fagerhult Group implements changes to strengthen long-term profitability in line with the Group’s strategic review - TradingView",
@@ -617,6 +633,22 @@
       "verification": "needs_review",
       "brand_match": true,
       "collected_at": "2026-11-14"
+    },
+    {
+      "id": "072f95e79c2ec67c",
+      "competitor": "Zumtobel",
+      "headline": "Earnings call transcript: Zumtobel Q1 2026 lifts profit as stock rises 3.7% - Investing.com",
+      "summary": "Earnings call transcript: Zumtobel Q1 2026 lifts profit as stock rises 3.7% Investing.com",
+      "published_at": "2026-09-03",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcU54WTlhVk5kVzAtRnBpN3U0Q3oyb21nYVVqbnZpb0tTOHNFU3FCM2tnY3dtN2tCSHI0cFZDbWozNHJTSU9SYVBJWGJxS0ZsTWpEb1NLTlJKNmp3dU1mazFncWJYOXRJNTVCa05abkFCTXRlcklnbEZoc0dsZVR0ZVZyMjBqNVU2ZHNYbjd5bkRUUUczazJtQmlYM2R6TkcxTjZSYW5wUVZ3MDA1ZWw5Z0pkb0RQbGVMQ1VPb2txUUF6UXhNSEY0?oc=5",
+      "source_name": "Google News RSS: Zumtobel",
+      "category": "Other",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": true,
+      "collected_at": "2026-11-22"
     },
     {
       "id": "79ee21e2893e24fa",

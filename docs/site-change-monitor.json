@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T08:20:39.225454+00:00",
+  "generated_at": "2026-11-22T08:20:52.327543+00:00",
   "method": "Selected public server-HTML text only, checked daily; changes are unreviewed signals. Social networks excluded. Some sites block automated reading or rely on JavaScript.",
   "counts": {
     "checked": 14,
     "unavailable": 9,
-    "changed": 6,
+    "changed": 2,
     "new_baselines": 0
   },
   "sources": [
@@ -32,7 +32,7 @@
         "Website"
       ],
       "status": "ok",
-      "changed_in_latest_scan": true,
+      "changed_in_latest_scan": false,
       "baseline": false,
       "digest": "99b616dedaca1b190d6a0dccae1b05890e3c11db6a55751440a8999422a47af6",
       "characters": 2492,
@@ -79,7 +79,7 @@
         "Branding"
       ],
       "status": "ok",
-      "changed_in_latest_scan": true,
+      "changed_in_latest_scan": false,
       "baseline": false,
       "digest": "9d7e90652a1eb4b7687889b5c735d6d537bfbabd7c0751848de5f86989cfe7fb",
       "characters": 815,
@@ -113,7 +113,7 @@
         "Events"
       ],
       "status": "ok",
-      "changed_in_latest_scan": true,
+      "changed_in_latest_scan": false,
       "baseline": false,
       "digest": "327f4c302d9b9f536514719728414ea447d5eb8e971b6a77e9e583bf21bb8b98",
       "characters": 2815,
@@ -162,7 +162,7 @@
       "status": "ok",
       "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "ecd2a56a3d5c97cc84a1dce4d53af2e84785c845f914ce496a01f845f27d78ed",
+      "digest": "28a3d73a75487b955f143145c0b0baf8a414ee2f30f5768e9e402f9ab914a15e",
       "characters": 1824,
       "block_hashes": [
         "d7e764dab9b79ba2",
@@ -171,7 +171,7 @@
         "09068ee382366045"
       ],
       "change_snippets": [],
-      "last_changed_at": "2026-11-21T08:20:33.601273+00:00"
+      "last_changed_at": "2026-11-22T08:20:46.506584+00:00"
     },
     {
       "id": "source-10",
@@ -225,8 +225,8 @@
       "status": "ok",
       "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "1ec1e9166ca34606c440944cee143dce3787604b243f0df68ace48d4a1b7a8c9",
-      "characters": 2352,
+      "digest": "085e72c71bcdd2e34902add1af1a2ef79c2f598da55eed5a3a4d4ce3abcce714",
+      "characters": 2353,
       "block_hashes": [
         "d852737eb2d33f4e",
         "1472144643c1c68a",
@@ -235,7 +235,7 @@
         "1a346c3ea7139313"
       ],
       "change_snippets": [],
-      "last_changed_at": "2026-11-21T08:20:33.727461+00:00"
+      "last_changed_at": "2026-11-22T08:20:46.629853+00:00"
     },
     {
       "id": "source-12",
@@ -515,7 +515,7 @@
         "Events"
       ],
       "status": "ok",
-      "changed_in_latest_scan": true,
+      "changed_in_latest_scan": false,
       "baseline": false,
       "digest": "bb3c743b0247c9f9729c0ed72d4aa47171f4b010c68d007559ab8cdbddc3bf7b",
       "characters": 784,
