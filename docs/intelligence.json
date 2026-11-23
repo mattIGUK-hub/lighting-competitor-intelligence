@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T08:20:30+00:00",
+  "generated_at": "2026-11-23T08:46:10+00:00",
   "feed_type": "public_research_discovery",
   "note": "Automatically discovered public headlines. Every record requires source and claim verification.",
   "source_status": [
@@ -12,12 +12,12 @@
     {
       "competitor": "Fagerhult",
       "status": "ok",
-      "items_discovered": 7
+      "items_discovered": 6
     },
     {
       "competitor": "Zumtobel",
       "status": "ok",
-      "items_discovered": 9
+      "items_discovered": 10
     },
     {
       "competitor": "XAL",
@@ -37,8 +37,8 @@
   ],
   "counts": {
     "found": 24,
-    "added": 2,
-    "retained": 38,
+    "added": 3,
+    "retained": 40,
     "failures": 0
   },
   "records": [
@@ -73,6 +73,38 @@
       "verification": "needs_review",
       "brand_match": false,
       "collected_at": "2026-11-21"
+    },
+    {
+      "id": "56190876fa768c35",
+      "competitor": "Zumtobel",
+      "headline": "11:11 Systems appoints Marc Beder as Executive General Manager, EMEA - Data Centre Solutions",
+      "summary": "11:11 Systems appoints Marc Beder as Executive General Manager, EMEA Data Centre Solutions",
+      "published_at": "2026-11-20",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORW5GelJLeDlHYTZ1eXlBRG1lQWMyV1F2QmhBX2JiSWhITmU1dW5RNEZHdy03dHN4OU9vbnpWdGczdXVOTEI2NE50VFJiaXNiSmk0M1ZMTkpXclRScjBSR1hzTS00TUhZWU1SR0NUZGY1RV9XamppVkQ5ZlA3SUZQakVmd1R0QXd5ckJsUDZjaDFlSTZsNUNhVEkxRS1xX0dObThXbkx2X0tmRVpZSTVJNDRlWVVCMWc?oc=5",
+      "source_name": "Google News RSS: Zumtobel",
+      "category": "Business",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-23"
+    },
+    {
+      "id": "da469dfd8c32d12a",
+      "competitor": "Zumtobel",
+      "headline": "IEC launches global standards push to curb data centre environmental impact - Data Centre Solutions",
+      "summary": "IEC launches global standards push to curb data centre environmental impact Data Centre Solutions",
+      "published_at": "2026-11-20",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbnNieHdrcGdLYzktQ3A3WlM0THF6cHFRRXVzemF3QjZDa1JRNVM5Q2MtVTMxZ1RjVUM1WEhaYTF0MHR0anFTU3hnUWFGeVF1eXlTRVprbW10MFFDdUc1Q0xsSlZiUG1rRW1qTjVocTFqVzhBQjFxWGFYeUtLR01iaU90M0l3UjRFX0RONFlaLU5pNEtodVZKWWk1NnVnVmdQNkJzaDFlTzYzWmZXOXNlVnJQZUJCQUhpckI5NlVIcWlIcHM?oc=5",
+      "source_name": "Google News RSS: Zumtobel",
+      "category": "Products",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-23"
     },
     {
       "id": "c83e5cecd5fd3289",
@@ -393,6 +425,22 @@
       "verification": "needs_review",
       "brand_match": false,
       "collected_at": "2026-11-14"
+    },
+    {
+      "id": "553021cafc493a6b",
+      "competitor": "Fagerhult",
+      "headline": "Fagerhult Group AB Just Reported A Surprise Profit And Analysts Updated Their Estimates - Simply Wall St",
+      "summary": "Fagerhult Group AB Just Reported A Surprise Profit And Analysts Updated Their Estimates Simply Wall St",
+      "published_at": "2026-10-31",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOejV2djlJS01NU1h2VXVvZkhiaTEwSkd0QmY0MHYtMkp5V1daQ2xLRUFIMUZGX0RlWUtjS3dMN3gweWtpd3IzUXRfRXFQQ2N5SWRkeUFsYTRHRFptMWtvR013d0NFNVdLNE1jdHRINDNCck81WGpWTnVXRnFZYjUwc0FZbEJkdnRwZWs0cVY2Z2N0QjFndEItMmg5VkMyRG5yOUlMbnF6enRsVHVUSDZGeEhFUlpLeGxOUTVXWUxUOGJqejZBcHh6d2FwVU9XZFJyMGtQZTRxMEJxd9IB3wFBVV95cUxPMjd2ZkdUS1FZX29WRGdWaWRvSHRhOUZablJJbjlBY2FSa2FqU21jZ2FxekhXeFVMOVVZdzJqdVV4ZWZ6ZXlrYnhMTXl6amdmMU9xT1dRa2pNcjJUWVZmcVdqMGd5RGVBNmZiREFMcW96R1dXYUxRT2QzdHMydERhbkx2RW5lU2ktMTJ0Z0dNNVFORkxKcTJYdjlJTFBMU0dDSmpPV1NoYVNXWFlMdXhya3JtekRaS015TkJZaXJTbTBPQTlxYUtrbGN1MzJHS3dSWFc0MnllZ3ZGY3o0YTIw?oc=5",
+      "source_name": "Google News RSS: Fagerhult",
+      "category": "Other",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": true,
+      "collected_at": "2026-11-23"
     },
     {
       "id": "eee380e651236f02",
