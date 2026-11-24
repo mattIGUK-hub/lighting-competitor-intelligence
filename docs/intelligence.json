@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T08:46:10+00:00",
+  "generated_at": "2026-11-24T08:36:10+00:00",
   "feed_type": "public_research_discovery",
   "note": "Automatically discovered public headlines. Every record requires source and claim verification.",
   "source_status": [
@@ -27,21 +27,53 @@
     {
       "competitor": "TRILUX",
       "status": "ok",
-      "items_discovered": 3
+      "items_discovered": 4
     },
     {
       "competitor": "Delta Light",
       "status": "ok",
-      "items_discovered": 3
+      "items_discovered": 4
     }
   ],
   "counts": {
-    "found": 24,
-    "added": 3,
-    "retained": 40,
+    "found": 26,
+    "added": 4,
+    "retained": 43,
     "failures": 0
   },
   "records": [
+    {
+      "id": "18ca1ee8b56ec4cb",
+      "competitor": "TRILUX",
+      "headline": "Trilux refuerza su alianza con el Borussia Dortmund con un acuerdo hasta 2030 - Digital AV Magazine",
+      "summary": "Trilux refuerza su alianza con el Borussia Dortmund con un acuerdo hasta 2030 Digital AV Magazine",
+      "published_at": "2026-11-23",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQb3dhbDdXTVd1NVo3VjdxeExINXFJdU94MWFpT3B5T1pMVVRGNTA0S0h0S3RhTnBCQ3lheW9IbTNOeDNYUWJDcjZaTkRZUEhObnJleFJaZmFJOWxxZzN5NUlkaGNQQ0hKZDIwWVJjWTVCVTZJNmxYY3F4M3dYZTVCSlhQbWpmbG9OM3htTlVxbkxaUTg2VDFqeEcweXdxY2NDelBiUUM0eGlmRHk0M2dBNEVjYTRQdElOUXRGYktMQnl5ZXlR?oc=5",
+      "source_name": "Google News RSS: TRILUX",
+      "category": "Other",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": true,
+      "collected_at": "2026-11-24"
+    },
+    {
+      "id": "a35f7c09ee3ac665",
+      "competitor": "Delta Light",
+      "headline": "Arca at Miami art week - Dezeen",
+      "summary": "Arca at Miami art week Dezeen",
+      "published_at": "2026-11-23",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBuMEFyX2phb1RWYmxrMVZQSGMwRnUwSUU4WlVlUW5yMXNtYUJzWU1BX19XZEJmcnc3ZXVuZE9VRkJYYnVBSjJJVjNpX01PcXhIa0VBVlR4YS1ISFloMlN0bVNPZDJDRUJ3WlhSSHJacEVKS3Mz?oc=5",
+      "source_name": "Google News RSS: Delta Light",
+      "category": "Other",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-24"
+    },
     {
       "id": "18286e8630b024fb",
       "competitor": "Zumtobel",
@@ -137,6 +169,22 @@
       "verification": "needs_review",
       "brand_match": false,
       "collected_at": "2026-11-20"
+    },
+    {
+      "id": "a36919e966d4c80e",
+      "competitor": "Zumtobel",
+      "headline": "Flood Lights Market To 2035: Smart Lighting and Security Demand Drive Growth - News and Statistics - IndexBox",
+      "summary": "Flood Lights Market To 2035: Smart Lighting and Security Demand Drive Growth - News and Statistics IndexBox",
+      "published_at": "2026-11-17",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOU3JZTkRCMzlvc2UtMFBPamNLUFJmd3dCaktQajJ6V2pxOU5pR2wxbDY2RjYzeUxNZDlxSi11X2REUV9sVnlxa3JCQjZpSldoalZnRmhEcUluUjZTREQ4OW1lR2s0NHdydTNjdVBMUGpPUjlpYzNrU3hya0l6Q0ZXbDVGaE16dzNtTXl5Y1picG5oYW5PaHQ0cDRhUENuNi12REl4eUxETWFqNEQwbVBub3JYZHZJZ2lIb1diMkVVUHc?oc=5",
+      "source_name": "Google News RSS: Zumtobel",
+      "category": "Other",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-24"
     },
     {
       "id": "c4e99023bdc60606",
@@ -569,6 +617,22 @@
       "verification": "needs_review",
       "brand_match": false,
       "collected_at": "2026-11-14"
+    },
+    {
+      "id": "04509aa5bdf6fbbc",
+      "competitor": "Zumtobel",
+      "headline": "Greenvolt breaks ground on 600 MW Siedlce battery storage project in Poland - Data Centre Solutions",
+      "summary": "Greenvolt breaks ground on 600 MW Siedlce battery storage project in Poland Data Centre Solutions",
+      "published_at": "2026-10-06",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdG9Odl9KZnk4OTdoalA4Q2d0dXZOMDB2X2VJWUpfNThEUGYtYnFYbWRKUm5hd1llX0NIV25DWl9RdXhOMnRnSzRzMm5tYXdkb0MwS2puQU00SlNQRmd4QnRoOENZcER0cHk0SXhKRGZzbnpuX0hQYUFnY1E0WW1Kcm1JbkN6YWJYekRWa0hwM2Vxc2w0OUF3VnFYM0pRcktNNUZLaklLMGxvWWY5QktVa0dkeXg1NXctZEZ2UEdITE0wSHM?oc=5",
+      "source_name": "Google News RSS: Zumtobel",
+      "category": "Projects",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-24"
     },
     {
       "id": "d5271e1911fa0c35",
