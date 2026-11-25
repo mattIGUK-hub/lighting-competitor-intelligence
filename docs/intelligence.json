@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T08:36:10+00:00",
+  "generated_at": "2026-11-25T08:41:14+00:00",
   "feed_type": "public_research_discovery",
   "note": "Automatically discovered public headlines. Every record requires source and claim verification.",
   "source_status": [
@@ -27,7 +27,7 @@
     {
       "competitor": "TRILUX",
       "status": "ok",
-      "items_discovered": 4
+      "items_discovered": 3
     },
     {
       "competitor": "Delta Light",
@@ -36,12 +36,28 @@
     }
   ],
   "counts": {
-    "found": 26,
-    "added": 4,
-    "retained": 43,
+    "found": 25,
+    "added": 3,
+    "retained": 47,
     "failures": 0
   },
   "records": [
+    {
+      "id": "2a4cda8ec77d048a",
+      "competitor": "Zumtobel",
+      "headline": "Zumtobel Group AG (ZMTBY) Q4 2026 Earnings Call Highlights: Reve - GuruFocus",
+      "summary": "Zumtobel Group AG (ZMTBY) Q4 2026 Earnings Call Highlights: Reve GuruFocus",
+      "published_at": "2026-11-24",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPZXR5VEdVQWpBeFowYUYwNUVFaDNXS1ZJN1NBaFlfekRacjBQWjRMM1h2VTZMbFhadW10VGhvWlVJWXE5WEMtNGV5Zzc4cUVDQmpPYlp2U2lFYVB4V1k4bTh0WWxtRnZ3ZlZmQWRmTDNpaTB1QjhWRDRMR1BIZ3BIajBQVjAtdzdwZFgyaHp6Vy1VTHoyNkp3algtREphdWcwa2FMSS1YV1Yyb3FDQ2RjQTlnVFRJTko2TkVQYzNQSW4tWXFzMS1GTVNtSXJaWEdITktSSXV5cGdOM05hNDdEWFBDbW5IenFNTy01WjVVYVVTNkxOcE90NnItRGhRWFpianFhM05NX284Ujg?oc=5",
+      "source_name": "Google News RSS: Zumtobel",
+      "category": "Other",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": true,
+      "collected_at": "2026-11-25"
+    },
     {
       "id": "18ca1ee8b56ec4cb",
       "competitor": "TRILUX",
@@ -425,6 +441,38 @@
       "verification": "needs_review",
       "brand_match": false,
       "collected_at": "2026-11-14"
+    },
+    {
+      "id": "b7c1580bb0e949fb",
+      "competitor": "Zumtobel",
+      "headline": "Delivery constraints still key challenge facing UK data centres - Data Centre Solutions",
+      "summary": "Delivery constraints still key challenge facing UK data centres Data Centre Solutions",
+      "published_at": "2026-11-09",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMkd6bVl5RWw1NmozTl9RVXEtU19URDdTVE0wRWkzSk1TTzhVV3ZpRm5GM1FKN3kzakVya29VbTRqUjlFV2RjZ1M4OUtwd2V1OGdaRnRMNksxMlFFSEV5NnlfZFBJeXVFdkxtWFZ6UVotYTBFcjFoOVkzYm8zbDNmVFhoVVpkb3c0OUd5ZmhKWmV6akdtTFNMX1BhcTBPSkMxc1VINFAyOA?oc=5",
+      "source_name": "Google News RSS: Zumtobel",
+      "category": "Other",
+      "geography": "UK",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-25"
+    },
+    {
+      "id": "d7ea8e5f7841b2da",
+      "competitor": "Zumtobel",
+      "headline": "How AI is increasing the pace of data centre infrastructure technology innovation - Data Centre Solutions",
+      "summary": "How AI is increasing the pace of data centre infrastructure technology innovation Data Centre Solutions",
+      "published_at": "2026-11-09",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOS0JsWkIxU1ZwUl9CNW1CU1NvZ05wSE81eElQTEtGQXJHS2lnWkhHS2lkOGpzT3FqaXBxak5VLXVSY3hUQmJ6OXo5U2wtMG5oZ1hXYWVrRXR6VDZvNm5tdUI4YkJqWTAtaTFfdlpLVVpEcnhBYTE3UDlDellNZUhtZWdsQzFnazVWM050V3h3MHpXVjNuMG1ZVV92STNQMlo4TlJreXNBNW4tbVRQNG1vZGFYVmNleW95RzJvZi1Taw?oc=5",
+      "source_name": "Google News RSS: Zumtobel",
+      "category": "Products",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-25"
     },
     {
       "id": "661c8eb5142a4a70",

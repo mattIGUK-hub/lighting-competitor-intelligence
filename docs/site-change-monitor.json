@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T08:36:28.378067+00:00",
+  "generated_at": "2026-11-25T08:41:37.847102+00:00",
   "method": "Selected public server-HTML text only, checked daily; changes are unreviewed signals. Social networks excluded. Some sites block automated reading or rely on JavaScript.",
   "counts": {
     "checked": 14,
     "unavailable": 9,
-    "changed": 4,
+    "changed": 3,
     "new_baselines": 0
   },
   "sources": [
@@ -162,7 +162,7 @@
       "status": "ok",
       "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "cc80fb550b56bcf58db81e4f7119a64644677364515e8125e2e3a1c8910bbbf1",
+      "digest": "4447eedf20f1bf2aeb3aa729fb7809f736e66c2646a2ec28b4492000fd5ceae3",
       "characters": 1824,
       "block_hashes": [
         "d7e764dab9b79ba2",
@@ -171,7 +171,7 @@
         "09068ee382366045"
       ],
       "change_snippets": [],
-      "last_changed_at": "2026-11-24T08:36:23.901348+00:00"
+      "last_changed_at": "2026-11-25T08:41:32.258399+00:00"
     },
     {
       "id": "source-10",
@@ -225,7 +225,7 @@
       "status": "ok",
       "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "00d1ee58732524492f20fd069b8f3ec47f0346836b3ad87f7c982b359f74b8a2",
+      "digest": "8f4d47c5a4789b607e02eca72ac395d41548302894b523d388dd1efbeae3c44c",
       "characters": 2353,
       "block_hashes": [
         "d852737eb2d33f4e",
@@ -235,7 +235,7 @@
         "1a346c3ea7139313"
       ],
       "change_snippets": [],
-      "last_changed_at": "2026-11-24T08:36:24.063757+00:00"
+      "last_changed_at": "2026-11-25T08:41:32.189267+00:00"
     },
     {
       "id": "source-12",
@@ -337,7 +337,7 @@
         "Content"
       ],
       "status": "ok",
-      "changed_in_latest_scan": true,
+      "changed_in_latest_scan": false,
       "baseline": false,
       "digest": "8a7d923e1f2e151f213a3fcfc449b4c6077d6f7b76e342c137e303c1dfd34559",
       "characters": 12228,
@@ -517,19 +517,31 @@
       "status": "ok",
       "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "bb3c743b0247c9f9729c0ed72d4aa47171f4b010c68d007559ab8cdbddc3bf7b",
-      "characters": 784,
+      "digest": "02ce877e5e489a4b288053a457003c2f697ce734d4979d5f4f31872964aff517",
+      "characters": 2281,
       "block_hashes": [
         "a1b4e5b8ad92392d",
         "6cf89a3b154527e0",
         "aac1dbc29a5a2c86",
-        "776c2c24b73b45b5",
-        "7bec9b25ec283f3d",
-        "aa3d4f6ebc249a0e",
+        "4cffcfa3023135da",
+        "1571c72063bb60aa",
+        "149c16e066b98f44",
+        "a821b29faacc0bba",
+        "f8a7c5a13fd522cd",
+        "a989393a4ad628da",
+        "ed7dc0cd7bfaa90c",
+        "2000371891f70ea9",
+        "374b360cf2d7f7f0",
+        "2439489fa1dd5bc1",
+        "558585652e5ffc0a",
         "24a0b5a4da022b24"
       ],
-      "change_snippets": [],
-      "last_changed_at": "2026-11-24T08:36:28.165078+00:00"
+      "change_snippets": [
+        "Beyond the Expected at LiGHT26 – 18 - 19 November 2026",
+        "This was LiGHT26: beyond the expected, up close.",
+        "LiGHT26 brought the lighting and design community together at the Business Design Centre in London. We were pleased"
+      ],
+      "last_changed_at": "2026-11-25T08:41:37.230248+00:00"
     },
     {
       "id": "source-23",
