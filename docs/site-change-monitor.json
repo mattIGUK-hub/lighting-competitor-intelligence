@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T08:41:37.847102+00:00",
+  "generated_at": "2026-11-26T08:38:51.622399+00:00",
   "method": "Selected public server-HTML text only, checked daily; changes are unreviewed signals. Social networks excluded. Some sites block automated reading or rely on JavaScript.",
   "counts": {
-    "checked": 14,
-    "unavailable": 9,
-    "changed": 3,
+    "checked": 12,
+    "unavailable": 11,
+    "changed": 2,
     "new_baselines": 0
   },
   "sources": [
@@ -162,7 +162,7 @@
       "status": "ok",
       "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "4447eedf20f1bf2aeb3aa729fb7809f736e66c2646a2ec28b4492000fd5ceae3",
+      "digest": "28a3d73a75487b955f143145c0b0baf8a414ee2f30f5768e9e402f9ab914a15e",
       "characters": 1824,
       "block_hashes": [
         "d7e764dab9b79ba2",
@@ -171,7 +171,7 @@
         "09068ee382366045"
       ],
       "change_snippets": [],
-      "last_changed_at": "2026-11-25T08:41:32.258399+00:00"
+      "last_changed_at": "2026-11-26T08:38:45.933648+00:00"
     },
     {
       "id": "source-10",
@@ -225,7 +225,7 @@
       "status": "ok",
       "changed_in_latest_scan": true,
       "baseline": false,
-      "digest": "8f4d47c5a4789b607e02eca72ac395d41548302894b523d388dd1efbeae3c44c",
+      "digest": "5e403dfaa3f9dce4d27ef78a79287201c9d575cce3b8448ee511acc3434acb14",
       "characters": 2353,
       "block_hashes": [
         "d852737eb2d33f4e",
@@ -235,7 +235,7 @@
         "1a346c3ea7139313"
       ],
       "change_snippets": [],
-      "last_changed_at": "2026-11-25T08:41:32.189267+00:00"
+      "last_changed_at": "2026-11-26T08:38:46.184588+00:00"
     },
     {
       "id": "source-12",
@@ -336,71 +336,11 @@
         "Website",
         "Content"
       ],
-      "status": "ok",
+      "status": "error",
       "changed_in_latest_scan": false,
       "baseline": false,
+      "detail": "HTTP Error 403: Forbidden",
       "digest": "8a7d923e1f2e151f213a3fcfc449b4c6077d6f7b76e342c137e303c1dfd34559",
-      "characters": 12228,
-      "block_hashes": [
-        "0bb2d8b48597aed5",
-        "8b64fca09cc46ce2",
-        "0e091b841468b620",
-        "29b157c4f3055813",
-        "c5b132c160dcd89e",
-        "8d85e574575500fb",
-        "b1bcd72bcbde81f3",
-        "2dba6ffc4a118c5f",
-        "6b5c32073d7d3115",
-        "2585ab82067000e6",
-        "423d2b7e7de4dbbc",
-        "44ad1bf479e69650",
-        "3a9200b71bec8bf8",
-        "6572f66456b7e205",
-        "c7f99d325f28315f",
-        "a86bd79fc6795f18",
-        "c54c750b852bda9f",
-        "f9317f5f025d27f8",
-        "78b7af616021ca59",
-        "9f719fa4e8378524",
-        "891b9c6774043e25",
-        "568ab75cd834213a",
-        "d0ea433963dc051a",
-        "eb1a002c0d51d4e8",
-        "4e318019e5688bfe",
-        "a8989ee80dc9d4c4",
-        "e80c3411954c8819",
-        "35c591a14efa1776",
-        "8a38d8c45167544a",
-        "2836d86d14803fb8",
-        "24722452d5d371b5",
-        "f3e50c3816c89a5b",
-        "6645da674303456e",
-        "60e9ecf58cc361fe",
-        "c93378b0d7daf093",
-        "e740948e490e022e",
-        "81538e21c1e2b234",
-        "459754f13f09aedb",
-        "f4fb3bdc6e2c61c2",
-        "ed399da6d018a545",
-        "b6e4802c591b6161",
-        "888ab638d911630c",
-        "c5c533d38f8b6279",
-        "febb628ba7c17262",
-        "79aeee724f2e4841",
-        "26d05608c923678d",
-        "db3f91ab349b8003",
-        "3b7e3b17e0194c62",
-        "887eb32b4ffd459a",
-        "1f47dd58d958be4d",
-        "647bdc0c3f30f183",
-        "228d9bc005264461",
-        "c9abf51429dc6eaf",
-        "31d26571b2c36222",
-        "4af3362b7c37b209",
-        "7887785dee5903e7",
-        "c39b25f36f30c9d0"
-      ],
-      "change_snippets": [],
       "last_changed_at": "2026-11-24T08:36:25.824312+00:00"
     },
     {
@@ -410,42 +350,11 @@
       "categories": [
         "Events"
       ],
-      "status": "ok",
+      "status": "error",
       "changed_in_latest_scan": false,
       "baseline": false,
+      "detail": "HTTP Error 403: Forbidden",
       "digest": "e584e81e32a54349b640fdc1cec0f9c22f01461b989b36feb83e99818609ee09",
-      "characters": 8289,
-      "block_hashes": [
-        "67a53ca1feaff106",
-        "73b82fa892eef937",
-        "0412901338c13ce2",
-        "57688696d482e8b0",
-        "09e614aca4aae68d",
-        "5fd9845747d373cf",
-        "4bd42a5de51067a2",
-        "4c402dfe28496922",
-        "4d4db40f3d19c3e3",
-        "4b8ffb6f06b67bc6",
-        "0219c50b8cdbebe8",
-        "631aab784d397cd5",
-        "f817d3e992db50ce",
-        "fb74f06a5e02f926",
-        "653452f3bf17fc18",
-        "4524b4c7943eac7a",
-        "95af7b9423d1563b",
-        "fb876d895536d6eb",
-        "d5cb90d19f46db34",
-        "48af38a0a87ebbc3",
-        "e8b5149c95114dfb",
-        "7367e0d42192dd70",
-        "95c8190741fb4157",
-        "c306a96f6b712c53",
-        "55c43b0f4895640d",
-        "bd5eb0b1a67f53d4",
-        "7887785dee5903e7",
-        "c39b25f36f30c9d0"
-      ],
-      "change_snippets": [],
       "last_changed_at": "2026-11-20T08:29:11.063996+00:00"
     },
     {
@@ -515,7 +424,7 @@
         "Events"
       ],
       "status": "ok",
-      "changed_in_latest_scan": true,
+      "changed_in_latest_scan": false,
       "baseline": false,
       "digest": "02ce877e5e489a4b288053a457003c2f697ce734d4979d5f4f31872964aff517",
       "characters": 2281,
@@ -536,11 +445,7 @@
         "558585652e5ffc0a",
         "24a0b5a4da022b24"
       ],
-      "change_snippets": [
-        "Beyond the Expected at LiGHT26 – 18 - 19 November 2026",
-        "This was LiGHT26: beyond the expected, up close.",
-        "LiGHT26 brought the lighting and design community together at the Business Design Centre in London. We were pleased"
-      ],
+      "change_snippets": [],
       "last_changed_at": "2026-11-25T08:41:37.230248+00:00"
     },
     {

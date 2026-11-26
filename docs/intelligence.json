@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T08:41:14+00:00",
+  "generated_at": "2026-11-26T08:38:30+00:00",
   "feed_type": "public_research_discovery",
   "note": "Automatically discovered public headlines. Every record requires source and claim verification.",
   "source_status": [
     {
       "competitor": "ERCO",
       "status": "ok",
-      "items_discovered": 1
+      "items_discovered": 0
     },
     {
       "competitor": "Fagerhult",
       "status": "ok",
-      "items_discovered": 6
+      "items_discovered": 4
     },
     {
       "competitor": "Zumtobel",
       "status": "ok",
-      "items_discovered": 10
+      "items_discovered": 7
     },
     {
       "competitor": "XAL",
@@ -36,9 +36,9 @@
     }
   ],
   "counts": {
-    "found": 25,
-    "added": 3,
-    "retained": 47,
+    "found": 19,
+    "added": 1,
+    "retained": 50,
     "failures": 0
   },
   "records": [
@@ -425,6 +425,22 @@
       "verification": "needs_review",
       "brand_match": true,
       "collected_at": "2026-11-17"
+    },
+    {
+      "id": "985fd8c55c46533a",
+      "competitor": "Zumtobel",
+      "headline": "Shoal Group on Data Centre Growth, Supply Chain Challenges and Industry Skills - Data Centre Solutions",
+      "summary": "Shoal Group on Data Centre Growth, Supply Chain Challenges and Industry Skills Data Centre Solutions",
+      "published_at": "2026-11-10",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeklnQUd0Tm9aRkFyUy05U2ZRQkVfNVdndlpYOTFRUDNmNjFzbDcyalp2OWdmT0l1NkhEcHpkS1dTOC1tM3BlU0pBd01sMjBJSWZkWnoyQnRtXy1KN3hXSTNZZ292am1UUklGTkZiYnRRQV9kTnJtV1l0aF9OY19LYXRNWUR2OHF1ZnJrSE1ETXZySk9tRlQ3UzNQbEtGMF9lUF9zTW1JcDFuWGpkdGdpdjJmMEI2OWdVZkE?oc=5",
+      "source_name": "Google News RSS: Zumtobel",
+      "category": "Other",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-26"
     },
     {
       "id": "6edfd982588e035b",
