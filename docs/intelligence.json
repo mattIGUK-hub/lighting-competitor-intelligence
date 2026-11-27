@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T08:38:30+00:00",
+  "generated_at": "2026-11-27T08:37:52+00:00",
   "feed_type": "public_research_discovery",
   "note": "Automatically discovered public headlines. Every record requires source and claim verification.",
   "source_status": [
@@ -12,12 +12,12 @@
     {
       "competitor": "Fagerhult",
       "status": "ok",
-      "items_discovered": 4
+      "items_discovered": 3
     },
     {
       "competitor": "Zumtobel",
       "status": "ok",
-      "items_discovered": 7
+      "items_discovered": 10
     },
     {
       "competitor": "XAL",
@@ -36,12 +36,28 @@
     }
   ],
   "counts": {
-    "found": 19,
-    "added": 1,
-    "retained": 50,
+    "found": 21,
+    "added": 3,
+    "retained": 51,
     "failures": 0
   },
   "records": [
+    {
+      "id": "4695e6b8ff3ac8b1",
+      "competitor": "Zumtobel",
+      "headline": "Why modularity must be a philosophy, not a product - Data Centre Solutions",
+      "summary": "Why modularity must be a philosophy, not a product Data Centre Solutions",
+      "published_at": "2026-11-27",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOGNaTml0NnpUcWR6WFoxNnF3SmRFNTN2RENqcmZrckJ6SXBBenhHN3E3QmVtdXFKNDlvV3dZcUg3NjhZQzAyTndUek5MeGxGVEJiRXFkUUNUQ2Npck1yYXVXNXZzR3RBQWY4Q3ljTVpQWmlKSlRncVpKRGhVQWFLaXFOZkNQUDdsdU91Qm5JaXZ4OGlk?oc=5",
+      "source_name": "Google News RSS: Zumtobel",
+      "category": "Products",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-27"
+    },
     {
       "id": "2a4cda8ec77d048a",
       "competitor": "Zumtobel",
@@ -347,6 +363,22 @@
       "collected_at": "2026-11-16"
     },
     {
+      "id": "783a2396ba0fdc17",
+      "competitor": "Zumtobel",
+      "headline": "Interview with the Data Centre Alliance at Tech Show Madrid - Data Centre Solutions",
+      "summary": "Interview with the Data Centre Alliance at Tech Show Madrid Data Centre Solutions",
+      "published_at": "2026-11-12",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeVAteWNPd3F0SWtOMmNWRkhxdEFxSk1tcHFkMHItUmczMTB6ZlkySEl3ZzFFSVA3d1JpYnhVZEtYeXFUTlhScGJyT3Q3cWV4NUgtY1huVFBldHRFMjJOUXBkMkxfdWFoT0VIWTV1a0ZaRkg4RU00d180VHhxN2pVUWhMS0JlaVQxNkJCMUVpVlFPdUhVZnhuX1lSQ2RBQ2tGR3c?oc=5",
+      "source_name": "Google News RSS: Zumtobel",
+      "category": "Other",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-27"
+    },
+    {
       "id": "6e5f9d9eb6d7107b",
       "competitor": "Delta Light",
       "headline": "Belgian Design Makes Its U.S. Debut in California, Nov. 11–13 - Lohud",
@@ -633,6 +665,22 @@
       "verification": "needs_review",
       "brand_match": false,
       "collected_at": "2026-11-14"
+    },
+    {
+      "id": "1148d7f9c015ac1a",
+      "competitor": "Zumtobel",
+      "headline": "Wesco Anixter on Accelerating Data Centre Deployment and Services Across APAC - Data Centre Solutions",
+      "summary": "Wesco Anixter on Accelerating Data Centre Deployment and Services Across APAC Data Centre Solutions",
+      "published_at": "2026-10-13",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTC1GOUt6V3Z0eWlsV2Rycm8tUnBVUEEzbUJ0MC1GbEwxUzlpX21CLVFlTXR3U2FBLUlzUFk3NG94V002cVdUX1BLMjNrTVRvWmRzelNEVC1zT3JhNnEtNkwtYXhXeDE2OFg5U1FFX3VUVnhhdHNtMVNKakJQWmtSSDV0UVEybEFnaHlqMEQ1V2lGeGdvQzFDdU1DUkV0YS05YUVTTE5IMW9TMkdaWkFuZnRsSzdHSGZVT0E?oc=5",
+      "source_name": "Google News RSS: Zumtobel",
+      "category": "Other",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-27"
     },
     {
       "id": "3912707f7875859b",
