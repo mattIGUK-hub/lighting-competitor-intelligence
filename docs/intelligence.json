@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27T08:37:52+00:00",
+  "generated_at": "2026-11-28T08:21:40+00:00",
   "feed_type": "public_research_discovery",
   "note": "Automatically discovered public headlines. Every record requires source and claim verification.",
   "source_status": [
@@ -12,7 +12,7 @@
     {
       "competitor": "Fagerhult",
       "status": "ok",
-      "items_discovered": 3
+      "items_discovered": 2
     },
     {
       "competitor": "Zumtobel",
@@ -32,13 +32,13 @@
     {
       "competitor": "Delta Light",
       "status": "ok",
-      "items_discovered": 4
+      "items_discovered": 3
     }
   ],
   "counts": {
-    "found": 21,
-    "added": 3,
-    "retained": 51,
+    "found": 19,
+    "added": 1,
+    "retained": 54,
     "failures": 0
   },
   "records": [
@@ -473,6 +473,22 @@
       "verification": "needs_review",
       "brand_match": false,
       "collected_at": "2026-11-26"
+    },
+    {
+      "id": "a82d14adae6e4b65",
+      "competitor": "Zumtobel",
+      "headline": "Forsters on Data Centre Development, Planning and Regulatory Challenges - Data Centre Solutions",
+      "summary": "Forsters on Data Centre Development, Planning and Regulatory Challenges Data Centre Solutions",
+      "published_at": "2026-11-10",
+      "date_precision": "day",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOM0J5TmIwWGJsa2FmdlBIUVQtTndCbEttSGZnRDQ0U0tURi11OVRWVENpN24zTlBEcjJLbDlwcWJqMWZUeUxUcFdBeXExZUZ1X2puT3FlazA2QmtmanJacVFlcGhsdzhLVnJMMndtZklNRFkydTFIdkhIQ2wwUHkxSmstRkUwSDdnWEk3MjhkZlJ0ZjdCN0NzM0ZrNmdLS1RtRnFSVGNiVFVCQWZNYVAzdg?oc=5",
+      "source_name": "Google News RSS: Zumtobel",
+      "category": "Other",
+      "geography": "Unconfirmed",
+      "origin": "automated_discovery",
+      "verification": "needs_review",
+      "brand_match": false,
+      "collected_at": "2026-11-28"
     },
     {
       "id": "6edfd982588e035b",
